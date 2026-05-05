@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Адвокат — GSP LAW</title>
+  <meta name="description" content="Профиль адвоката GSP LAW">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png?v=2">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="lawyer-page">
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <img src="logo-full.png" alt="GSP LAW" class="nav-logo-full-img">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about" data-i18n="nav.about">О нас</a></li>
+      <li><a href="index.html#services" data-i18n="nav.services">Услуги</a></li>
+      <li><a href="index.html#lawyers" data-i18n="nav.team">Команда</a></li>
+      <li><a href="index.html#contact" class="nav-cta" data-i18n="nav.consult">Консультация</a></li>
+    </ul>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="ru" onclick="setLang('ru')">RU</button>
+      <button class="lang-btn" data-lang="uz" onclick="setLang('uz')">UZ</button>
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" onclick="toggleMenu()" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- BACK BAR -->
+<div class="back-bar">
+  <div class="container">
+    <a href="index.html#lawyers" class="back-btn">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="15,18 9,12 15,6"/></svg>
+      <span data-i18n="lp.back">Назад к команде</span>
+    </a>
+  </div>
+</div>
+
+<!-- LAWYER HERO -->
+<section class="lawyer-hero" id="lawyerHero">
+  <div class="container">
+    <div class="lawyer-hero-inner">
+      <div class="lawyer-hero-avatar" id="heroAvatar"></div>
+      <div class="lawyer-hero-info">
+        <p class="lawyer-hero-tag" id="heroTag">Специалист GSP LAW</p>
+        <h1 id="heroName">Загрузка...</h1>
+        <p class="title" id="heroTitle"></p>
+        <div class="lawyer-specs-hero" id="heroSpecs"></div>
+        <div class="lawyer-hero-meta" id="heroMeta"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAWYER BODY -->
+<main class="lawyer-body">
+  <div class="container">
+    <div class="lawyer-body-grid">
+
+      <!-- LEFT: Content -->
+      <div>
+        <div class="lawyer-section" id="sectionBio">
+          <h2 data-i18n="lp.bio">Биография</h2>
+          <p id="lawyerBio"></p>
+          <p id="lawyerDesc"></p>
+        </div>
+        <div class="lawyer-section" id="sectionHelp">
+          <h2 data-i18n="lp.help">Как я могу помочь</h2>
+          <p id="lawyerHelp"></p>
+        </div>
+        <div class="lawyer-section" id="sectionServices">
+          <h2 data-i18n="lp.services">Услуги</h2>
+          <div class="services-list" id="lawyerServices"></div>
+        </div>
+        <div class="lawyer-section" id="sectionEducation">
+          <h2 data-i18n="lp.educationTitle">Образование</h2>
+          <div class="education-timeline" id="lawyerEducation"></div>
+        </div>
+        <div class="lawyer-section" id="sectionAchievements">
+          <h2 data-i18n="lp.achievementsTitle">Достижения и награды</h2>
+          <ul class="achievements-list" id="lawyerAchievements"></ul>
+        </div>
+        <div class="lawyer-section" id="sectionPublications">
+          <h2 data-i18n="lp.publicationsTitle">Публикации</h2>
+          <div class="publications-list" id="lawyerPublications"></div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Sidebar -->
+      <div class="lawyer-sidebar">
+        <div class="sidebar-card">
+          <h3 data-i18n="lp.consultTitle">Записаться на консультацию</h3>
+          <div class="sidebar-contact">
+            <a href="tel:+998712001211">
+              <span>📞</span> +998 71 200 12 11
+            </a>
+            <a href="tel:+998995909911">
+              <span>📞</span> +99899 590 99 11
+            </a>
+            <a href="mailto:info@gsplaw.uz">
+              <span>✉️</span> info@gsplaw.uz
+            </a>
+            <a href="https://t.me/gsp_law_firm" target="_blank">
+              <span>✈️</span> @gsp_law_firm
+            </a>
+          </div>
+          <a href="index.html#contact" class="btn btn-primary" data-i18n="lp.sendBtn">Отправить запрос</a>
+        </div>
+        <div class="sidebar-info">
+          <h3 data-i18n="lp.info">Информация</h3>
+          <div class="info-row">
+            <span data-i18n="lp.expLbl">Опыт работы</span>
+            <span id="sideExp" style="color:var(--navy);font-weight:700;"></span>
+          </div>
+          <div class="info-row">
+            <span data-i18n="lp.casesLbl">Завершённых дел</span>
+            <span id="sideCases" style="color:var(--navy);font-weight:700;"></span>
+          </div>
+          <div class="info-row">
+            <span data-i18n="lp.firm">Фирма</span>
+            <span>GSP LAW</span>
+          </div>
+          <div class="info-row">
+            <span data-i18n="lp.office">Офис</span>
+            <span>Tashkent</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- BLOG -->
+<section class="blog-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="lp.blogTag">Блог</span>
+      <h2 id="blogTitle">Публикации</h2>
+      <p data-i18n="lp.blogDesc">Экспертные статьи и аналитика</p>
+    </div>
+    <div class="blog-grid" id="blogGrid"></div>
+  </div>
+</section>
+
+<!-- OTHER LAWYERS -->
+<section style="padding: 72px 0; background: var(--cream);">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="lp.otherTag">Команда</span>
+      <h2 data-i18n="lp.otherTitle">Другие специалисты</h2>
+    </div>
+    <div class="lawyers-grid" id="otherLawyers" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));"></div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="index.html#lawyers" class="btn btn-dark" data-i18n="lp.allTeam">Вся команда →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="logo-full.png" alt="GSP LAW" class="footer-logo-full">
+        <p style="font-size:13px;margin-top:14px;opacity:0.65;line-height:1.6;">г. Ташкент, Яккасарайский район, ул. Яккасарой, дом 5</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.sTitle">Услуги</h4>
+        <ul class="footer-services-list">
+          <li><a href="index.html#services">Корпоративное право</a></li>
+          <li><a href="index.html#services">IT и киберправо</a></li>
+          <li><a href="index.html#services">Налоговая практика</a></li>
+          <li><a href="index.html#services">Банковское право</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.cTitle">Контакты</h4>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <p style="font-size:14px;">+998 71 200 12 11</p>
+          <p style="font-size:14px;">+99899 590 99 11</p>
+          <p style="font-size:14px;">info@gsplaw.uz</p>
+          <a href="https://t.me/gsp_law_firm" target="_blank" style="font-size:14px;color:rgba(255,255,255,0.65);">@gsp_law_firm</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.rights">© 2025 GSP LAW — Gulyamov, Sadikov and Partners. Все права защищены.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

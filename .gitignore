@@ -1,0 +1,24 @@
+# PDFs and source files
+*.pdf
+*.pdf.png
+*.pdf.pdf
+*.pdf.pdf.png
+
+# Raw extracted images (already copied to photos/)
+image_1_1.jpeg
+image_1_3.jpeg
+image_1_5.jpeg
+image_1_7.jpeg
+image_1_9.jpeg
+image_1_11.jpeg
+image_2_1.jpeg
+image_2_3.jpeg
+image_2_5.jpeg
+image_2_7.jpeg
+image_2_9.jpeg
+image_2_11.jpeg
+image_2_13.jpeg
+image_2_14.jpeg
+
+# OS files
+.DS_Store
