@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Выигранные дела — GSP LAW</title>
+  <meta name="description" content="Реальные результаты GSP LAW — выигранные дела в сфере IT-права, M&A, налогового и корпоративного права.">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png?v=2">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cases-page">
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <img src="logo-full.png" alt="GSP LAW" class="nav-logo-full-img">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about" data-i18n="nav.about">О нас</a></li>
+      <li><a href="index.html#services" data-i18n="nav.services">Услуги</a></li>
+      <li><a href="index.html#lawyers" data-i18n="nav.team">Команда</a></li>
+      <li><a href="index.html#contact" class="nav-cta" data-i18n="nav.consult">Консультация</a></li>
+    </ul>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="ru" onclick="setLang('ru')">RU</button>
+      <button class="lang-btn" data-lang="uz" onclick="setLang('uz')">UZ</button>
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+    </div>
+    <button class="nav-toggle" id="navToggle" onclick="toggleMenu()" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- CASES HERO -->
+<section class="cases-hero">
+  <div class="container">
+    <div class="cases-hero-inner">
+      <span class="section-tag" data-i18n="casesPage.heroTag">Наша практика</span>
+      <h1 data-i18n="casesPage.heroTitle">Выигранные дела</h1>
+      <p data-i18n="casesPage.heroDesc">Реальные результаты для реальных клиентов</p>
+      <div class="cases-hero-stats" id="casesHeroStats"></div>
+    </div>
+  </div>
+</section>
+
+<!-- FILTER -->
+<div class="cases-filter-bar">
+  <div class="container">
+    <div class="cases-filters" id="casesFilters"></div>
+  </div>
+</div>
+
+<!-- CASES DETAIL GRID -->
+<section class="cases-detail-section">
+  <div class="container">
+    <div class="cases-detail-grid" id="casesDetailGrid"></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cases-cta">
+  <div class="container">
+    <div class="cases-cta-inner">
+      <h2 data-i18n="contact.sTitle">Свяжитесь с нами</h2>
+      <p data-i18n="contact.sDesc">Первая консультация — бесплатно. Мы ответим в течение часа.</p>
+      <a href="index.html#contact" class="btn btn-primary" data-i18n="hero.btn2">Получить консультацию</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="logo-full.png" alt="GSP LAW" class="footer-logo-full">
+        <p id="f-address-c" style="font-size:13px;margin-top:14px;"></p>
+        <p id="f-email-c" style="font-size:13px;margin-top:4px;"></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.sTitle">Услуги</h4>
+        <ul class="footer-services-list">
+          <li><a href="index.html#services">Корпоративное право</a></li>
+          <li><a href="index.html#services">IT и киберправо</a></li>
+          <li><a href="index.html#services">Налоговая практика</a></li>
+          <li><a href="index.html#services">Банковское право</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.cTitle">Контакты</h4>
+        <p id="f-phone1-c" style="font-size:14px;margin-bottom:4px;"></p>
+        <p id="f-phone2-c" style="font-size:14px;"></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.rights">© 2025 GSP LAW — Gulyamov, Sadikov and Partners. Все права защищены.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    applyI18n();
+    initCasesPage();
+  });
+</script>
+</body>
+</html>
