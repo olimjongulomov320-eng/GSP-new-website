@@ -66,6 +66,13 @@ function refreshLawyerLang() {
     otherGrid.innerHTML = '';
     LAWYERS.filter(l => l.slug !== lawyer.slug && !l.externalUrl).slice(0, 4).forEach(l => otherGrid.appendChild(createLawyerCard(l)));
   }
+
+  const bioEl = document.getElementById('lawyerBio');
+  const descEl = document.getElementById('lawyerDesc');
+  const helpEl = document.getElementById('lawyerHelp');
+  if (bioEl) bioEl.textContent = getLawyerField(lawyer, 'bio');
+  if (descEl) descEl.textContent = getLawyerField(lawyer, 'description');
+  if (helpEl) helpEl.textContent = getLawyerField(lawyer, 'howIHelp');
 }
 
 function setLang(lang) {
@@ -126,6 +133,12 @@ function goToLawyer(lawyer) {
 function translateStr(str, mapKey) {
   const map = t(mapKey);
   return (map && typeof map === 'object' && map[str]) ? map[str] : str;
+}
+
+function getLawyerField(lawyer, field) {
+  const val = lawyer[field];
+  if (val && typeof val === 'object') return val[currentLang] || val.ru || '';
+  return val || '';
 }
 
 function createLawyerCard(lawyer) {
@@ -237,7 +250,7 @@ function renderDynamic() {
             <div class="partner-specs">
               ${translatedSpecs.slice(0,2).map(s => `<span class="spec-tag">${s}</span>`).join('')}
             </div>
-            <p class="partner-bio">${l.bio.substring(0, 110)}...</p>
+            <p class="partner-bio">${getLawyerField(l, 'bio').substring(0, 110)}...</p>
             <div class="partner-card-footer">
               <div class="partner-stat"><strong>${l.experience}</strong><span>${t('lawyers.exp')}</span></div>
               <div class="partner-stat"><strong>${l.cases}</strong><span>${t('lawyers.casesLbl')}</span></div>
@@ -442,9 +455,9 @@ function initLawyer() {
     <div class="hero-meta-item"><span>${lawyer.cases}</span><span data-i18n="lp.casesLbl">${t('lp.casesLbl')}</span></div>
   `;
 
-  document.getElementById('lawyerBio').textContent = lawyer.bio;
-  document.getElementById('lawyerDesc').textContent = lawyer.description;
-  document.getElementById('lawyerHelp').textContent = lawyer.howIHelp;
+  document.getElementById('lawyerBio').textContent = getLawyerField(lawyer, 'bio');
+  document.getElementById('lawyerDesc').textContent = getLawyerField(lawyer, 'description');
+  document.getElementById('lawyerHelp').textContent = getLawyerField(lawyer, 'howIHelp');
   document.getElementById('sideExp').textContent = lawyer.experience;
   document.getElementById('sideCases').textContent = lawyer.cases;
 

@@ -13,7 +13,7 @@ const FIRM = {
   stats: [
     { num: "16+", label: "лет опыта" },
     { num: "$100M+", label: "портфель кейсов" },
-    { num: "14", label: "адвокатов" },
+    { num: "15", label: "адвокатов" },
     { num: "1000+", label: "клиентов" }
   ]
 };
@@ -46,9 +46,9 @@ const LAWYERS = [
     cases: "300+",
     initials: "СР",
     accentColor: "#1a2332",
-    bio: "Управляющий партнёр GSP LAW. Специализируется на разрешении сложных экономических споров и сопровождении крупных M&A-сделок. Лично представлял интересы клиентов в судах всех инстанций.",
-    description: "Руслан Гуламбаевич руководит стратегическим направлением фирмы и ведёт наиболее сложные дела в области корпоративного права. Под его руководством фирма сопроводила сделки на сумму более $100 млн.",
-    howIHelp: "Я специализируюсь на защите бизнеса в спорных и кризисных ситуациях — от арбитражных споров до враждебных поглощений. Помогаю структурировать бизнес так, чтобы минимизировать правовые риски.",
+    bio: { ru: "Управляющий партнёр GSP LAW. Специализируется на разрешении сложных экономических споров и сопровождении крупных M&A-сделок. Лично представлял интересы клиентов в судах всех инстанций.", uz: "GSP LAW boshqaruvchi sherigi. Murakkab iqtisodiy nizolarni hal etish va yirik M&A bitimlarini qo'llab-quvvatlashga ixtisoslashgan. Barcha instansiyalardagi sudlarda mijozlar manfaatlarini shaxsan himoya qilgan.", en: "Managing Partner of GSP LAW. Specializes in resolving complex economic disputes and supporting major M&A transactions. Has personally represented clients in courts at all levels." },
+    description: { ru: "Руслан Гуламбаевич руководит стратегическим направлением фирмы и ведёт наиболее сложные дела в области корпоративного права. Под его руководством фирма сопроводила сделки на сумму более $100 млн.", uz: "U firmaning strategik yo'nalishini boshqaradi va korporativ huquq sohasidagi eng murakkab ishlarni olib boradi. Uning rahbarligi ostida firma $100 mln dan ortiq hajmdagi bitimlarni qo'llab-quvvatladi.", en: "He leads the firm's strategic direction and handles the most complex cases in corporate law. Under his leadership, the firm has supported transactions totaling over $100 million." },
+    howIHelp: { ru: "Я специализируюсь на защите бизнеса в спорных и кризисных ситуациях — от арбитражных споров до враждебных поглощений. Помогаю структурировать бизнес так, чтобы минимизировать правовые риски.", uz: "Men biznesni nizoli va inqirozli vaziyatlarda himoya qilishga ixtisoslanganman — arbitraj nizolaridan to dushmanona qo'shib olishgacha. Huquqiy risklarni minimallashtirish uchun biznesni to'g'ri tuzilishiga yordam beraman.", en: "I specialize in protecting businesses in disputed and crisis situations — from arbitration to hostile takeovers. I help structure businesses to minimize legal risks." },
     services: ["Разрешение корпоративных споров", "Сопровождение сделок M&A", "Реструктуризация бизнеса", "Арбитражное производство", "Корпоративное управление", "Due Diligence"],
     blog: [
       { title: "M&A в Узбекистане: тренды 2024", date: "10 ноября 2024", tag: "Рынок", excerpt: "Анализ рынка слияний и поглощений в Узбекистане и прогнозы на следующий год. Какие сектора наиболее активны..." },
@@ -82,9 +82,9 @@ const LAWYERS = [
     cases: "200+",
     initials: "ГС",
     accentColor: "#c9a96e",
-    bio: "Профессор и ведущий партнёр GSP LAW. Доктор юридических наук, признанный эксперт в области киберправа и цифрового законодательства Центральной Азии. Автор более 50 научных работ, регулярный докладчик на международных конференциях.",
-    description: "Саид Саидахрарович — один из основателей фирмы и пионер в области IT-права в Узбекистане. Он консультирует государственные органы по вопросам цифрового законодательства и лично сопроводил более 200 проектов для ведущих IT-компаний региона.",
-    howIHelp: "Я помогаю IT-компаниям и стартапам выстраивать правовую архитектуру бизнеса с нуля, защищать интеллектуальную собственность и соответствовать требованиям регуляторов в сфере персональных данных.",
+    bio: { ru: "Профессор и ведущий партнёр GSP LAW. Доктор юридических наук, признанный эксперт в области киберправа и цифрового законодательства Центральной Азии. Автор более 50 научных работ, регулярный докладчик на международных конференциях.", uz: "Doktor va GSP LAW yetakchi sherigi. Yuridik fanlar doktori, Markaziy Osiyo kiberhuquq va raqamli qonunchilik sohasida tan olingan ekspert. 50 dan ortiq ilmiy ishlar muallifi, xalqaro konferentsiyalarda muntazam ma'ruzachi.", en: "Professor and Leading Partner of GSP LAW. Doctor of Law, recognized expert in cyber law and digital legislation in Central Asia. Author of over 50 academic works, regular speaker at international conferences." },
+    description: { ru: "Саид Саидахрарович — один из основателей фирмы и пионер в области IT-права в Узбекистане. Он консультирует государственные органы по вопросам цифрового законодательства и лично сопроводил более 200 проектов для ведущих IT-компаний региона.", uz: "Said Saidaxrarovich — firmaning asoschisi va O'zbekistonda IT-huquq sohasidagi kashshof. U raqamli qonunchilik masalalari bo'yicha davlat organlarini maslahat beradi va mintaqaning yetakchi IT-kompaniyalari uchun 200 dan ortiq loyihalarni shaxsan qo'llab-quvvatlagan.", en: "Said Saidakhrarovich is one of the firm's founders and a pioneer in IT law in Uzbekistan. He advises government bodies on digital legislation and has personally supported over 200 projects for leading IT companies in the region." },
+    howIHelp: { ru: "Я помогаю IT-компаниям и стартапам выстраивать правовую архитектуру бизнеса с нуля, защищать интеллектуальную собственность и соответствовать требованиям регуляторов в сфере персональных данных.", uz: "Men IT-kompaniyalar va startaplarga noldan biznes huquqiy arxitekturasini qurishga, intellektual mulkni himoyalashga va shaxsiy ma'lumotlar sohasidagi regulyator talablariga javob berishga yordam beraman.", en: "I help IT companies and startups build legal architecture from scratch, protect intellectual property, and comply with data protection regulations." },
     services: ["Правовое регулирование IT-компаний", "Защита персональных данных", "Интеллектуальная собственность", "Киберпреступления", "Консультации по цифровому праву", "Лицензирование ПО"],
     blog: [
       { title: "Киберправо в эпоху искусственного интеллекта", date: "15 октября 2024", tag: "Аналитика", excerpt: "Как новые технологии меняют правовую систему и что это означает для бизнеса в Узбекистане. Разбираем ключевые вопросы ответственности за действия ИИ-систем..." },
@@ -119,9 +119,9 @@ const LAWYERS = [
     cases: "400+",
     initials: "АФ",
     accentColor: "#7b2d8b",
-    bio: "Партнёр GSP LAW, ведущий эксперт по контрактному праву и внешнеэкономической деятельности. Разработал более 400 контрактов для крупных коммерческих организаций и международных компаний.",
-    description: "Фируз Шавкатович специализируется на разработке сложных коммерческих договоров и сопровождении ВЭД-сделок. Имеет глубокую экспертизу в банковском законодательстве Узбекистана.",
-    howIHelp: "Создаю договоры, которые реально защищают ваши интересы, а не просто выглядят красиво. Анализирую риски в каждом пункте и помогаю вести переговоры с контрагентами.",
+    bio: { ru: "Партнёр GSP LAW, ведущий эксперт по контрактному праву и внешнеэкономической деятельности. Разработал более 400 контрактов для крупных коммерческих организаций и международных компаний.", uz: "GSP LAW sherigi, shartnoma huquqi va tashqi iqtisodiy faoliyat bo'yicha yetakchi ekspert. Yirik tijorat tashkilotlari va xalqaro kompaniyalar uchun 400 dan ortiq shartnomalar ishlab chiqqan.", en: "Partner at GSP LAW, leading expert in contract law and foreign economic activity. Has drafted over 400 contracts for major commercial organizations and international companies." },
+    description: { ru: "Фируз Шавкатович специализируется на разработке сложных коммерческих договоров и сопровождении ВЭД-сделок. Имеет глубокую экспертизу в банковском законодательстве Узбекистана.", uz: "Firuz Shavkatovich murakkab tijorat shartnomalari ishlab chiqish va tashqi savdo bitimlarini qo'llab-quvvatlashga ixtisoslashgan. O'zbekiston bank qonunchiligi sohasida chuqur tajribaga ega.", en: "Firuz Shavkatovich specializes in drafting complex commercial contracts and supporting foreign trade transactions. He has deep expertise in Uzbekistan's banking legislation." },
+    howIHelp: { ru: "Создаю договоры, которые реально защищают ваши интересы, а не просто выглядят красиво. Анализирую риски в каждом пункте и помогаю вести переговоры с контрагентами.", uz: "Chiroyli ko'rinadigan emas, balki manfaatlaringizni haqiqatda himoya qiladigan shartnomalar tuzaman. Har bir bandda risklarni tahlil qilaman va kontragentlar bilan muzokaralarda yordam beraman.", en: "I draft contracts that genuinely protect your interests, not just look good. I analyze risks in every clause and help you negotiate with counterparties." },
     services: ["Разработка коммерческих договоров", "Экспертиза контрактов", "ВЭД-сделки", "Банковские гарантии", "Аккредитивы", "Переговоры с контрагентами"],
     blog: [
       { title: "10 опасных пунктов в договорах, которые вы не замечаете", date: "5 ноября 2024", tag: "Контракты", excerpt: "Разбираем самые распространённые юридические ловушки в коммерческих договорах, которые обходятся бизнесу миллионами..." },
@@ -148,63 +148,62 @@ const LAWYERS = [
     slug: "khayitmurodov-ulugbek",
     photo: "photos/xaytmurodov-ulugbek.jpeg",
     name: "Хайитмуродов Улугбек Отабекович",
-    title: "Партнёр, Корпоративный юрист",
-    specialization: ["Корпоративное право", "Регистрация бизнеса", "Стартапы"],
-    experience: "12+ лет",
+    title: "Партнёр | Руководитель отдела корпоративного обслуживания",
+    specialization: ["Корпоративное право", "Экономические споры", "Интеллектуальная собственность"],
+    experience: "8+ лет",
     cases: "250+",
     initials: "ХУ",
     accentColor: "#2d6a4f",
-    bio: "Партнёр GSP LAW, ведущий специалист по корпоративному структурированию и сопровождению стартап-экосистемы Узбекистана. Помог более 250 компаниям выстроить эффективную правовую структуру.",
-    description: "Улугбек Отабекович — один из самых востребованных корпоративных юристов Узбекистана в сфере стартапов и венчурного финансирования. Регулярно выступает ментором в акселерационных программах.",
-    howIHelp: "Помогаю предпринимателям создавать правильную корпоративную структуру с первого дня — от регистрации юрлица до привлечения инвестиций и подготовки к возможному выходу.",
-    services: ["Регистрация компаний", "Корпоративная документация", "Стартап-юридика", "Инвестиционные соглашения", "Опционные программы для сотрудников", "Венчурное финансирование"],
+    bio: { ru: "Партнёр GSP LAW и руководитель отдела постоянного юридического обслуживания корпоративных клиентов. 8 лет опыта в адвокатуре. Специализируется на экономических делах, бизнес-праве и интеллектуальной собственности. Кандидат юридических наук (PhD).", uz: "GSP LAW sherigi va korporativ mijozlarga doimiy yuridik xizmat ko'rsatish bo'limi boshlig'i. Advokatlik sohasida 8 yillik ish tajribasi. Iqtisodiy ishlar, biznes huquqi va intellektual mulk huquqi bo'yicha mutaxassis. Yuridik fanlar nomzodi (PhD).", en: "Partner at GSP LAW and Head of Permanent Legal Services for Corporate Clients. 8 years of experience in advocacy. Specializes in economic cases, business law and intellectual property. PhD in Law." },
+    description: { ru: "Улугбек Хайитмуродов руководит отделом постоянного юридического сопровождения и ведёт сложные корпоративные дела для ключевых клиентов фирмы. Обладает академической базой Ташкентского государственного юридического университета на всех трёх уровнях образования (бакалавриат, магистратура, PhD) и глубокой экспертизой в экономических спорах и IP.", uz: "Ulug'bek Xayitmurodov doimiy yuridik qo'llab-quvvatlash bo'limini boshqaradi va firmaning asosiy mijozlari uchun murakkab korporativ ishlarni olib boradi. Toshkent davlat yuridik universitetida barcha uch ta'lim bosqichida (bakalavr, magistratura, PhD) akademik bazaga ega va iqtisodiy nizolar hamda IP sohasida chuqur tajribaga ega.", en: "Ulugbek Khayitmurodov heads the permanent legal support department and handles complex corporate cases for the firm's key clients. Has an academic foundation from Tashkent State University of Law at all three levels (bachelor's, master's, PhD) and deep expertise in economic disputes and IP." },
+    howIHelp: { ru: "Обеспечиваю полное юридическое сопровождение бизнеса на постоянной основе — от ежедневных корпоративных вопросов до стратегических сделок. Специализируюсь на защите интеллектуальной собственности и ведении экономических споров.", uz: "Biznesni doimiy asosda to'liq yuridik qo'llab-quvvatlayman — kundalik korporativ masalalardan strategik bitimlaргача. Intellektual mulkni himoya qilish va iqtisodiy nizolarni yuritishga ixtisoslanganman.", en: "I provide full legal support to businesses on an ongoing basis — from daily corporate matters to strategic transactions. I specialize in intellectual property protection and handling economic disputes." },
+    services: ["Постоянное юридическое сопровождение", "Экономические споры", "Бизнес-право", "Интеллектуальная собственность", "Корпоративные консультации", "Due Diligence"],
     blog: [
       { title: "Как правильно выбрать форму юрлица для стартапа", date: "1 ноября 2024", tag: "Стартапы", excerpt: "ООО, АО или ИП? Разбираем плюсы и минусы каждой формы для технологических стартапов в Узбекистане..." },
       { title: "Опционные программы для команды: руководство", date: "18 октября 2024", tag: "HR-право", excerpt: "Как мотивировать ключевых сотрудников долей в компании: ESOP, SAR и другие инструменты в правовом поле УЗ..." },
       { title: "Привлечение венчурных инвестиций: правовая сторона", date: "2 октября 2024", tag: "Инвестиции", excerpt: "Что нужно знать основателям о term sheet, инвестиционных договорах и защите прав при привлечении раунда..." }
     ],
     education: [
-      { degree: "Магистр делового администрирования (MBA)", institution: "Westminster International University in Tashkent", year: "2015" },
-      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "2012" }
+      { degree: "PhD (кандидат юридических наук)", institution: "Ташкентский государственный юридический университет", year: "" },
+      { degree: "Магистр права", institution: "Ташкентский государственный юридический университет", year: "" },
+      { degree: "Бакалавр права (частное право)", institution: "Ташкентский государственный юридический университет", year: "" }
     ],
     achievements: [
-      "Ментор программы Startap.UZ и UZINFOCOM (2019–2024)",
-      "Юридический партнёр Национального агентства перспективных проектов (НАПП)",
-      "Помог привлечь инвестиции в стартапы на сумму свыше $8 млн",
-      "Член Ассоциации адвокатов Узбекистана, секция корпоративного права"
+      "8 лет опыта в адвокатуре",
+      "Руководитель отдела постоянного юридического обслуживания корпоративных клиентов GSP LAW",
+      "Кандидат юридических наук (PhD)",
+      "Специализация в экономических спорах, бизнес-праве и интеллектуальной собственности"
     ],
-    publications: [
-      { title: "Правовые механизмы защиты стартапов при венчурном финансировании в Узбекистане", journal: "Юридический вестник", year: "2023" },
-      { title: "ESOP в Узбекистане: практика внедрения опционных программ", journal: "Право и бизнес", year: "2022" }
-    ]
+    publications: []
   },
   {
     id: 5,
     slug: "mikhilyev-saidulla",
     photo: "photos/mikhilyev-saidulla.jpeg",
     name: "Михилиев Саидулла",
-    title: "Старший юрист",
-    specialization: ["Гражданское право", "Административное право", "Уголовное право"],
+    title: "Адвокат",
+    specialization: ["Гражданское право", "Административное право", "Экономические споры"],
     experience: "15+ лет",
     cases: "200+",
     initials: "МС",
     accentColor: "#17435a",
-    bio: "Специалист с многолетним опытом работы в качестве судьи в гражданских, административных и уголовных судах. Глубокое знание судебной системы Узбекистана обеспечивает эффективную защиту интересов клиентов.",
-    description: "Саидулла обладает уникальным опытом работы внутри судебной системы, что позволяет ему выстраивать наиболее эффективные стратегии защиты в сложных судебных процессах.",
-    howIHelp: "Использую многолетний опыт судебной работы для выстраивания сильной позиции клиента в гражданских, административных и уголовных делах.",
-    services: ["Гражданские споры", "Административные дела", "Уголовная защита", "Судебное представительство", "Апелляционное обжалование", "Медиация"],
+    bio: { ru: "Адвокат с более чем 15-летним опытом руководства и судебной работы. Специализируется на гражданских, экономических и административных делах. Бывший председатель суда и судья в ряде судов Ташкента и Сурхандарьинской области — смотрит на каждое дело «взглядом судьи».", uz: "15 yildan ortiq rahbarlik va sudyalik tajribasiga ega advokat. Fuqarolik, iqtisodiy va ma'muriy ishlarga ixtisoslashgan. Sobiq sud raisi va Toshkent hamda Surxondaryo sudlarida sudya — har bir ishga \"sudya nigohi\" bilan qaraydi.", en: "Advocate with over 15 years of leadership and judicial experience. Specializes in civil, economic and administrative cases. Former court chairman and judge in several Tashkent and Surkhandarya courts — views every case through the 'judge's eye'." },
+    description: { ru: "Саидулла Михилиев — бывший председатель Бектемирского районного административного суда и судья экономических, гражданских и административных судов Ташкента и Сурхандарьи (2017–2020 и ранее). Имеет академическое образование в ТГЮУ (бакалавриат) и Университете мировой экономики и дипломатии (магистратура). Свободно владеет узбекским, русским и английским языками. С марта 2024 года — адвокат GSP LAW.", uz: "Saydulla Mixliyev — Bektemir tumanlararo ma'muriy sudining sobiq raisi va Toshkent hamda Surxondaryo iqtisodiy, fuqarolik va ma'muriy sudlarida sudya (2017–2020 va undan avval). TDYU (bakalavr) va Jahon iqtisodiyoti va diplomatiya universiteti (magistratura) da akademik ta'lim olgan. O'zbek, rus va ingliz tillarini erkin biladi. 2024-yil mart oyidan GSP LAW advokati.", en: "Saidulla Mikhilyev is a former chairman of Bektemir District Administrative Court and judge in economic, civil and administrative courts of Tashkent and Surkhandarya (2017–2020 and earlier). Has academic education at TSLU (bachelor's) and University of World Economy and Diplomacy (master's). Fluent in Uzbek, Russian and English. Since March 2024 — advocate at GSP LAW." },
+    howIHelp: { ru: "Используя многолетний опыт судебной работы на всех уровнях, строю сильную позицию клиента в гражданских, экономических и административных делах. Вижу дело так, как его видит судья — это ключевое преимущество при выработке стратегии.", uz: "Barcha darajalardagi sud ishidagi ko'p yillik tajribadan foydalanib, fuqarolik, iqtisodiy va ma'muriy ishlarda mijozning kuchli pozitsiyasini quramаn. Ishni sudya ko'zi bilan ko'raman — bu strategiya ishlab chiqishda asosiy ustunlik.", en: "Using years of judicial experience at all levels, I build a strong position for clients in civil, economic and administrative cases. I see the case as a judge does — this is the key advantage when developing strategy." },
+    services: ["Гражданские споры", "Экономические дела", "Административное право", "Судебное представительство", "Апелляция и кассация", "Правовая экспертиза"],
     blog: [
       { title: "Как работает судебная система Узбекистана изнутри", date: "10 ноября 2024", tag: "Аналитика", excerpt: "Взгляд изнутри на процедуры и практику узбекских судов..." },
       { title: "Административные споры: стратегии защиты", date: "25 октября 2024", tag: "Советы", excerpt: "Ключевые ошибки при оспаривании административных решений и как их избежать..." }
     ],
     education: [
-      { degree: "Магистр права", institution: "Ташкентский государственный юридический университет", year: "2008" },
-      { degree: "Квалификационный экзамен судьи", institution: "Высший судейский совет Республики Узбекистан", year: "2009" }
+      { degree: "Магистр права", institution: "Университет мировой экономики и дипломатии", year: "2007" },
+      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "2005" }
     ],
     achievements: [
-      "15+ лет опыта в качестве судьи в гражданских, административных и уголовных судах",
-      "Успешное разрешение 200+ дел в качестве адвоката после судебной карьеры",
-      "Эксперт по процессуальному праву Узбекистана"
+      "Председатель Бектемирского районного административного суда г. Ташкента (2017–2020)",
+      "Судья Ташкентского городского экономического суда, Мирабадского межрайонного гражданского суда, Ташкентского межрайонного административного суда",
+      "Судья Кумкурганского межрайонного гражданского суда, Сурхандарья",
+      "Свободное владение узбекским, русским и английским языками"
     ],
     publications: []
   },
@@ -213,16 +212,16 @@ const LAWYERS = [
     slug: "isamutdinov-ulugbek",
     photo: "photos/isamutdinov-ulugbek.jpeg",
     name: "Исамутдинов Улугбек",
-    title: "Финансовый юрист",
+    title: "Финансовый юрист | Аудитор",
     specialization: ["Налоговое право", "Финансовые споры", "Бухгалтерский учёт и аудит"],
     experience: "10+ лет",
     cases: "150+",
     initials: "ИУ",
     accentColor: "#c9a96e",
-    bio: "Специалист в области финансовых и налоговых споров, бухгалтерского учёта и внутреннего аудита. Помогает бизнесу выстраивать эффективные финансово-правовые стратегии и успешно разрешать споры с фискальными органами.",
-    description: "Улугбек сочетает глубокие юридические знания с практическим опытом в бухгалтерии и аудите, что позволяет находить оптимальные решения на стыке права и финансов.",
-    howIHelp: "Помогаю компаниям разрешать налоговые споры, оптимизировать налоговую нагрузку и выстраивать системы внутреннего контроля и аудита.",
-    services: ["Налоговые споры", "Финансовый аудит", "Бухгалтерский учёт", "Налоговое планирование", "Финансовые расследования", "Комплаенс"],
+    bio: { ru: "Высококвалифицированный финансист и эксперт в области бухгалтерского учёта, финансов и налоговых споров. Помогает бизнесу защититься от налоговых рисков, выстроить законную и эффективную финансовую систему и разрешить сложные экономические споры.", uz: "Ko'p yillik amaliy tajribaga ega yuqori malakali moliyachi, buxgalteriya hisobi, moliya va soliq nizolari bo'yicha yetuk ekspert. Biznesni soliq xavflaridan himoya qilish, moliyaviy tizimni qonuniy va samarali shakllantirish hamda murakkab iqtisodiy nizolarni yechishda professional ko'mak beradi.", en: "Highly qualified financial specialist and expert in accounting, finance and tax disputes. Helps businesses protect against tax risks, build a legal and effective financial system and resolve complex economic disputes." },
+    description: { ru: "Улугбек Исамутдинов — эксперт на стыке финансов и права. Специализируется на защите предпринимателей в налоговых спорах, финансовом и налоговом аудите, постановке бухгалтерского учёта по международным стандартам (МСФО/НСБУ), а также на финансовом консалтинге для повышения рентабельности бизнеса.", uz: "Isamutdinov Ulug'bek — moliya va huquq kesishmasidagi ekspert. Tadbirkorlarni soliq nizolarida himoya qilish, moliyaviy va soliq auditi, xalqaro standartlar (BHMS/MHXS) asosida buxgalteriya tizimini yo'lga qo'yish va biznes rentabelligini oshirish bo'yicha moliyaviy konsaltingga ixtisoslashgan.", en: "Isamutdinov Ulugbek is an expert at the intersection of finance and law. Specializes in protecting entrepreneurs in tax disputes, financial and tax auditing, accounting setup according to international standards (IFRS/NSBU), and financial consulting to increase business profitability." },
+    howIHelp: { ru: "Защищаю бизнес от налоговых доначислений, провожу финансовый аудит для выявления скрытых рисков, настраиваю бухгалтерский учёт с нуля по МСФО и консультирую по оптимизации финансовых потоков.", uz: "Biznesni soliq qo'shimcha hisob-kitoblaridan himoya qilaman, yashirin xavflarni aniqlash uchun moliyaviy audit o'tkazaman, BHMS bo'yicha buxgalteriya tizimini noldan sozlayman va moliyaviy oqimlarni optimallashtirish bo'yicha maslahat beraman.", en: "I protect businesses from additional tax assessments, conduct financial audits to identify hidden risks, set up accounting from scratch according to IFRS and advise on optimizing financial flows." },
+    services: ["Налоговые споры", "Финансовый аудит", "Бухгалтерский учёт (МСФО)", "Налоговое планирование", "Финансовый консалтинг", "Комплаенс"],
     blog: [
       { title: "Налоговые споры в Узбекистане: как выиграть", date: "8 ноября 2024", tag: "Налоги", excerpt: "Практические советы по успешному оспариванию налоговых доначислений..." },
       { title: "Внутренний аудит как инструмент защиты бизнеса", date: "22 октября 2024", tag: "Аудит", excerpt: "Почему регулярный внутренний аудит снижает налоговые риски компании..." }
@@ -245,119 +244,159 @@ const LAWYERS = [
     id: 7,
     slug: "sardor",
     photo: "photos/sardor.jpeg",
-    name: "Sardor",
+    name: "Sardor Abduxamidov",
     title: "Юрист",
-    specialization: ["Корпоративное право", "Коммерческое право"],
+    specialization: ["Уголовное право", "Киберпреступления", "Корпоративное право"],
     experience: "3+ лет",
     cases: "30+",
-    initials: "S",
+    initials: "SA",
     accentColor: "#17435a",
-    bio: "Юрист GSP LAW. Специализируется на корпоративном и коммерческом праве, оказывает правовую поддержку бизнесу на всех этапах развития.",
-    description: "Сардор — перспективный специалист фирмы, сочетающий академическую подготовку с практическим опытом работы в сфере корпоративного права.",
-    howIHelp: "Помогаю предпринимателям решать правовые вопросы быстро и эффективно — от регистрации бизнеса до сопровождения коммерческих сделок.",
-    services: ["Регистрация компаний", "Корпоративная документация", "Коммерческие договоры", "Правовой анализ"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Юрист GSP LAW, специализирующийся на уголовном праве и киберпреступлениях. Обеспечивает защиту клиентов на стадии тergova и в суде, особенно по делам, связанным с электронными доказательствами и цифровыми технологиями.", uz: "GSP LAW yuristи, jinoyat huquqi va kiberjinoyatlar bo'yicha ixtisoslashgan. Tergov va sud bosqichida, ayniqsa elektron dalillar va raqamli texnologiyalar bilan bog'liq ishlarda mijozlarni himoya qiladi.", en: "Lawyer at GSP LAW specializing in criminal law and cybercrime. Provides client defense at the investigation and court stages, especially in cases involving electronic evidence and digital technologies." },
+    description: { ru: "Сардор Абдухамидов специализируется на уголовном праве с акцентом на киберпреступления — анализ электронных доказательств, цифровая криминалистика, защита в делах, связанных с Telegram, WhatsApp и международной юрисдикцией. Также обслуживает IT-компании и стартапы по корпоративным вопросам: контракты, due diligence, трудовые отношения и защита интеллектуальной собственности.", uz: "Sardor Abduxamidov jinoyat huquqi, ayniqsa kiberjinoyatlar bo'yicha ixtisoslashgan — elektron dalillarni tahlil qilish, raqamli ekspertiza, Telegram, WhatsApp va xalqaro yurisdiktsiya bilan bog'liq ishlarda himoya. Shuningdek, IT-kompaniyalar va startaplarga korporativ masalalarda xizmat ko'rsatadi.", en: "Sardor Abduxamidov specializes in criminal law with a focus on cybercrime — electronic evidence analysis, digital forensics, defense in cases involving Telegram, WhatsApp and international jurisdiction. Also serves IT companies and startups on corporate matters." },
+    howIHelp: { ru: "Помогаю клиентам в уголовных делах по киберпреступлениям: анализирую цифровые доказательства, выстраиваю стратегию защиты на следствии и в суде. IT-компаниям помогаю с контрактами, IP и правовой структурой бизнеса.", uz: "Kiberjinoyatlar bo'yicha jinoyat ishlarida mijozlarga yordam beraman: raqamli dalillarni tahlil qilaman, tergov va sudda himoya strategiyasini quramан. IT-kompaniyalarga shartnomalar, IP va biznesning huquqiy tuzilmasida yordam beraman.", en: "I help clients in criminal cybercrime cases: analyze digital evidence, build defense strategies at investigation and court stages. I help IT companies with contracts, IP and business legal structure." },
+    services: ["Уголовная защита", "Киберпреступления", "Электронные доказательства", "IT-компании", "Корпоративные договоры", "Интеллектуальная собственность"],
+    blog: [], education: [
+      { degree: "Магистр права", institution: "Академия правоохранительных органов Республики Узбекистан", year: "2022" },
+      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "2020" }
+    ], achievements: [
+      "Специализация в цифровой криминалистике и анализе электронных доказательств",
+      "Опыт защиты в делах с международной юрисдикцией и мессенджерами",
+      "Юридическое сопровождение IT-компаний и стартапов"
+    ], publications: []
   },
   {
     id: 8,
     slug: "alijonova-daria",
     photo: "photos/alijonova-daria.jpeg",
     name: "Алижонова Дарья",
-    title: "Юрист",
-    specialization: ["Гражданское право", "Корпоративное право", "Договорное право"],
-    experience: "5+ лет",
-    cases: "60+",
+    title: "Адвокат | Международный юрист",
+    specialization: ["Уголовное право", "Киберправо", "Космическое право"],
+    experience: "11+ лет",
+    cases: "100+",
     initials: "АД",
     accentColor: "#2d4a7a",
-    bio: "Юрист GSP LAW. Специализируется на гражданском и корпоративном праве, сопровождении сделок и защите интересов клиентов в гражданских спорах.",
-    description: "Дарья обладает глубокими знаниями в области договорного права и успешно представляет интересы клиентов в судебных и досудебных процедурах.",
-    howIHelp: "Помогаю клиентам защищать их права в гражданских спорах, разрабатывать надёжные договорные конструкции и минимизировать правовые риски.",
-    services: ["Гражданские споры", "Договорное право", "Корпоративное сопровождение", "Правовая экспертиза"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Высококвалифицированный адвокат и международный юрист с более чем 11-летним опытом. Сочетает экспертизу в уголовном праве с передовыми знаниями в области цифровых технологий, кибербезопасности и космического права. Одна из немногих юристов в Центральной Азии, специализирующихся на космическом праве.", uz: "11 yildan ortiq tajribaga ega yuqori malakali advokat va xalqaro yurist. Jinoyat huquqi sohasidagi bilimlarini raqamli texnologiyalar, kiberxavfsizlik va kosmik huquq bo'yicha ilg'or bilimlar bilan uyg'unlashtiradi. Markaziy Osiyoda kosmik huquq bo'yicha ixtisoslashgan kamdan-kam yuristlardan biri.", en: "Highly accomplished advocate and international lawyer with over 11 years of experience. Combines expertise in criminal law with cutting-edge knowledge in cybersecurity, digital law and space law. One of the few lawyers in Central Asia specializing in space law." },
+    description: { ru: "Дарья Алижонова начала карьеру в судебной системе, занимая должности в сфере уголовного судопроизводства. Сегодня она — признанный международный юрист, объединяющий тюркоязычные государства в своей практике и выстраивающий правовые мосты между Узбекистаном и зарубежными юрисдикциями. Консультирует иностранные государственные органы и частные компании по вопросам кибербезопасности и защиты данных.", uz: "Dariya Alijonova karerini sud tizimida jinoyat sudlovida boshlaган. Bugun u — o'z amaliyotida turkiy davlatlarni birlashtiruvchi va O'zbekiston bilan xorijiy yurisdiktsiyalar o'rtasida huquqiy ko'priklar qurayotgan tan olingan xalqaro yurist. Xorijiy davlat idoralari va xususiy kompaniyalarga kiberxavfsizlik va ma'lumotlarni himoya qilish bo'yicha konsultatsiya beradi.", en: "Daria Alijonova began her career in the judicial system in criminal proceedings. Today she is a recognised international lawyer uniting Turkic-speaking nations in her practice and building legal bridges between Uzbekistan and foreign jurisdictions. She advises foreign government institutions and private companies on cybersecurity and data protection." },
+    howIHelp: { ru: "Помогаю в уголовных делах, защищаю права клиентов в цифровой среде и консультирую по международному праву. Моя специализация на стыке традиционного права и новых технологий — от киберпреступлений до правового регулирования космических технологий.", uz: "Jinoyat ishlarida yordam beraman, raqamli muhitda mijozlar huquqlarini himoya qilaman va xalqaro huquq bo'yicha maslahat beraman. Mening ixtisosligim an'anaviy huquq va yangi texnologiyalar kesishmasida — kiberjinoyatlardan tortib kosmik texnologiyalarni huquqiy tartibga solishgacha.", en: "I assist in criminal cases, protect clients' rights in the digital environment and advise on international law. My specialization is at the intersection of traditional law and new technologies — from cybercrime to legal regulation of space technologies." },
+    services: ["Уголовная защита", "Киберправо", "Цифровое право", "Международное право", "Космическое право", "Кибербезопасность"],
+    blog: [], education: [
+      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "2013" }
+    ], achievements: [
+      "11+ лет опыта в уголовном и международном праве",
+      "Один из немногих специалистов по космическому праву в Центральной Азии",
+      "Консультант иностранных государственных органов по кибербезопасности",
+      "Международная практика в тюркоязычных государствах"
+    ], publications: []
   },
   {
     id: 9,
     slug: "boytrayev-dilshod",
     photo: "photos/boytrayev-dilshod.jpeg",
-    name: "Boytо'rayev Dilshod",
-    title: "Юрист",
-    specialization: ["Банковское право", "Финансовое право", "Коммерческое право"],
+    name: "Boyturayev Dilshod",
+    title: "Адвокат",
+    specialization: ["Уголовное право", "Экономические споры", "Корпоративное право"],
     experience: "6+ лет",
     cases: "70+",
     initials: "БД",
     accentColor: "#1a4a6e",
-    bio: "Юрист GSP LAW. Специализируется на банковском и финансовом праве, сопровождении финансовых операций и регуляторных вопросах.",
-    description: "Дилшод обладает практическим опытом работы с финансовыми учреждениями и глубоким пониманием банковского законодательства Узбекистана.",
-    howIHelp: "Помогаю финансовым организациям и компаниям решать вопросы соответствия требованиям регуляторов и сопровождать финансовые сделки.",
-    services: ["Банковское сопровождение", "Финансовые договоры", "Регуляторный комплаенс", "Кредитные соглашения"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Адвокат с многолетним практическим опытом, ранее работавший в органах прокуратуры и руководивший юридической службой крупных компаний. Глубокая экспертиза в уголовном, экономическом и корпоративном праве.", uz: "Ko'p yillik amaliy tajribaga ega advokat, prokuratura organlarida va yirik kompaniyalarning yuridik xizmati boshlig'i sifatida faoliyat yuritgan. Jinoyat, iqtisodiy va korporativ huquqda chuqur tajriba.", en: "Lawyer with years of practical experience, formerly worked in the prosecutor's office and headed the legal service of major companies. Deep expertise in criminal, economic and corporate law." },
+    description: { ru: "Дилшод Бойтураев прошёл путь от следователя прокуратуры до государственного обвинителя, достигнув должности прокурора отдела надзора Джизакской областной прокуратуры. Сегодня в качестве адвоката защищает интересы предпринимателей и физических лиц в экономических, корпоративных и уголовных делах. Знание системы изнутри позволяет ему выстраивать наиболее эффективные стратегии защиты.", uz: "Dilshod Boyturayev tergov xodimidan davlat ayblovchisiga qadar, Jizzax viloyati prokuraturasida nazorat bo'limi prokurori lavozimigacha ko'tarilgan. Bugun advokat sifatida tadbirkorlar va jismoniy shaxslarning iqtisodiy, korporativ va jinoyat ishlarida manfaatlarini himoya qiladi.", en: "Dilshod Boyturayev rose from prosecutor's investigator to state prosecutor, reaching the position of supervising prosecutor at Jizzax regional prosecutor's office. Today as an advocate he defends interests of entrepreneurs and individuals in economic, corporate and criminal cases." },
+    howIHelp: { ru: "Используя многолетний опыт в прокуратуре, помогаю клиентам выстраивать сильную защитную позицию в уголовных и экономических делах, сопровождаю бизнес в корпоративных спорах и договорных отношениях.", uz: "Prokuraturadagi ko'p yillik tajribadan foydalanib, mijozlarga jinoyat va iqtisodiy ishlarda kuchli himoya pozitsiyasini qurishga yordam beraman, biznesni korporativ nizo va shartnoma munosabatlarida qo'llab-quvvatlayman.", en: "Using years of experience in the prosecutor's office, I help clients build a strong defense position in criminal and economic cases, and support businesses in corporate disputes and contractual relations." },
+    services: ["Уголовная защита", "Экономические споры", "Корпоративные вопросы", "Судебное представительство", "Договорное право"],
+    blog: [], education: [
+      { degree: "Юридическое образование", institution: "Ташкентский государственный юридический университет", year: "" }
+    ], achievements: [
+      "Прокурор отдела надзора за исполнением законодательства в экономической сфере, Джизакская областная прокуратура",
+      "Государственный обвинитель по уголовным делам",
+      "Следователь прокуратуры с опытом расследования сложных уголовных дел",
+      "Научно-практическая деятельность по корпоративному праву и предпринимательству"
+    ], publications: []
   },
   {
     id: 10,
     slug: "ergasheva-sevinch",
     photo: "photos/ergasheva-sevinch.jpeg",
     name: "Эргашева Севинч",
-    title: "Юрист",
-    specialization: ["Трудовое право", "Корпоративное право", "Гражданское право"],
+    title: "Адвокат",
+    specialization: ["Корпоративное право", "Экономические споры", "Гражданское право"],
     experience: "4+ лет",
     cases: "50+",
     initials: "ЭС",
     accentColor: "#3a5c8a",
-    bio: "Юрист GSP LAW. Специализируется на трудовом праве, защите прав работников и работодателей, кадровом документообороте.",
-    description: "Севинч помогает компаниям выстраивать правомерные трудовые отношения и успешно разрешать трудовые споры на всех стадиях.",
-    howIHelp: "Помогаю работодателям и сотрудникам решать трудовые конфликты, разрабатывать корректную кадровую документацию и минимизировать риски.",
-    services: ["Трудовые споры", "Кадровая документация", "Трудовые договоры", "HR-консультирование"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Адвокат GSP LAW, специализирующаяся на корпоративном праве, экономических и гражданских спорах. Завершает магистратуру Ташкентского государственного юридического университета. Отличается стратегическим подходом и нацеленностью на результат.", uz: "GSP LAW advokati, korporativ huquq, iqtisodiy va fuqarolik nizolariga ixtisoslashgan. Toshkent davlat yuridik universitetining magistratura bosqichini yakunlamoqda. Strategik yondashuv va natijaga yo'nalganligi bilan ajralib turadi.", en: "Advocate at GSP LAW specializing in corporate law, economic and civil disputes. Completing a Master's degree at Tashkent State University of Law. Stands out for strategic thinking and results-oriented approach." },
+    description: { ru: "Севинч Эргашева занимается полным сопровождением корпоративных процедур — от создания компаний до разрешения споров между акционерами. В экономических делах профессионально защищает интересы предпринимателей в судах. В гражданских делах ведёт широкий спектр споров: имущество, наследство, долги, трудовые и семейные дела.", uz: "Sevinch Ergasheva korporativ protseduralarni to'liq qo'llab-quvvatlaydi — kompaniyalar ta'sisidan aksiyadorlar o'rtasidagi nizolarni hal etishgacha. Iqtisodiy ishlarda iqtisodiy sudlarda tadbirkorlar manfaatlarini professional himoya qiladi. Fuqarolik ishlarida mulk, meros, qarz, mehnat va oilaviy nizolarning keng doirasini olib boradi.", en: "Sevinch Ergasheva provides full support of corporate procedures — from company incorporation to resolving shareholder disputes. In economic cases, she professionally defends entrepreneurs' interests in courts. In civil cases, she handles a wide range of disputes: property, inheritance, debts, labor and family matters." },
+    howIHelp: { ru: "Помогаю бизнесу решать корпоративные и экономические вопросы — от учредительных документов до судебных споров. Частным лицам — в гражданских делах любой сложности: имущество, семья, долги, трудовые конфликты.", uz: "Biznesga korporativ va iqtisodiy masalalarni hal etishda yordam beraman — ta'sis hujjatlaridan sud nizolarigacha. Jismoniy shaxslarga — har qanday murakkablikdagi fuqarolik ishlarida: mulk, oila, qarz, mehnat nizolari.", en: "I help businesses resolve corporate and economic issues — from founding documents to court disputes. For individuals — in civil cases of any complexity: property, family, debts, labor conflicts." },
+    services: ["Корпоративное право", "Экономические споры", "Гражданские дела", "Учредительные документы", "Имущественные споры", "Семейное право"],
+    blog: [], education: [
+      { degree: "Магистратура (в процессе)", institution: "Ташкентский государственный юридический университет", year: "2025" },
+      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "2023" }
+    ], achievements: [
+      "Стратегический подход к ведению корпоративных и экономических дел",
+      "Опыт в гражданских делах: имущество, наследство, семейное право",
+      "Полное сопровождение корпоративных процедур"
+    ], publications: []
   },
   {
     id: 11,
     slug: "saidov-elyor",
     photo: "photos/saidov-elyor.jpeg",
-    name: "Саидов Элёр",
+    name: "Саидов Элёрбек",
     title: "Юрист",
-    specialization: ["Коммерческое право", "Экономические споры", "Договорное право"],
+    specialization: ["Корпоративное право", "Коммерческое право", "Инвестиционное право"],
     experience: "4+ лет",
     cases: "45+",
     initials: "СЭ",
     accentColor: "#2c3e6b",
-    bio: "Юрист GSP LAW. Специализируется на коммерческом праве и экономических спорах, представляет интересы клиентов в судебных разбирательствах.",
-    description: "Элёр обеспечивает комплексную правовую поддержку бизнеса в коммерческих спорах и при заключении крупных договоров.",
-    howIHelp: "Помогаю компаниям эффективно разрешать коммерческие споры и защищать деловые интересы в переговорах и суде.",
-    services: ["Коммерческие споры", "Экономические дела", "Договорная работа", "Арбитраж"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Юрист GSP LAW, специализирующийся на корпоративном, коммерческом и инвестиционном праве. Оказывает правовые услуги местным и иностранным клиентам по вопросам контрактного права, инвестиций, корпоративных структур и коммерческих споров.", uz: "GSP LAW yuristи, korporativ, tijorat va investitsion huquq bo'yicha ixtisoslashgan. Shartnoma huquqi, investitsiyalar, korporativ tuzilmalar va tijorat nizolari bo'yicha mahalliy va xorijiy mijozlarga huquqiy xizmatlar ko'rsatadi.", en: "Lawyer at GSP LAW specializing in corporate, commercial and investment law. Provides legal services to local and foreign clients on contract law, investments, corporate structures and commercial disputes." },
+    description: { ru: "Элёрбек Саидов имеет опыт в международных инвестиционных проектах, правовых аудитах, реструктуризации уставного капитала и нормативно-правовом соответствии. Разрабатывает коммерческие соглашения, ведёт переговоры и представляет клиентов в суде. Работает над развитием компетенций в области M&A и международной правовой практики.", uz: "Elyorbek Saidov xorijiy investitsiyalar, huquqiy auditlar, ustav kapitalini restrukturizatsiya qilish va normativ-huquqiy muvofiqlik loyihalarida tajribaga ega. Tijorat shartnomalari ishlab chiqadi, muzokaralar olib boradi va sudda mijozlar manfaatlarini himoya qiladi.", en: "Elyorbek Saidov has experience in international investment projects, legal audits, authorized capital restructuring and regulatory compliance. Drafts commercial agreements, conducts negotiations and represents clients in court. Developing expertise in M&A and international legal practice." },
+    howIHelp: { ru: "Помогаю местным и иностранным компаниям в вопросах корпоративного структурирования, заключения контрактов, привлечения инвестиций и разрешения коммерческих споров в Узбекистане.", uz: "Mahalliy va xorijiy kompaniyalarga O'zbekistonda korporativ tuzilma, shartnomalar tuzish, investitsiyalar jalb qilish va tijorat nizolarini hal etish masalalarida yordam beraman.", en: "I help local and foreign companies with corporate structuring, contracting, attracting investments and resolving commercial disputes in Uzbekistan." },
+    services: ["Корпоративное право", "Коммерческие контракты", "Инвестиционные проекты", "Правовой аудит", "Корпоративные споры", "M&A"],
+    blog: [], education: [
+      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "" }
+    ], achievements: [
+      "Опыт в международных инвестиционных проектах",
+      "Участие в реструктуризации уставного капитала компаний",
+      "Разработка комплексных стратегий управления правовыми рисками"
+    ], publications: []
   },
   {
     id: 12,
     slug: "zayniyev-mujohid",
     photo: "photos/zayniyev-mujohid.jpeg",
     name: "Зайниев Муджохид",
-    title: "Юрист",
-    specialization: ["Налоговое право", "Финансовые споры", "Административное право"],
-    experience: "5+ лет",
-    cases: "55+",
+    title: "Адвокат",
+    specialization: ["Бизнес-право", "Корпоративное право", "Уголовное право"],
+    experience: "3+ лет",
+    cases: "40+",
     initials: "ЗМ",
     accentColor: "#17435a",
-    bio: "Юрист GSP LAW. Специализируется на налоговом и административном праве, сопровождении налоговых проверок и разрешении споров с государственными органами.",
-    description: "Муджохид обладает практическим опытом защиты интересов бизнеса в спорах с налоговыми и административными органами.",
-    howIHelp: "Помогаю компаниям защищать свои права при налоговых проверках и в спорах с государственными органами.",
-    services: ["Налоговые споры", "Административные дела", "Сопровождение проверок", "Налоговый консалтинг"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Адвокат GSP LAW с академическим фундаментом Ташкентского государственного юридического университета. Специализируется на защите бизнеса, корпоративном праве и уголовных делах. Выделяется стратегическим мышлением и применением инновационных цифровых решений в юридической практике.", uz: "Toshkent davlat yuridik universitetining akademik poydevori bilan GSP LAW advokati. Biznesni himoya qilish, korporativ huquq va jinoyat ishlariga ixtisoslashgan. Strategik fikrlashi va yuridik amaliyotda innovatsion raqamli yechimlarni qo'llashi bilan ajralib turadi.", en: "Advocate at GSP LAW with an academic foundation from Tashkent State University of Law. Specializes in business protection, corporate law and criminal cases. Stands out for strategic thinking and application of innovative digital solutions in legal practice." },
+    description: { ru: "Муджохид Зайниев — молодой, но высококвалифицированный адвокат GSP LAW. Специализируется на бизнес-праве (создание компаний, инвестиции, корпоративная документация), корпоративном праве (споры акционеров, защита от рисков) и уголовном праве (особенно по экономическим, финансовым и бизнес-преступлениям). Применяет новейшие цифровые и системные решения в юридической практике.", uz: "Mujohid Zayniyev — GSP LAW ning yosh, lekin yuqori malakali advokati. Biznes huquqi (kompaniya ta'sisi, investitsiyalar, korporativ hujjatlar), korporativ huquq (aksiyadorlar nizolari, risklardan himoya) va jinoyat huquqi (ayniqsa iqtisodiy, moliyaviy va biznes jinoyatlari) bo'yicha ixtisoslashgan.", en: "Mujohid Zayniyev is a young but highly qualified advocate at GSP LAW. Specializes in business law (company incorporation, investments, corporate documentation), corporate law (shareholder disputes, risk protection) and criminal law (especially economic, financial and business crimes). Applies the latest digital and systemic solutions in legal practice." },
+    howIHelp: { ru: "Помогаю бизнесу на всех стадиях — от создания компании до защиты от корпоративных рисков. Особая специализация — уголовная защита в делах, связанных с бизнесом и финансовыми преступлениями.", uz: "Biznesga barcha bosqichlarda yordam beraman — kompaniya ta'sisidan korporativ risklardan himoyagacha. Alohida ixtisoslashuv — biznes va moliyaviy jinoyatlar bilan bog'liq jinoyat ishlarida himoya.", en: "I help businesses at all stages — from company incorporation to protection against corporate risks. Special specialization — criminal defense in cases related to business and financial crimes." },
+    services: ["Бизнес-право", "Корпоративное право", "Уголовная защита", "Создание компаний", "Инвестиции", "Акционерные споры"],
+    blog: [], education: [
+      { degree: "Бакалавр права", institution: "Ташкентский государственный юридический университет", year: "2025" }
+    ], achievements: [
+      "Специализация в уголовной защите по экономическим и финансовым делам",
+      "Применение инновационных цифровых решений в юридической практике",
+      "Комплексная правовая поддержка бизнеса на всех стадиях"
+    ], publications: []
   },
   {
     id: 13,
     slug: "sattorov-shohruh",
     photo: "photos/sattorov-shohruh.jpeg",
     name: "Саттаров Шохрух",
-    title: "Старший юрист",
-    specialization: ["Корпоративное право", "M&A", "Инвестиционное право"],
-    experience: "8+ лет",
-    cases: "100+",
+    title: "Юрист",
+    specialization: ["Корпоративное право", "Коммерческое право", "Гражданское право"],
+    experience: "4+ лет",
+    cases: "50+",
     initials: "СШ",
     accentColor: "#1f3a5f",
-    bio: "Старший юрист GSP LAW. Специализируется на корпоративном праве, сопровождении инвестиционных сделок и M&A-транзакций.",
-    description: "Шохрух обладает широкой практикой в сфере корпоративного структурирования и привлечения инвестиций в узбекский бизнес.",
-    howIHelp: "Помогаю инвесторам и предпринимателям структурировать сделки, привлекать финансирование и обеспечивать правовую защиту бизнеса.",
-    services: ["Корпоративное структурирование", "Инвестиционные сделки", "M&A сопровождение", "Due Diligence"],
+    bio: { ru: "Юрист GSP LAW, специализирующийся на корпоративном и коммерческом праве. Оказывает правовую поддержку бизнесу в вопросах корпоративной документации, договорных отношений и гражданских споров.", uz: "GSP LAW yuristи, korporativ va tijorat huquqiga ixtisoslashgan. Korporativ hujjatlar, shartnoma munosabatlari va fuqarolik nizolari masalalarida biznesga huquqiy yordam ko'rsatadi.", en: "Lawyer at GSP LAW specializing in corporate and commercial law. Provides legal support to businesses on corporate documentation, contractual relations and civil disputes." },
+    description: { ru: "Шохрух Саттаров ведёт корпоративные и коммерческие дела, помогает клиентам в подготовке договоров и правовой документации, а также в разрешении гражданских споров на досудебном и судебном этапах.", uz: "Shohruh Sattorov korporativ va tijorat ishlarini olib boradi, shartnomalar va huquqiy hujjatlarni tayyorlashda mijozlarga yordam beradi, shuningdek fuqarolik nizolarini sudgacha va sud bosqichida hal qiladi.", en: "Shohruh Sattorov handles corporate and commercial cases, helps clients prepare contracts and legal documentation, and resolves civil disputes at pre-trial and trial stages." },
+    howIHelp: { ru: "Помогаю компаниям и физическим лицам решать корпоративные и коммерческие вопросы, подготавливаю договоры и представляю клиентов в гражданских спорах.", uz: "Kompaniyalar va jismoniy shaxslarga korporativ va tijorat masalalarini hal etishga yordam beraman, shartnomalar tayyorlayman va fuqarolik nizolarida mijozlarni himoya qilaman.", en: "I help companies and individuals resolve corporate and commercial matters, prepare contracts and represent clients in civil disputes." },
+    services: ["Корпоративная документация", "Коммерческие договоры", "Гражданские споры", "Правовая экспертиза"],
     blog: [], education: [], achievements: [], publications: []
   },
   {
@@ -365,17 +404,45 @@ const LAWYERS = [
     slug: "orinov-xayrullo",
     photo: "photos/orinov-xayrullo.jpeg",
     name: "O'rinov Xayrullo",
-    title: "Юрист",
-    specialization: ["IT-право", "Интеллектуальная собственность", "Стартапы"],
+    title: "Адвокат",
+    specialization: ["Корпоративное право", "Международное право", "Инвестиционный арбитраж"],
     experience: "3+ лет",
     cases: "30+",
     initials: "ОХ",
     accentColor: "#c9a96e",
-    bio: "Юрист GSP LAW. Специализируется на IT-праве и защите интеллектуальной собственности, оказывает правовую поддержку технологическим стартапам.",
-    description: "Хайрулло помогает IT-компаниям и стартапам выстраивать правовую базу бизнеса, защищать интеллектуальную собственность и работать с инвестициями.",
-    howIHelp: "Помогаю технологическим компаниям защищать их разработки, правильно оформлять IP-права и соответствовать требованиям законодательства.",
-    services: ["IT-консалтинг", "Защита ПО и баз данных", "Регистрация товарных знаков", "Стартап-юридика"],
-    blog: [], education: [], achievements: [], publications: []
+    bio: { ru: "Адвокат GSP LAW, специализирующийся на корпоративном и международном праве. Консультирует бизнес-субъектов и защищает их интересы в государственных органах. Специализируется на международном коммерческом арбитраже и инвестиционных спорах.", uz: "GSP LAW advokati, korporativ va xalqaro huquq bo'yicha ixtisoslashgan. Biznes subyektlariga maslahat beradi va ularning manfaatlarini davlat organlarida himoya qiladi. Xalqaro tijorat arbitraji va investitsion nizolar bo'yicha ixtisoslashgan.", en: "Advocate at GSP LAW specializing in corporate and international law. Advises business entities and protects their interests in government authorities. Specializes in international commercial arbitration and investment disputes." },
+    description: { ru: "Хайрулло О'ринов специализируется на правовой экспертизе коммерческих договоров, разработке контрактных структур и инвестиционном праве. Имеет опыт в работе с иностранными инвесторами при структурировании сделок и совместных предприятиях, применяя международную коммерческую практику (Incoterms, UNIDROIT, CISG). Нацелен на международный коммерческий арбитраж (ICC, SIAC, HKIAC) и инвестиционные споры ICSID.", uz: "Xayrullo O'rinov tijorat shartnomalari huquqiy ekspertizasi, shartnoma tuzilmalarini ishlab chiqish va investitsion huquq bo'yicha ixtisoslashgan. Xorijiy investorlar bilan bitimlar tuzish va qo'shma korxonalarda tajribaga ega, xalqaro tijorat amaliyotini (Incoterms, UNIDROIT, CISG) qo'llaydi.", en: "Xayrullo O'rinov specializes in legal review of commercial contracts, developing contract structures and investment law. Has experience working with foreign investors in deal structuring and joint ventures, applying international commercial practice (Incoterms, UNIDROIT, CISG). Focused on international commercial arbitration (ICC, SIAC, HKIAC) and ICSID investment disputes." },
+    howIHelp: { ru: "Помогаю компаниям минимизировать регуляторные риски, структурировать договоры с иностранными партнёрами и защищать интересы в международных арбитражных разбирательствах.", uz: "Kompaniyalarga regulyator risklarni minimallashtirshda, xorijiy hamkorlar bilan shartnomalar tuzilmalashtirishda va xalqaro arbitraj jarayonlarida manfaatlarni himoya qilishda yordam beraman.", en: "I help companies minimize regulatory risks, structure contracts with foreign partners and protect interests in international arbitration proceedings." },
+    services: ["Корпоративное право", "Международный арбитраж", "Инвестиционные споры", "Коммерческие договоры", "Совместные предприятия", "Due Diligence"],
+    blog: [], education: [
+      { degree: "Бакалавр права (LLB)", institution: "Ташкентский государственный юридический университет", year: "" }
+    ], achievements: [
+      "Специализация в международном коммерческом арбитраже (ICC, SIAC, HKIAC)",
+      "Опыт в инвестиционных спорах в рамках ICSID",
+      "Признание и исполнение иностранных арбитражных решений в Узбекистане"
+    ], publications: []
+  },
+  {
+    id: 15,
+    slug: "azimjon-zuxurov",
+    photo: "photos/azimjon-zuxurov.jpeg",
+    name: "Azimjon Zuxurov",
+    title: "Адвокат | Профессиональный медиатор",
+    specialization: ["Экономическое право", "Корпоративное право", "Медиация"],
+    experience: "10+ лет",
+    cases: "200+",
+    initials: "AZ",
+    accentColor: "#2d5a8e",
+    bio: { ru: "Профессиональный адвокат с многолетним опытом в сложных экономических спорах, корпоративном управлении и правовой защите бизнеса. Медиа-эксперт с аудиторией 600 000+ в проекте «Yurist Zukhurov». Постоянный эксперт O'zbekiston24, Zo'r TV и Sevimli.", uz: "Murakkab iqtisodiy nizolar, korporativ boshqaruv va biznesni huquqiy himoya qilish sohasida ko'p yillik tajribaga ega professional advokat. \"Yurist Zukhurov\" loyihasi orqali 600 000+ auditoriyaga ega media-ekspert. O'zbekiston24, Zo'r TV va Sevimli kanallarining doimiy eksperti.", en: "Professional lawyer with years of experience in complex economic disputes, corporate governance and legal protection of business. Media expert with 600,000+ audience through the 'Yurist Zukhurov' project. Regular expert on O'zbekiston24, Zo'r TV and Sevimli channels." },
+    description: { ru: "Азимжон Зухуров — профессиональный адвокат с уникальным сочетанием опыта государственного управления и судебной практики. Работал на ответственных должностях в государственном учреждении при Министерстве, что позволяет ему понимать систему изнутри. Сегодня — не только практикующий адвокат, но и признанный медиа-эксперт, системно содействующий верховенству закона в обществе через проект «Yurist Zukhurov» и регулярные выступления на ведущих телеканалах страны.", uz: "Azimjon Zuxurov — davlat boshqaruvi va sud amaliyotining noyob uyg'unligiga ega professional advokat. Vazirlik huzuridagi davlat muassasasida mas'uliyatli lavozimlarda faoliyat yuritgan, bu tizimni ichidan tushunishiga imkon beradi. Bugun u nafaqat amaliyotchi advokat, balki \"Yurist Zukhurov\" loyihasi va yetakchi telekanallar orqali jamiyatda qonun ustuvorligini ta'minlashga tizimli hissa qo'shayotgan media-ekspertdir.", en: "Azimjon Zuxurov is a professional lawyer with a unique combination of public administration and judicial practice experience. Worked in responsible positions at a government institution under the Ministry, giving him an inside understanding of the system. Today he is not only a practicing lawyer but also a recognized media expert systematically contributing to the rule of law through the 'Yurist Zukhurov' project and regular appearances on leading TV channels." },
+    howIHelp: { ru: "Специализируюсь на защите бизнеса в сложных экономических и корпоративных спорах. Как профессиональный медиатор помогаю разрешать конфликты без суда. Мой опыт государственной службы позволяет эффективно взаимодействовать с государственными органами в интересах клиентов.", uz: "Murakkab iqtisodiy va korporativ nizolarda biznesni himoya qilishga ixtisoslanganman. Professional mediator sifatida nizolarni sudgacha hal etishga yordam beraman. Davlat xizmati tajribam davlat organlari bilan mijozlar manfaatlarida samarali ishlash imkonini beradi.", en: "I specialize in protecting business in complex economic and corporate disputes. As a professional mediator I help resolve conflicts without court. My public service experience allows effective interaction with government authorities in clients' interests." },
+    services: ["Экономические споры", "Корпоративное управление", "Медиация", "Правовая защита бизнеса", "Взаимодействие с госорганами", "Консультации"],
+    blog: [], education: [], achievements: [
+      "Профессиональный медиатор",
+      "Медиа-эксперт: проект «Yurist Zukhurov» — 600 000+ подписчиков",
+      "Постоянный эксперт O'zbekiston24, Zo'r TV, Sevimli",
+      "Опыт государственной службы при Министерстве"
+    ], publications: []
   },
 ]
 
