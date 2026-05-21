@@ -177,15 +177,15 @@ const LAWYERS = [
       "Сертификат публикации Miasto Przyszłości, Impact Factor 9.9 (2024)"
     ],
     publications: [
-      { title: "ICSID and SCC as Models of International Arbitration: Lessons for the Legal System of Uzbekistan", journal: "International Law, Business and Political Science Journal (IF 13.24)", year: "2025" },
-      { title: "Analysis of Legal Mechanisms for Resolving Investment Disputes in Uzbekistan: Problems and Prospects", journal: "Miasto Przyszłości, Vol. 51 (IF 9.9)", year: "2024" },
-      { title: "Международный опыт разрешения инвестиционных споров и его применение в Узбекистане", journal: "Academic Research in Modern Science", year: "2024" },
-      { title: "Инвестиционные арбитражи и их значение для улучшения инвестиционного климата в Узбекистане", journal: "Development of Pedagogical Technologies in Modern Sciences", year: "2024" },
-      { title: "Инвестиционный климат Узбекистана и его влияние на развитие бизнеса", journal: "International Conference on Advance Science and Technology", year: "2024" },
-      { title: "Законодательные реформы Узбекистана в сфере инвестиций", journal: "International Scientific and Practical Conference / Хайитмуродов Улугбек Отабекович", year: "2024" },
-      { title: "Цифровизация процедур разрешения инвестиционных споров: от электронных доказательств до виртуальных заседаний", journal: "Huquqiy tizimni raqamlashtirish — конференция ТГЮУ", year: "2024" },
-      { title: "Concept, Essence and Principles of Islamic Investment Funds", journal: "Сборник научных трудов ТГЮУ (магистр)", year: "2022" },
-      { title: "Закрепление в Конституции Узбекистана института прав и свобод гражданина", journal: "VI Молодёжные образовательные чтения, Уфа", year: "2022" }
+      { title: "ICSID and SCC as Models of International Arbitration: Lessons for the Legal System of Uzbekistan", journal: "International Law, Business and Political Science Journal (IF 13.24)", year: "2025", url: "https://doi.org/10.5281/zenodo.15511843" },
+      { title: "Analysis of Legal Mechanisms for Resolving Investment Disputes in Uzbekistan: Problems and Prospects", journal: "Miasto Przyszłości, Vol. 51 (IF 9.9)", year: "2024", url: "https://inscience.uz/index.php/socinov/article/view/1947" },
+      { title: "Международный опыт разрешения инвестиционных споров и его применение в Узбекистане", journal: "Academic Research in Modern Science", year: "2024", url: "https://doi.org/10.5281/zenodo.13884194" },
+      { title: "Инвестиционные арбитражи и их значение для улучшения инвестиционного климата в Узбекистане", journal: "Development of Pedagogical Technologies in Modern Sciences", year: "2024", url: "https://doi.org/10.5281/zenodo.13922863" },
+      { title: "Законодательные реформы Узбекистана в сфере инвестиций", journal: "International Scientific and Practical Conference", year: "2024", url: "https://www.openconference.us/index.php/civilization" },
+      { title: "Инвестиционный климат Узбекистана и его влияние на развитие бизнеса", journal: "International Conference on Advance Science and Technology", year: "2024", url: "" },
+      { title: "Цифровизация процедур разрешения инвестиционных споров: от электронных доказательств до виртуальных заседаний", journal: "Huquqiy tizimni raqamlashtirish — конференция ТГЮУ", year: "2024", url: "" },
+      { title: "Concept, Essence and Principles of Islamic Investment Funds", journal: "Сборник научных трудов ТГЮУ (магистр)", year: "2022", url: "" },
+      { title: "Закрепление в Конституции Узбекистана института прав и свобод гражданина", journal: "VI Молодёжные образовательные чтения, Уфа", year: "2022", url: "" }
     ]
   },
   {

@@ -958,10 +958,14 @@ img { max-width: 100%; display: block; }
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .pub-item:hover { transform: translateX(4px); box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+.pub-item-link { display: block; text-decoration: none; cursor: pointer; border-left: 3px solid var(--gold); }
+.pub-item-link:hover { transform: translateX(6px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-left-color: var(--navy); }
 .pub-title { font-size: 14px; font-weight: 700; color: var(--navy); margin-bottom: 6px; line-height: 1.4; }
-.pub-meta { display: flex; gap: 16px; flex-wrap: wrap; }
+.pub-item-link .pub-title { color: var(--navy); }
+.pub-meta { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
 .pub-journal { font-size: 12px; color: var(--muted); }
 .pub-year { font-size: 12px; font-weight: 700; color: var(--gold); }
+.pub-link { font-size: 12px; font-weight: 700; color: var(--gold); margin-left: auto; }
 
 /* ===== RESPONSIVE ADDITIONS ===== */
 @media (max-width: 1100px) {

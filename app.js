@@ -494,14 +494,18 @@ function initLawyer() {
   const pubEl = document.getElementById('lawyerPublications');
   if (pubEl && lawyer.publications) {
     lawyer.publications.forEach(p => {
-      pubEl.innerHTML += `
-        <div class="pub-item">
-          <div class="pub-title">${p.title}</div>
-          <div class="pub-meta">
-            <span class="pub-journal">${p.journal}</span>
-            <span class="pub-year">${p.year}</span>
-          </div>
+      const inner = `
+        <div class="pub-title">${p.title}</div>
+        <div class="pub-meta">
+          <span class="pub-journal">${p.journal}</span>
+          <span class="pub-year">${p.year}</span>
+          ${p.url ? `<span class="pub-link">↗ Открыть</span>` : ''}
         </div>`;
+      if (p.url) {
+        pubEl.innerHTML += `<a class="pub-item pub-item-link" href="${p.url}" target="_blank" rel="noopener noreferrer">${inner}</a>`;
+      } else {
+        pubEl.innerHTML += `<div class="pub-item">${inner}</div>`;
+      }
     });
   }
 
