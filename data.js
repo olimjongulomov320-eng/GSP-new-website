@@ -159,22 +159,34 @@ const LAWYERS = [
     howIHelp: { ru: "Обеспечиваю полное юридическое сопровождение бизнеса на постоянной основе — от ежедневных корпоративных вопросов до стратегических сделок. Специализируюсь на защите интеллектуальной собственности и ведении экономических споров.", uz: "Biznesni doimiy asosda to'liq yuridik qo'llab-quvvatlayman — kundalik korporativ masalalardan strategik bitimlaргача. Intellektual mulkni himoya qilish va iqtisodiy nizolarni yuritishga ixtisoslanganman.", en: "I provide full legal support to businesses on an ongoing basis — from daily corporate matters to strategic transactions. I specialize in intellectual property protection and handling economic disputes." },
     services: ["Постоянное юридическое сопровождение", "Экономические споры", "Бизнес-право", "Интеллектуальная собственность", "Корпоративные консультации", "Due Diligence"],
     blog: [
-      { title: "Как правильно выбрать форму юрлица для стартапа", date: "1 ноября 2024", tag: "Стартапы", excerpt: "ООО, АО или ИП? Разбираем плюсы и минусы каждой формы для технологических стартапов в Узбекистане..." },
-      { title: "Опционные программы для команды: руководство", date: "18 октября 2024", tag: "HR-право", excerpt: "Как мотивировать ключевых сотрудников долей в компании: ESOP, SAR и другие инструменты в правовом поле УЗ..." },
-      { title: "Привлечение венчурных инвестиций: правовая сторона", date: "2 октября 2024", tag: "Инвестиции", excerpt: "Что нужно знать основателям о term sheet, инвестиционных договорах и защите прав при привлечении раунда..." }
+      { title: "ICSID и SCC как модели международного арбитража: уроки для Узбекистана", date: "Май 2025", tag: "Арбитраж", excerpt: "Статья исследует роль ICSID и SCC как механизмов международного арбитража и извлекает уроки для правовой системы Узбекистана. Опубликовано в International Law, Business and Political Science Journal (IF 13.24)." },
+      { title: "Анализ правовых механизмов разрешения инвестиционных споров в Узбекистане", date: "2024", tag: "Инвестиции", excerpt: "Анализ правовых механизмов урегулирования инвестиционных споров в Узбекистане: проблемы и перспективы. Опубликовано в Miasto Przyszłości (Impact Factor 9.9)." },
+      { title: "Цифровизация процедур разрешения инвестиционных споров", date: "2024", tag: "Цифровое право", excerpt: "От электронных доказательств до виртуальных заседаний — цифровая трансформация арбитражного процесса. Опубликовано в сборнике «Huquqiy tizimni raqamlashtirish»." }
     ],
     education: [
-      { degree: "PhD (кандидат юридических наук)", institution: "Ташкентский государственный юридический университет", year: "" },
+      { degree: "PhD (соискатель, кандидат юридических наук)", institution: "Ташкентский государственный юридический университет", year: "" },
       { degree: "Магистр права", institution: "Ташкентский государственный юридический университет", year: "" },
       { degree: "Бакалавр права (частное право)", institution: "Ташкентский государственный юридический университет", year: "" }
     ],
     achievements: [
       "8 лет опыта в адвокатуре",
       "Руководитель отдела постоянного юридического обслуживания корпоративных клиентов GSP LAW",
-      "Кандидат юридических наук (PhD)",
-      "Специализация в экономических спорах, бизнес-праве и интеллектуальной собственности"
+      "Соискатель учёной степени PhD, ТГЮУ",
+      "ORCID: 0009-0002-3313-8340",
+      "Участник VI Молодёжных образовательных чтений «Конституционализм», Уфа (2022)",
+      "Сертификат публикации Miasto Przyszłości, Impact Factor 9.9 (2024)"
     ],
-    publications: []
+    publications: [
+      { title: "ICSID and SCC as Models of International Arbitration: Lessons for the Legal System of Uzbekistan", journal: "International Law, Business and Political Science Journal (IF 13.24)", year: "2025" },
+      { title: "Analysis of Legal Mechanisms for Resolving Investment Disputes in Uzbekistan: Problems and Prospects", journal: "Miasto Przyszłości, Vol. 51 (IF 9.9)", year: "2024" },
+      { title: "Международный опыт разрешения инвестиционных споров и его применение в Узбекистане", journal: "Academic Research in Modern Science", year: "2024" },
+      { title: "Инвестиционные арбитражи и их значение для улучшения инвестиционного климата в Узбекистане", journal: "Development of Pedagogical Technologies in Modern Sciences", year: "2024" },
+      { title: "Инвестиционный климат Узбекистана и его влияние на развитие бизнеса", journal: "International Conference on Advance Science and Technology", year: "2024" },
+      { title: "Законодательные реформы Узбекистана в сфере инвестиций", journal: "International Scientific and Practical Conference / Хайитмуродов Улугбек Отабекович", year: "2024" },
+      { title: "Цифровизация процедур разрешения инвестиционных споров: от электронных доказательств до виртуальных заседаний", journal: "Huquqiy tizimni raqamlashtirish — конференция ТГЮУ", year: "2024" },
+      { title: "Concept, Essence and Principles of Islamic Investment Funds", journal: "Сборник научных трудов ТГЮУ (магистр)", year: "2022" },
+      { title: "Закрепление в Конституции Узбекистана института прав и свобод гражданина", journal: "VI Молодёжные образовательные чтения, Уфа", year: "2022" }
+    ]
   },
   {
     id: 5,
