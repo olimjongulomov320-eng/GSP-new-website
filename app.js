@@ -1,4 +1,10 @@
 /* ===== I18N ===== */
+// Force reset to uz if user has old cached language from before uz-default update
+const LANG_VERSION = '2';
+if (localStorage.getItem('gsp_lang_v') !== LANG_VERSION) {
+  localStorage.setItem('gsp_lang', 'uz');
+  localStorage.setItem('gsp_lang_v', LANG_VERSION);
+}
 let currentLang = localStorage.getItem('gsp_lang') || 'uz';
 
 function t(path) {
