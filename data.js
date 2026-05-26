@@ -1,7 +1,7 @@
 const FIRM = {
   name: "GSP LAW",
   fullName: "Gulyamov, Sadikov and Partners",
-  phone1: "+998 71 200 12 11",
+  phone1: "+998 95 109 52 25",
   phone2: "+99899 590 99 11",
   phone3: "+99893 098 70 84",
   email: "info@gsplaw.uz",
@@ -132,6 +132,7 @@ const LAWYERS = [
     id: 4,
     slug: "khayitmurodov-ulugbek",
     photo: "photos/xaytmurodov-ulugbek.jpeg",
+    phone: "+998 88 771 44 33",
     name: "Хайитмуродов Улугбек Отабекович",
     title: "Партнёр | Руководитель отдела корпоративного обслуживания",
     specialization: ["Корпоративное право", "Экономические споры", "Интеллектуальная собственность"],

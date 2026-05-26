@@ -547,6 +547,18 @@ function initLawyer() {
   document.getElementById('sideExp').textContent = getLawyerExp(lawyer);
   document.getElementById('sideCases').textContent = lawyer.cases;
 
+  // If lawyer has personal phone, add it to sidebar
+  if (lawyer.phone) {
+    const contact = document.getElementById('sidebarContact');
+    if (contact) {
+      const tel = lawyer.phone.replace(/\s/g, '');
+      const link = document.createElement('a');
+      link.href = `tel:${tel}`;
+      link.innerHTML = `<span>📱</span> ${lawyer.phone}`;
+      contact.insertBefore(link, contact.firstChild);
+    }
+  }
+
   const svc = document.getElementById('lawyerServices');
   const svcData = getLawyerField(lawyer, 'services');
   const svcArr = Array.isArray(svcData) ? svcData : lawyer.services;
