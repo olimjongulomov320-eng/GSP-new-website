@@ -427,6 +427,7 @@ function renderDynamic() {
   set('ci-address', FIRM.address);
   set('ci-phone1', FIRM.phone1);
   set('ci-phone2', FIRM.phone2);
+  set('ci-phone3', FIRM.phone3);
   set('ci-email', FIRM.email);
   setHref('ci-tg', FIRM.telegram);
   setHref('ci-ig', FIRM.instagram);
@@ -436,6 +437,7 @@ function renderDynamic() {
   set('f-email', FIRM.email);
   set('f-phone1', FIRM.phone1);
   set('f-phone2', FIRM.phone2);
+  set('f-phone3', FIRM.phone3);
   setHref('f-tg', FIRM.telegram);
   setHref('f-ig', FIRM.instagram);
   setHref('f-fb', FIRM.facebook);
@@ -445,6 +447,7 @@ function renderDynamic() {
   set('f-email-c', FIRM.email);
   set('f-phone1-c', FIRM.phone1);
   set('f-phone2-c', FIRM.phone2);
+  set('f-phone3-c', FIRM.phone3);
 }
 
 /* ===== INDEX PAGE ===== */
