@@ -1,5 +1,5 @@
 /* ===== I18N ===== */
-let currentLang = localStorage.getItem('gsp_lang') || 'ru';
+let currentLang = localStorage.getItem('gsp_lang') || 'uz';
 
 function t(path) {
   const keys = path.split('.');
@@ -73,6 +73,71 @@ function refreshLawyerLang() {
   if (bioEl) bioEl.textContent = getLawyerField(lawyer, 'bio');
   if (descEl) descEl.textContent = getLawyerField(lawyer, 'description');
   if (helpEl) helpEl.textContent = getLawyerField(lawyer, 'howIHelp');
+
+  // Re-render experience
+  const sideExp = document.getElementById('sideExp');
+  if (sideExp) sideExp.textContent = getLawyerExp(lawyer);
+  const heroMeta = document.getElementById('heroMeta');
+  if (heroMeta) heroMeta.innerHTML = `
+    <div class="hero-meta-item"><span>${getLawyerExp(lawyer)}</span><span data-i18n="lp.expLbl">${t('lp.expLbl')}</span></div>
+    <div class="hero-meta-item"><span>${lawyer.cases}</span><span data-i18n="lp.casesLbl">${t('lp.casesLbl')}</span></div>
+  `;
+
+  // Re-render services
+  const svcEl = document.getElementById('lawyerServices');
+  if (svcEl) {
+    svcEl.innerHTML = '';
+    const svcData = getLawyerField(lawyer, 'services');
+    const svcArr = Array.isArray(svcData) ? svcData : lawyer.services;
+    svcArr.forEach(s => { svcEl.innerHTML += `<div class="service-item">${s}</div>`; });
+  }
+
+  // Re-render education
+  const eduEl = document.getElementById('lawyerEducation');
+  if (eduEl && lawyer.education) {
+    eduEl.innerHTML = '';
+    lawyer.education.forEach(e => {
+      eduEl.innerHTML += `
+        <div class="edu-item">
+          <div class="edu-dot-wrap"><div class="edu-dot"></div><div class="edu-line"></div></div>
+          <div class="edu-content">
+            <div class="edu-year">${e.year}</div>
+            <div class="edu-degree">${getLocalStr(e.degree)}</div>
+            <div class="edu-institution">${getLocalStr(e.institution)}</div>
+          </div>
+        </div>`;
+    });
+  }
+
+  // Re-render achievements
+  const achEl = document.getElementById('lawyerAchievements');
+  if (achEl && lawyer.achievements) {
+    achEl.innerHTML = '';
+    const achData = getLawyerField(lawyer, 'achievements');
+    const achArr = Array.isArray(achData) ? achData : lawyer.achievements;
+    achArr.forEach(a => { achEl.innerHTML += `<li>${a}</li>`; });
+  }
+
+  // Re-render publications
+  const pubEl = document.getElementById('lawyerPublications');
+  if (pubEl && lawyer.publications) {
+    pubEl.innerHTML = '';
+    const openLabel = { ru: 'Открыть', uz: 'Ochish', en: 'Open' };
+    lawyer.publications.forEach(p => {
+      const inner = `
+        <div class="pub-title">${p.title}</div>
+        <div class="pub-meta">
+          <span class="pub-journal">${p.journal}</span>
+          <span class="pub-year">${p.year}</span>
+          ${p.url ? `<span class="pub-link">↗ ${openLabel[currentLang] || 'Открыть'}</span>` : ''}
+        </div>`;
+      if (p.url) {
+        pubEl.innerHTML += `<a class="pub-item pub-item-link" href="${p.url}" target="_blank" rel="noopener noreferrer">${inner}</a>`;
+      } else {
+        pubEl.innerHTML += `<div class="pub-item">${inner}</div>`;
+      }
+    });
+  }
 }
 
 function setLang(lang) {
@@ -137,8 +202,23 @@ function translateStr(str, mapKey) {
 
 function getLawyerField(lawyer, field) {
   const val = lawyer[field];
+  if (val && typeof val === 'object' && !Array.isArray(val)) return val[currentLang] || val.ru || '';
+  return val || '';
+}
+
+// Returns a localized string from a {ru,uz,en} object or plain string
+function getLocalStr(val) {
   if (val && typeof val === 'object') return val[currentLang] || val.ru || '';
   return val || '';
+}
+
+// Returns experience with correct language suffix
+function getLawyerExp(lawyer) {
+  const raw = lawyer.experience || '';
+  // raw is like "13+ лет" or "10+ лет" — strip Russian suffix, add current lang
+  const num = raw.replace(/[^\d+]/g, ''); // "13+"
+  const suffix = { ru: 'лет', uz: 'yil', en: 'years' };
+  return num + ' ' + (suffix[currentLang] || 'лет');
 }
 
 function createLawyerCard(lawyer) {
@@ -163,7 +243,7 @@ function createLawyerCard(lawyer) {
         ${translatedSpecs.map(s => `<span class="spec-tag">${s}</span>`).join('')}
       </div>
       <div class="lawyer-meta">
-        <span><strong>${lawyer.experience}</strong><span>${t('lawyers.exp')}</span></span>
+        <span><strong>${getLawyerExp(lawyer)}</strong></span>
         <span><strong>${lawyer.cases}</strong><span>${t('lawyers.casesLbl')}</span></span>
       </div>
     </div>
@@ -252,7 +332,7 @@ function renderDynamic() {
             </div>
             <p class="partner-bio">${getLawyerField(l, 'bio').substring(0, 110)}...</p>
             <div class="partner-card-footer">
-              <div class="partner-stat"><strong>${l.experience}</strong><span>${t('lawyers.exp')}</span></div>
+              <div class="partner-stat"><strong>${getLawyerExp(l)}</strong></div>
               <div class="partner-stat"><strong>${l.cases}</strong><span>${t('lawyers.casesLbl')}</span></div>
             </div>
           </div>
@@ -451,18 +531,20 @@ function initLawyer() {
   });
 
   document.getElementById('heroMeta').innerHTML = `
-    <div class="hero-meta-item"><span>${lawyer.experience}</span><span data-i18n="lp.expLbl">${t('lp.expLbl')}</span></div>
+    <div class="hero-meta-item"><span>${getLawyerExp(lawyer)}</span><span data-i18n="lp.expLbl">${t('lp.expLbl')}</span></div>
     <div class="hero-meta-item"><span>${lawyer.cases}</span><span data-i18n="lp.casesLbl">${t('lp.casesLbl')}</span></div>
   `;
 
   document.getElementById('lawyerBio').textContent = getLawyerField(lawyer, 'bio');
   document.getElementById('lawyerDesc').textContent = getLawyerField(lawyer, 'description');
   document.getElementById('lawyerHelp').textContent = getLawyerField(lawyer, 'howIHelp');
-  document.getElementById('sideExp').textContent = lawyer.experience;
+  document.getElementById('sideExp').textContent = getLawyerExp(lawyer);
   document.getElementById('sideCases').textContent = lawyer.cases;
 
   const svc = document.getElementById('lawyerServices');
-  lawyer.services.forEach(s => {
+  const svcData = getLawyerField(lawyer, 'services');
+  const svcArr = Array.isArray(svcData) ? svcData : lawyer.services;
+  svcArr.forEach(s => {
     svc.innerHTML += `<div class="service-item">${s}</div>`;
   });
 
@@ -470,13 +552,15 @@ function initLawyer() {
   const eduEl = document.getElementById('lawyerEducation');
   if (eduEl && lawyer.education) {
     lawyer.education.forEach(e => {
+      const deg = getLocalStr(e.degree);
+      const inst = getLocalStr(e.institution);
       eduEl.innerHTML += `
         <div class="edu-item">
           <div class="edu-dot-wrap"><div class="edu-dot"></div><div class="edu-line"></div></div>
           <div class="edu-content">
             <div class="edu-year">${e.year}</div>
-            <div class="edu-degree">${e.degree}</div>
-            <div class="edu-institution">${e.institution}</div>
+            <div class="edu-degree">${deg}</div>
+            <div class="edu-institution">${inst}</div>
           </div>
         </div>`;
     });
@@ -485,7 +569,9 @@ function initLawyer() {
   // Achievements
   const achEl = document.getElementById('lawyerAchievements');
   if (achEl && lawyer.achievements) {
-    lawyer.achievements.forEach(a => {
+    const achData = getLawyerField(lawyer, 'achievements');
+    const achArr = Array.isArray(achData) ? achData : lawyer.achievements;
+    achArr.forEach(a => {
       achEl.innerHTML += `<li>${a}</li>`;
     });
   }
@@ -493,13 +579,14 @@ function initLawyer() {
   // Publications
   const pubEl = document.getElementById('lawyerPublications');
   if (pubEl && lawyer.publications) {
+    const openLabel = { ru: 'Открыть', uz: 'Ochish', en: 'Open' };
     lawyer.publications.forEach(p => {
       const inner = `
         <div class="pub-title">${p.title}</div>
         <div class="pub-meta">
           <span class="pub-journal">${p.journal}</span>
           <span class="pub-year">${p.year}</span>
-          ${p.url ? `<span class="pub-link">↗ Открыть</span>` : ''}
+          ${p.url ? `<span class="pub-link">↗ ${openLabel[currentLang] || 'Открыть'}</span>` : ''}
         </div>`;
       if (p.url) {
         pubEl.innerHTML += `<a class="pub-item pub-item-link" href="${p.url}" target="_blank" rel="noopener noreferrer">${inner}</a>`;
