@@ -628,13 +628,13 @@ const LANG = {
       btn1: 'Bizning jamoa', btn2: 'Konsultatsiya olish'
     },
     about: {
-      sTag: 'Firma haqida', sTitle: 'Professionallik. Ishonch. Natija.',
+      sTag: 'GSP LAW FIRM haqida', sTitle: 'Professionallik. Ishonch. Natija.',
       p1: "GSP LAW — IT-biznes, startaplar va tijorat tashkilotlarini O'zbekiston va xorijda yuridik jihatdan to'liq qo'llab-quvvatlashga ixtisoslashgan yuridik firma.",
       p2: 'Bizning jamoamiz kiberhuquq, korporativ huquq, soliq va bank qonunchiligida chuqur bilimlarga ega tajribali advokatlarni birlashtiradi.',
       li: ["Yuqori professionallik","Har bir mijozga individual yondashuv","Tezkorlik va aniqlik","To'liq maxfiylik"],
       mTitle: 'Bizning missiyamiz', mText: "Biz mijoz manfaatlarini birinchi o'ringa qo'yamiz, har qanday huquqiy vaziyatda huquq va qonuniy manfaatlarni maksimal darajada himoya qilamiz.",
       yearsLabel: 'yil',
-      teamTag: 'Asoschilar va hamkorlar', teamTitle: 'GSP LAW FIRM'
+      teamTag: 'Asosiy hamkorlar', teamTitle: 'GSP LAW FIRM'
     },
     metrics: {
       sTag: 'Ko\'rsatkichlar', sTitle: 'Raqamlarda samaradorlik', sDesc: "O'z-o'zidan gapiradigan natijalar",
@@ -760,7 +760,7 @@ const LANG = {
       btn1: 'Our Team', btn2: 'Get Consultation'
     },
     about: {
-      sTag: 'About the Firm', sTitle: 'Professionalism. Trust. Results.',
+      sTag: 'About GSP LAW FIRM', sTitle: 'Professionalism. Trust. Results.',
       p1: 'GSP LAW is a specialized law firm providing comprehensive legal support for IT businesses, startups, and commercial organizations in Uzbekistan and abroad.',
       p2: 'Our team brings together experienced lawyers with deep expertise in cyber law, corporate law, tax and banking legislation.',
       li: ['High professionalism','Individual approach to every client','Efficiency and clarity','Complete confidentiality'],
