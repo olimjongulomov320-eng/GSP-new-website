@@ -142,7 +142,7 @@ const LAWYERS = [
     accentColor: "#2d6a4f",
     bio: { ru: "Партнёр GSP LAW и руководитель отдела постоянного юридического обслуживания корпоративных клиентов. 8 лет опыта в адвокатуре. Специализируется на экономических делах, бизнес-праве и интеллектуальной собственности. Кандидат юридических наук (PhD).", uz: "GSP LAW sherigi va korporativ mijozlarga doimiy yuridik xizmat ko'rsatish bo'limi boshlig'i. Advokatlik sohasida 8 yillik ish tajribasi. Iqtisodiy ishlar, biznes huquqi va intellektual mulk huquqi bo'yicha mutaxassis. Yuridik fanlar nomzodi (PhD).", en: "Partner at GSP LAW and Head of Permanent Legal Services for Corporate Clients. 8 years of experience in advocacy. Specializes in economic cases, business law and intellectual property. PhD in Law." },
     description: { ru: "Улугбек Хайитмуродов руководит отделом постоянного юридического сопровождения и ведёт сложные корпоративные дела для ключевых клиентов фирмы. Обладает академической базой Ташкентского государственного юридического университета на всех трёх уровнях образования (бакалавриат, магистратура, PhD) и глубокой экспертизой в экономических спорах и IP.", uz: "Ulug'bek Xayitmurodov doimiy yuridik qo'llab-quvvatlash bo'limini boshqaradi va firmaning asosiy mijozlari uchun murakkab korporativ ishlarni olib boradi. Toshkent davlat yuridik universitetida barcha uch ta'lim bosqichida (bakalavr, magistratura, PhD) akademik bazaga ega va iqtisodiy nizolar hamda IP sohasida chuqur tajribaga ega.", en: "Ulugbek Khayitmurodov heads the permanent legal support department and handles complex corporate cases for the firm's key clients. Has an academic foundation from Tashkent State University of Law at all three levels (bachelor's, master's, PhD) and deep expertise in economic disputes and IP." },
-    howIHelp: { ru: "Обеспечиваю полное юридическое сопровождение бизнеса на постоянной основе — от ежедневных корпоративных вопросов до стратегических сделок. Специализируюсь на защите интеллектуальной собственности и ведении экономических споров.", uz: "Biznesni doimiy asosda to'liq yuridik qo'llab-quvvatlayman — kundalik korporativ masalalardan strategik bitimlaргача. Intellektual mulkni himoya qilish va iqtisodiy nizolarni yuritishga ixtisoslanganman.", en: "I provide full legal support to businesses on an ongoing basis — from daily corporate matters to strategic transactions. I specialize in intellectual property protection and handling economic disputes." },
+    howIHelp: { ru: "Обеспечиваю полное юридическое сопровождение бизнеса на постоянной основе — от ежедневных корпоративных вопросов до стратегических сделок. Специализируюсь на защите интеллектуальной собственности и ведении экономических споров.", uz: "Biznesni doimiy asosda to'liq yuridik qo'llab-quvvatlayman — kundalik korporativ masalalardan strategik bitimlargacha. Intellektual mulkni himoya qilish va iqtisodiy nizolarni yuritishga ixtisoslanganman.", en: "I provide full legal support to businesses on an ongoing basis — from daily corporate matters to strategic transactions. I specialize in intellectual property protection and handling economic disputes." },
     services: {ru: ["Постоянное юридическое сопровождение", "Экономические споры", "Бизнес-право", "Интеллектуальная собственность", "Корпоративные консультации", "Due Diligence"], uz: ["Doimiy yuridik qo'llab-quvvatlash", "Iqtisodiy nizolar", "Biznes huquqi", "Intellektual mulk", "Korporativ konsultatsiyalar", "Due Diligence"], en: ["Permanent legal support", "Economic disputes", "Business law", "Intellectual property", "Corporate consulting", "Due Diligence"]},
     blog: [
       { title: "ICSID и SCC как модели международного арбитража: уроки для Узбекистана", date: "Май 2025", tag: "Арбитраж", excerpt: "Статья исследует роль ICSID и SCC как механизмов международного арбитража и извлекает уроки для правовой системы Узбекистана. Опубликовано в International Law, Business and Political Science Journal (IF 13.24)." },
@@ -180,7 +180,7 @@ const LAWYERS = [
     accentColor: "#17435a",
     bio: { ru: "Адвокат с более чем 15-летним опытом руководства и судебной работы. Специализируется на гражданских, экономических и административных делах. Бывший председатель суда и судья в ряде судов Ташкента и Сурхандарьинской области — смотрит на каждое дело «взглядом судьи».", uz: "15 yildan ortiq rahbarlik va sudyalik tajribasiga ega advokat. Fuqarolik, iqtisodiy va ma'muriy ishlarga ixtisoslashgan. Sobiq sud raisi va Toshkent hamda Surxondaryo sudlarida sudya — har bir ishga \"sudya nigohi\" bilan qaraydi.", en: "Advocate with over 15 years of leadership and judicial experience. Specializes in civil, economic and administrative cases. Former court chairman and judge in several Tashkent and Surkhandarya courts — views every case through the 'judge's eye'." },
     description: { ru: "Саидулла Михилиев — бывший председатель Бектемирского районного административного суда и судья экономических, гражданских и административных судов Ташкента и Сурхандарьи (2017–2020 и ранее). Имеет академическое образование в ТГЮУ (бакалавриат) и Университете мировой экономики и дипломатии (магистратура). Свободно владеет узбекским, русским и английским языками. С марта 2024 года — адвокат GSP LAW.", uz: "Saydulla Mixliyev — Bektemir tumanlararo ma'muriy sudining sobiq raisi va Toshkent hamda Surxondaryo iqtisodiy, fuqarolik va ma'muriy sudlarida sudya (2017–2020 va undan avval). TDYU (bakalavr) va Jahon iqtisodiyoti va diplomatiya universiteti (magistratura) da akademik ta'lim olgan. O'zbek, rus va ingliz tillarini erkin biladi. 2024-yil mart oyidan GSP LAW advokati.", en: "Saidulla Mikhilyev is a former chairman of Bektemir District Administrative Court and judge in economic, civil and administrative courts of Tashkent and Surkhandarya (2017–2020 and earlier). Has academic education at TSLU (bachelor's) and University of World Economy and Diplomacy (master's). Fluent in Uzbek, Russian and English. Since March 2024 — advocate at GSP LAW." },
-    howIHelp: { ru: "Используя многолетний опыт судебной работы на всех уровнях, строю сильную позицию клиента в гражданских, экономических и административных делах. Вижу дело так, как его видит судья — это ключевое преимущество при выработке стратегии.", uz: "Barcha darajalardagi sud ishidagi ko'p yillik tajribadan foydalanib, fuqarolik, iqtisodiy va ma'muriy ishlarda mijozning kuchli pozitsiyasini quramаn. Ishni sudya ko'zi bilan ko'raman — bu strategiya ishlab chiqishda asosiy ustunlik.", en: "Using years of judicial experience at all levels, I build a strong position for clients in civil, economic and administrative cases. I see the case as a judge does — this is the key advantage when developing strategy." },
+    howIHelp: { ru: "Используя многолетний опыт судебной работы на всех уровнях, строю сильную позицию клиента в гражданских, экономических и административных делах. Вижу дело так, как его видит судья — это ключевое преимущество при выработке стратегии.", uz: "Barcha darajalardagi sud ishidagi ko'p yillik tajribadan foydalanib, fuqarolik, iqtisodiy va ma'muriy ishlarda mijozning kuchli pozitsiyasini quraman. Ishni sudya ko'zi bilan ko'raman — bu strategiya ishlab chiqishda asosiy ustunlik.", en: "Using years of judicial experience at all levels, I build a strong position for clients in civil, economic and administrative cases. I see the case as a judge does — this is the key advantage when developing strategy." },
     services: {ru: ["Гражданские споры", "Экономические дела", "Административное право", "Судебное представительство", "Апелляция и кассация", "Правовая экспертиза"], uz: ["Fuqarolik nizolari", "Iqtisodiy ishlar", "Ma'muriy huquq", "Sudda ifodalash", "Apellyatsiya va kassatsiya", "Huquqiy ekspertiza"], en: ["Civil disputes", "Economic cases", "Administrative law", "Court representation", "Appeal and cassation", "Legal expertise"]},
     blog: [
       { title: "Как работает судебная система Узбекистана изнутри", date: "10 ноября 2024", tag: "Аналитика", excerpt: "Взгляд изнутри на процедуры и практику узбекских судов..." },
@@ -235,7 +235,7 @@ const LAWYERS = [
     accentColor: "#17435a",
     bio: { ru: "Юрист GSP LAW, специализирующийся на уголовном праве и киберпреступлениях. Обеспечивает защиту клиентов на стадии тergova и в суде, особенно по делам, связанным с электронными доказательствами и цифровыми технологиями.", uz: "GSP LAW yurist, jinoyat huquqi va kiberjinoyatlar bo'yicha ixtisoslashgan. Tergov va sud bosqichida, ayniqsa elektron dalillar va raqamli texnologiyalar bilan bog'liq ishlarda mijozlarni himoya qiladi.", en: "Lawyer at GSP LAW specializing in criminal law and cybercrime. Provides client defense at the investigation and court stages, especially in cases involving electronic evidence and digital technologies." },
     description: { ru: "Сардор Абдухамидов специализируется на уголовном праве с акцентом на киберпреступления — анализ электронных доказательств, цифровая криминалистика, защита в делах, связанных с Telegram, WhatsApp и международной юрисдикцией. Также обслуживает IT-компании и стартапы по корпоративным вопросам: контракты, due diligence, трудовые отношения и защита интеллектуальной собственности.", uz: "Sardor Abduxamidov jinoyat huquqi, ayniqsa kiberjinoyatlar bo'yicha ixtisoslashgan — elektron dalillarni tahlil qilish, raqamli ekspertiza, Telegram, WhatsApp va xalqaro yurisdiktsiya bilan bog'liq ishlarda himoya. Shuningdek, IT-kompaniyalar va startaplarga korporativ masalalarda xizmat ko'rsatadi.", en: "Sardor Abduxamidov specializes in criminal law with a focus on cybercrime — electronic evidence analysis, digital forensics, defense in cases involving Telegram, WhatsApp and international jurisdiction. Also serves IT companies and startups on corporate matters." },
-    howIHelp: { ru: "Помогаю клиентам в уголовных делах по киберпреступлениям: анализирую цифровые доказательства, выстраиваю стратегию защиты на следствии и в суде. IT-компаниям помогаю с контрактами, IP и правовой структурой бизнеса.", uz: "Kiberjinoyatlar bo'yicha jinoyat ishlarida mijozlarga yordam beraman: raqamli dalillarni tahlil qilaman, tergov va sudda himoya strategiyasini quramан. IT-kompaniyalarga shartnomalar, IP va biznesning huquqiy tuzilmasida yordam beraman.", en: "I help clients in criminal cybercrime cases: analyze digital evidence, build defense strategies at investigation and court stages. I help IT companies with contracts, IP and business legal structure." },
+    howIHelp: { ru: "Помогаю клиентам в уголовных делах по киберпреступлениям: анализирую цифровые доказательства, выстраиваю стратегию защиты на следствии и в суде. IT-компаниям помогаю с контрактами, IP и правовой структурой бизнеса.", uz: "Kiberjinoyatlar bo'yicha jinoyat ishlarida mijozlarga yordam beraman: raqamli dalillarni tahlil qilaman, tergov va sudda himoya strategiyasini quraman. IT-kompaniyalarga shartnomalar, IP va biznesning huquqiy tuzilmasida yordam beraman.", en: "I help clients in criminal cybercrime cases: analyze digital evidence, build defense strategies at investigation and court stages. I help IT companies with contracts, IP and business legal structure." },
     services: {ru: ["Уголовная защита", "Киберпреступления", "Электронные доказательства", "IT-компании", "Корпоративные договоры", "Интеллектуальная собственность"], uz: ["Jinoiy himoya", "Kiberjinoyatlar", "Elektron dalillar", "IT-kompaniyalar", "Korporativ shartnomalar", "Intellektual mulk"], en: ["Criminal defense", "Cybercrime", "Electronic evidence", "IT companies", "Corporate contracts", "Intellectual property"]},
     blog: [], education: [
       { degree: {ru: "Магистр права", uz: "Huquq magistri", en: "Master of Laws"}, institution: {ru: "Академия правоохранительных органов Республики Узбекистан", uz: "O'zbekiston Respublikasi huquq-tartibot organlari akademiyasi", en: "Academy of Law Enforcement Agencies of the Republic of Uzbekistan"}, year: "2022" },
@@ -461,7 +461,6 @@ const CASES = [
 const METRICS = [
   { num: "94%",   key: "winRate",      icon: "🏆" },
   { num: "$250M+",key: "portfolioVal", icon: "💼" },
-  { num: "120+",  key: "combinedExp",  icon: "⚖️" },
   { num: "45+",   key: "intlCases",    icon: "🌐" },
   { num: "98%",   key: "satisfaction", icon: "⭐" },
   { num: "15+",   key: "industries",   icon: "🏢" },
@@ -534,7 +533,7 @@ const NEWS = [
 /* ===== I18N / TRANSLATIONS ===== */
 const LANG = {
   ru: {
-    nav: { about: 'О нас', services: 'Услуги', team: 'Команда', consult: 'Консультация', news: 'Новости' },
+    nav: { about: 'О нас', services: 'Услуги', team: 'Команда', cases: 'Кейсы', consult: 'Консультация', news: 'Новости' },
     stats: ['лет опыта', 'портфель кейсов', 'адвокатов', 'клиентов'],
     hero: {
       tag: 'Юридическая фирма в Ташкенте',
@@ -621,7 +620,7 @@ const LANG = {
     }
   },
   uz: {
-    nav: { about: 'Biz haqida', services: 'Xizmatlar', team: 'Jamoa', consult: 'Konsultatsiya', news: 'Yangiliklar' },
+    nav: { about: 'Biz haqimizda', services: 'Xizmatlar', team: 'Jamoa', cases: 'Ishlar', consult: 'Konsultatsiya', news: 'Yangiliklar' },
     stats: ['yillik tajriba', 'ish portfeli', 'advokat', 'mijozlar'],
     hero: {
       tag: 'Toshkentdagi yuridik firma',
@@ -635,7 +634,7 @@ const LANG = {
       li: ["Yuqori professionallik","Har bir mijozga individual yondashuv","Tezkorlik va aniqlik","To'liq maxfiylik"],
       mTitle: 'Bizning missiyamiz', mText: "Biz mijoz manfaatlarini birinchi o'ringa qo'yamiz, har qanday huquqiy vaziyatda huquq va qonuniy manfaatlarni maksimal darajada himoya qilamiz.",
       yearsLabel: 'yil',
-      teamTag: 'Asosiy hamkorlar', teamTitle: 'Asoschiler va hamkorlar'
+      teamTag: 'Asoschilar va hamkorlar', teamTitle: 'GSP LAW FIRM'
     },
     metrics: {
       sTag: 'Ko\'rsatkichlar', sTitle: 'Raqamlarda samaradorlik', sDesc: "O'z-o'zidan gapiradigan natijalar",
@@ -682,8 +681,8 @@ const LANG = {
         'Партнёр | Руководитель отдела корпоративного обслуживания': 'Sherik | Korporativ xizmatlar bo\'limi boshlig\'i',
         'Основатель, Управляющий партнёр': 'Asoschi, Boshqaruvchi sherik',
         'Основатель, Партнёр, Профессор': 'Asoschi, Sherik, Professor',
-        'Старший юрист': 'Katta yurist',
-        'Юрист': 'Yurist',
+        'Старший юрист': 'Advokat',
+        'Юрист': 'Advokat',
         'Адвокат': 'Advokat',
         'Адвокат | Профессиональный медиатор': 'Advokat | Professional mediator',
         'Адвокат | Международный юрист': 'Advokat | Xalqaro yurist',
@@ -753,7 +752,7 @@ const LANG = {
     }
   },
   en: {
-    nav: { about: 'About', services: 'Services', team: 'Team', consult: 'Consultation', news: 'News' },
+    nav: { about: 'About', services: 'Services', team: 'Team', cases: 'Cases', consult: 'Consultation', news: 'News' },
     stats: ['years of experience', 'case portfolio', 'attorneys', 'clients'],
     hero: {
       tag: 'Law Firm in Tashkent',
@@ -814,8 +813,8 @@ const LANG = {
         'Партнёр | Руководитель отдела корпоративного обслуживания': 'Partner | Head of Corporate Services',
         'Основатель, Управляющий партнёр': 'Founder, Managing Partner',
         'Основатель, Партнёр, Профессор': 'Founder, Partner, Professor',
-        'Старший юрист': 'Senior Lawyer',
-        'Юрист': 'Lawyer',
+        'Старший юрист': 'Advocate',
+        'Юрист': 'Advocate',
         'Адвокат': 'Advocate',
         'Адвокат | Профессиональный медиатор': 'Advocate | Professional Mediator',
         'Адвокат | Международный юрист': 'Advocate | International Lawyer',
