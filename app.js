@@ -424,7 +424,8 @@ function renderDynamic() {
   // Footer contact info
   const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
   const setHref = (id, val) => { const el = document.getElementById(id); if (el) el.href = val; };
-  set('ci-address', FIRM.address);
+  const addr = typeof FIRM.address === 'object' ? (FIRM.address[currentLang] || FIRM.address.ru) : FIRM.address;
+  set('ci-address', addr);
   set('ci-phone1', FIRM.phone1);
   set('ci-phone2', FIRM.phone2);
   set('ci-phone3', FIRM.phone3);
@@ -433,7 +434,7 @@ function renderDynamic() {
   setHref('ci-ig', FIRM.instagram);
   setHref('ci-fb', FIRM.facebook);
   setHref('ci-yt', FIRM.youtube);
-  set('f-address', FIRM.address);
+  set('f-address', addr);
   set('f-email', FIRM.email);
   set('f-phone1', FIRM.phone1);
   set('f-phone2', FIRM.phone2);
@@ -443,7 +444,7 @@ function renderDynamic() {
   setHref('f-fb', FIRM.facebook);
   setHref('f-yt', FIRM.youtube);
   // cases.html footer
-  set('f-address-c', FIRM.address);
+  set('f-address-c', addr);
   set('f-email-c', FIRM.email);
   set('f-phone1-c', FIRM.phone1);
   set('f-phone2-c', FIRM.phone2);

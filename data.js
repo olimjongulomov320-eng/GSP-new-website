@@ -5,7 +5,7 @@ const FIRM = {
   phone2: "+998 88 771 44 33",
   phone3: "+998 97 425 87 70",
   email: "info@gsplaw.uz",
-  address: "г. Ташкент, Яккасарайский район, ул. Яккасарой, дом 5",
+  address: { ru: "г. Ташкент, Яккасарайский район, ул. Яккасарой, дом 5", uz: "Toshkent sh., Yakkasaroy tumani, Yakkasaroy ko'chasi, 5-uy", en: "5 Yakkasaroy St., Yakkasaroy District, Tashkent" },
   telegram: "https://t.me/gsp_law_firm",
   instagram: "https://www.instagram.com/gsplawuzb/",
   facebook: "https://www.facebook.com/legality.uz",
@@ -639,7 +639,7 @@ const LANG = {
     },
     metrics: {
       sTag: 'Ko\'rsatkichlar', sTitle: 'Raqamlarda samaradorlik', sDesc: "O'z-o'zidan gapiradigan natijalar",
-      winRate: "G'alaba foizi", portfolioVal: 'Portfolio qiymati', combinedExp: 'Yillik tajriba',
+      winRate: "G'alaba foizi", portfolioVal: 'Portfolio qiymati', combinedExp: 'Umumiy tajriba yillari',
       intlCases: 'Xalqaro ishlar', satisfaction: 'Mijozlar mamnuniyati', industries: 'Amaliyot sohalari',
       clients: 'Xizmat ko\'rsatilgan mijozlar', yearsOnMkt: 'Bozorda yillar', languages: 'Amaliyot tillari', support: 'Mijozlarni qo\'llab-quvvatlash'
     },
