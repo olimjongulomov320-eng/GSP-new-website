@@ -542,7 +542,7 @@ const LANG = {
     },
     about: {
       sTag: 'О фирме', sTitle: 'Профессионализм. Доверие. Результат.',
-      p1: 'GSP LAW — узкопрофильная юридическая фирма, специализирующаяся на комплексном правовом сопровождении IT-бизнеса, стартапов и коммерческих организаций в Узбекистане и за рубежом.',
+      p1: 'GSP LAW FIRM — узкопрофильная юридическая фирма, специализирующаяся на комплексном правовом сопровождении IT-бизнеса, стартапов и коммерческих организаций в Узбекистане и за рубежом.',
       p2: 'Наша команда объединяет опытных адвокатов с глубокими знаниями в области киберправа, корпоративного права, налогового и банковского законодательства.',
       li: ['Высокий профессионализм','Индивидуальный подход к каждому клиенту','Оперативность и чёткость в работе','Абсолютная конфиденциальность'],
       mTitle: 'Наша миссия', mText: 'Мы ставим интересы клиента на первое место, обеспечивая максимальную защиту прав и законных интересов в любой правовой ситуации.',
@@ -629,7 +629,7 @@ const LANG = {
     },
     about: {
       sTag: 'GSP LAW FIRM haqida', sTitle: 'Professionallik. Ishonch. Natija.',
-      p1: "GSP LAW — IT-biznes, startaplar va tijorat tashkilotlarini O'zbekiston va xorijda yuridik jihatdan to'liq qo'llab-quvvatlashga ixtisoslashgan yuridik firma.",
+      p1: "GSP LAW FIRM — IT-biznes, startaplar va tijorat tashkilotlarini O'zbekiston va xorijda yuridik jihatdan to'liq qo'llab-quvvatlashga ixtisoslashgan yuridik firma.",
       p2: 'Bizning jamoamiz kiberhuquq, korporativ huquq, soliq va bank qonunchiligida chuqur bilimlarga ega tajribali advokatlarni birlashtiradi.',
       li: ["Yuqori professionallik","Har bir mijozga individual yondashuv","Tezkorlik va aniqlik","To'liq maxfiylik"],
       mTitle: 'Bizning missiyamiz', mText: "Biz mijoz manfaatlarini birinchi o'ringa qo'yamiz, har qanday huquqiy vaziyatda huquq va qonuniy manfaatlarni maksimal darajada himoya qilamiz.",
@@ -643,20 +643,20 @@ const LANG = {
       clients: 'Xizmat ko\'rsatilgan mijozlar', yearsOnMkt: 'Bozorda yillar', languages: 'Amaliyot tillari', support: 'Mijozlarni qo\'llab-quvvatlash'
     },
     services: {
-      sTag: 'Amaliyot', sTitle: 'Huquq sohalari', sDesc: "Barcha asosiy yo'nalishlarda biznesni yuridik jihatdan to'liq qo'llab-quvvatlash",
+      sTag: 'Amaliyot', sTitle: "Yo'nalishlar", sDesc: "Biznesni yuridik himoyalashning barcha asosiy yo'nalishlarida professionallik",
       items: [
-        { title: 'Korporativ huquq va M&A', desc: "Birlashtirish va sotib olish bitimlarini qo'llab-quvvatlash, korporativ tuzilma, aksionerlik shartnomalari" },
-        { title: 'IT va kiberhuquq', desc: "IT-kompaniyalar, startaplarni huquqiy qo'llab-quvvatlash, shaxsiy ma'lumotlarni himoyalash va kiberxavfsizlik" },
-        { title: 'Bank va moliya huquqi', desc: 'Tartibga solish masalalari, fintech, litsenziyalash, moliyaviy tranzaksiyalar' },
-        { title: 'Soliq amaliyoti', desc: 'Soliq rejalashtirish, optimallashtirish, soliq organlari bilan nizolar' },
-        { title: 'Iqtisodiy nizolar', desc: 'Arbitraj sudlarida manfaatlarni ifodalash, mediatsiya, muzokaralar' },
-        { title: 'Bojxona huquqi', desc: "Tashqi savdo bitimlarini qo'llab-quvvatlash, bojxona rasmiylashtiruvi, bojxona organlari bilan nizolar" },
-        { title: 'Biznesni jinoiy himoyalash', desc: 'Tadbirkorlar va rahbarlarni jinoiy ishlarda himoyalash' },
-        { title: 'Mehnat huquqi', desc: 'Mehnat shartnomalari, xodimlar bilan nizolar, kadrlar ish yuritish' },
-        { title: 'Intellektual mulk', desc: "Tovar belgilarini ro'yxatga olish, patentlash, mualliflik huquqini himoyalash" },
-        { title: "Doimiy xizmat ko'rsatish", desc: 'Tijorat tashkilotlariga doimiy asosda kompleks yuridik xizmat' },
-        { title: 'Shartnoma huquqi', desc: "Shartnomalarni ishlab chiqish va ekspertiza, muzokaralar, kelishmovchiliklarni hal etish" },
-        { title: "Ko'chmas mulk", desc: "Ko'chmas mulk bilan bitimlarni qo'llab-quvvatlash, developer loyihalar, ijara nizolari" }
+        { title: 'Korporativ huquq va M&A', desc: "Kompaniyalarni birlashtirish, sotib olish va qayta tuzishda to'liq yuridik hamrohlik — tuzilmadan yakuniy imzogacha" },
+        { title: 'IT va kiberhuquq', desc: "Texnologiya kompaniyalari va startaplar uchun maxsus huquqiy himoya: litsenziyalar, ma'lumotlar xavfsizligi, raqamli shartnomalar" },
+        { title: 'Bank va moliya huquqi', desc: "Fintech loyihalar, litsenziyalash, moliyaviy operatsiyalar va tartibga soluvchi organlar bilan ishlash" },
+        { title: 'Soliq amaliyoti', desc: "Soliq yukini qonuniy kamaytirish, soliq tekshiruvlariga tayyorgarlik va nizolarni hal etish" },
+        { title: 'Iqtisodiy nizolar', desc: "Arbitrajda va sudda manfaatlarni professional himoyalash, tezkor va samarali natijaga yo'naltirilgan yondashuv" },
+        { title: 'Bojxona huquqi', desc: "Tashqi savdo operatsiyalarini qonuniy rasmiylash, bojxona to'siqlarini bartaraf etish" },
+        { title: 'Biznesni jinoiy himoyalash', desc: "Tadbirkor va rahbarlarni jinoiy ta'qibdan himoyalash, tergov bosqichidan to sudgacha" },
+        { title: 'Mehnat huquqi', desc: "Mehnat munosabatlarini tartibga solish, xodimlar bilan nizolarni hal etish, kadrlar hujjatlarini tuzish" },
+        { title: 'Intellektual mulk', desc: "Brend, patent va mualliflik huquqini ro'yxatga olish va nusxalovchilardan muhofaza qilish" },
+        { title: "Doimiy yuridik xizmat", desc: "Kompaniyangizning shtatdagi advokati sifatida — barcha huquqiy masalalar bir qo'lda" },
+        { title: 'Shartnoma huquqi', desc: "Xavfsiz shartnomalar tuzish, shartlarni ekspertiza qilish va nizoli holatlarni oldini olish" },
+        { title: "Ko'chmas mulk", desc: "Mulk oldi-sotdi va ijarasi bo'yicha xavfsiz bitimlar, developer loyihalar, hujjatlarni tekshirish" }
       ]
     },
     cases: {
@@ -761,7 +761,7 @@ const LANG = {
     },
     about: {
       sTag: 'About GSP LAW FIRM', sTitle: 'Professionalism. Trust. Results.',
-      p1: 'GSP LAW is a specialized law firm providing comprehensive legal support for IT businesses, startups, and commercial organizations in Uzbekistan and abroad.',
+      p1: 'GSP LAW FIRM is a specialized law firm providing comprehensive legal support for IT businesses, startups, and commercial organizations in Uzbekistan and abroad.',
       p2: 'Our team brings together experienced lawyers with deep expertise in cyber law, corporate law, tax and banking legislation.',
       li: ['High professionalism','Individual approach to every client','Efficiency and clarity','Complete confidentiality'],
       mTitle: 'Our Mission', mText: "We put our clients' interests first, ensuring maximum protection of rights and legitimate interests in any legal situation.",
@@ -775,7 +775,7 @@ const LANG = {
       clients: 'Clients Served', yearsOnMkt: 'Years on Market', languages: 'Practice Languages', support: 'Client Support'
     },
     services: {
-      sTag: 'Practice Areas', sTitle: 'Areas of Law', sDesc: 'Comprehensive legal support for businesses across all key practice areas',
+      sTag: 'Practice Areas', sTitle: 'Practice Areas', sDesc: 'Professional legal protection for your business across all key directions',
       items: [
         { title: 'Corporate Law & M&A', desc: 'M&A transaction support, corporate structuring, shareholder agreements' },
         { title: 'IT & Cyber Law', desc: 'Legal support for IT companies, startups, data protection and cybersecurity' },
