@@ -643,20 +643,20 @@ const LANG = {
       clients: 'Xizmat ko\'rsatilgan mijozlar', yearsOnMkt: 'Bozorda yillar', languages: 'Amaliyot tillari', support: 'Mijozlarni qo\'llab-quvvatlash'
     },
     services: {
-      sTag: 'Amaliyot', sTitle: "Yo'nalishlar", sDesc: "Biznesni yuridik himoyalashning barcha asosiy yo'nalishlarida professionallik",
+      sTag: 'Amaliyot', sTitle: "Yo'nalishlar", sDesc: "Biznesingizni har tomonlama himoya qilamiz — qonuniy, ishonchli, tez",
       items: [
-        { title: 'Korporativ huquq va M&A', desc: "Kompaniyalarni birlashtirish, sotib olish va qayta tuzishda to'liq yuridik hamrohlik — tuzilmadan yakuniy imzogacha" },
-        { title: 'IT va kiberhuquq', desc: "Texnologiya kompaniyalari va startaplar uchun maxsus huquqiy himoya: litsenziyalar, ma'lumotlar xavfsizligi, raqamli shartnomalar" },
-        { title: 'Bank va moliya huquqi', desc: "Fintech loyihalar, litsenziyalash, moliyaviy operatsiyalar va tartibga soluvchi organlar bilan ishlash" },
-        { title: 'Soliq amaliyoti', desc: "Soliq yukini qonuniy kamaytirish, soliq tekshiruvlariga tayyorgarlik va nizolarni hal etish" },
-        { title: 'Iqtisodiy nizolar', desc: "Arbitrajda va sudda manfaatlarni professional himoyalash, tezkor va samarali natijaga yo'naltirilgan yondashuv" },
-        { title: 'Bojxona huquqi', desc: "Tashqi savdo operatsiyalarini qonuniy rasmiylash, bojxona to'siqlarini bartaraf etish" },
-        { title: 'Biznesni jinoiy himoyalash', desc: "Tadbirkor va rahbarlarni jinoiy ta'qibdan himoyalash, tergov bosqichidan to sudgacha" },
-        { title: 'Mehnat huquqi', desc: "Mehnat munosabatlarini tartibga solish, xodimlar bilan nizolarni hal etish, kadrlar hujjatlarini tuzish" },
-        { title: 'Intellektual mulk', desc: "Brend, patent va mualliflik huquqini ro'yxatga olish va nusxalovchilardan muhofaza qilish" },
-        { title: "Doimiy yuridik xizmat", desc: "Kompaniyangizning shtatdagi advokati sifatida — barcha huquqiy masalalar bir qo'lda" },
-        { title: 'Shartnoma huquqi', desc: "Xavfsiz shartnomalar tuzish, shartlarni ekspertiza qilish va nizoli holatlarni oldini olish" },
-        { title: "Ko'chmas mulk", desc: "Mulk oldi-sotdi va ijarasi bo'yicha xavfsiz bitimlar, developer loyihalar, hujjatlarni tekshirish" }
+        { title: 'Kompaniya tuzish va birlashtirish', desc: "Yangi biznes ochasizmi yoki boshqa kompaniya bilan qo'shilasizmi — hujjatlardan tortib imzogacha hamma narsani biz hal qilamiz" },
+        { title: 'IT va raqamli biznes', desc: "Dastur, ilova, sayt yoki startap — texnologiya biznesingizni qonun doirasida to'g'ri yo'lga qo'yib beramiz" },
+        { title: 'Bank va moliya', desc: "Kredit, litsenziya, moliyaviy operatsiyalar — banklar va moliya nazorati bilan ishlashda yoningizda bo'lamiz" },
+        { title: 'Soliqlar', desc: "Soliq tekshiruvi keldi yoki ko'p to'layapsizmi? Qonun doirasida soliq yukini kamaytirib, muammolarni hal qilamiz" },
+        { title: 'Biznes nizolari', desc: "Hamkor, mijoz yoki davlat organi bilan muammo chiqdi — sudda va muzokarada sizning manfaatingizni himoya qilamiz" },
+        { title: 'Import va eksport', desc: "Chet elga mal chiqarasizmi yoki olib kirasizmi? Bojxona hujjatlarini to'g'ri rasmiylashtirib, to'siqlarni bartaraf etamiz" },
+        { title: 'Jinoiy ta\'qibdan himoya', desc: "Tadbirkor yoki rahbar sifatida jinoiy ish qo'zg'atildi — tergovdan sudgacha sizni himoya qilamiz" },
+        { title: 'Xodimlar va mehnat masalalari', desc: "Ishchi bilan mojaromi, noto'g'ri ishdan bo'shatishmi yoki mehnat shartnomasi kerakmi — barchasi bizda" },
+        { title: 'Brend va kashfiyot himoyasi', desc: "Brendingiz, logotipingiz yoki ixtiroyingizni ro'yxatdan o'tkazib, boshqalar nusxa ko'chirmasligi uchun himoyalaymiz" },
+        { title: "Doimiy yuridik xizmat", desc: "Har oy yonингizda tayyor advokat — savollar, hujjatlar, shartnomalar — hammasini o'z vaqtida hal qilamiz" },
+        { title: 'Shartnomalar', desc: "Imzolashdan oldin shartnomangizni tekshirib beramiz yoki siz uchun yangi, xavfsiz shartnoma tayyorlaymiz" },
+        { title: "Uy-joy va ko'chmas mulk", desc: "Uy, ofis yoki yer sotib olasizmi? Hujjatlarni tekshirib, xavfsiz bitim tuzishingizga yordam beramiz" }
       ]
     },
     cases: {
