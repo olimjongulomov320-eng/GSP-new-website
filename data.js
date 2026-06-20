@@ -634,7 +634,7 @@ const LANG = {
       li: ["Yuqori professionallik","Har bir mijozga individual yondashuv","Tezkorlik va aniqlik","To'liq maxfiylik"],
       mTitle: 'Bizning missiyamiz', mText: "Biz mijoz manfaatlarini birinchi o'ringa qo'yamiz, har qanday huquqiy vaziyatda huquq va qonuniy manfaatlarni maksimal darajada himoya qilamiz.",
       yearsLabel: 'yil',
-      teamTag: 'Asosiy hamkorlar', teamTitle: 'Asoschiler va sheriklar'
+      teamTag: 'Asosiy hamkorlar', teamTitle: 'Asoschilar va sheriklar'
     },
     metrics: {
       sTag: 'Ko\'rsatkichlar', sTitle: 'Raqamlarda samaradorlik', sDesc: "O'z-o'zidan gapiradigan natijalar",
