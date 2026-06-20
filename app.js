@@ -59,6 +59,7 @@ function refreshLawyerLang() {
   const lawyer = LAWYERS.find(l => l.slug === params.get('id'));
   if (!lawyer) return;
   heroTagEl.textContent = t('lp.heroTag');
+  document.getElementById('heroName').textContent = getLawyerField(lawyer, 'name');
   document.getElementById('heroTitle').textContent = translateStr(lawyer.title, 'lawyers.titleMap');
   const specsEl = document.getElementById('heroSpecs');
   if (specsEl) {
@@ -238,12 +239,12 @@ function createLawyerCard(lawyer) {
   card.innerHTML = `
     <div class="lawyer-avatar-wrap">
       ${lawyer.photo
-        ? `<div class="lawyer-avatar lawyer-avatar-photo"><img src="${lawyer.photo}" alt="${lawyer.name}"></div>`
+        ? `<div class="lawyer-avatar lawyer-avatar-photo"><img src="${lawyer.photo}" alt="${getLawyerField(lawyer,'name')}"></div>`
         : `<div class="lawyer-avatar" style="background:${lawyer.accentColor};">${lawyer.initials}</div>`}
       ${isExternal ? '<div class="ext-badge">↗</div>' : ''}
     </div>
     <div class="lawyer-info">
-      <h3>${lawyer.name}</h3>
+      <h3>${getLawyerField(lawyer,'name')}</h3>
       <p class="lawyer-title">${translatedTitle}</p>
       <div class="lawyer-specs">
         ${translatedSpecs.map(s => `<span class="spec-tag">${s}</span>`).join('')}
@@ -322,7 +323,7 @@ function renderDynamic() {
       const translatedTitle = translateStr(l.title, 'lawyers.titleMap');
       const translatedSpecs = l.specialization.map(s => translateStr(s, 'lawyers.specMap'));
       const photoHtml = l.photo
-        ? `<img src="${l.photo}" alt="${l.name}">`
+        ? `<img src="${l.photo}" alt="${getLawyerField(l,'name')}">`
         : `<div class="partner-photo-initials" style="background:${l.accentColor};">${l.initials}</div>`;
       const onclick = l.externalUrl
         ? `window.open('${l.externalUrl}','_blank','noopener')`
@@ -331,7 +332,7 @@ function renderDynamic() {
         <div class="partner-card" onclick="${onclick}">
           <div class="partner-photo-area">${photoHtml}</div>
           <div class="partner-card-body">
-            <div class="partner-name">${l.name}</div>
+            <div class="partner-name">${getLawyerField(l,'name')}</div>
             <div class="partner-title">${translatedTitle}</div>
             <div class="partner-specs">
               ${translatedSpecs.slice(0,2).map(s => `<span class="spec-tag">${s}</span>`).join('')}
@@ -519,19 +520,19 @@ function initLawyer() {
     return;
   }
 
-  document.title = `${lawyer.name} — GSP LAW`;
+  document.title = `${getLawyerField(lawyer,'name')} — GSP LAW`;
 
   const avatar = document.getElementById('heroAvatar');
   if (lawyer.photo) {
     avatar.classList.add('lawyer-avatar-photo');
-    avatar.innerHTML = `<img src="${lawyer.photo}" alt="${lawyer.name}">`;
+    avatar.innerHTML = `<img src="${lawyer.photo}" alt="${getLawyerField(lawyer,'name')}">`;
   } else {
     avatar.style.background = lawyer.accentColor;
     avatar.textContent = lawyer.initials;
   }
 
   document.getElementById('heroTag').textContent = t('lp.heroTag');
-  document.getElementById('heroName').textContent = lawyer.name;
+  document.getElementById('heroName').textContent = getLawyerField(lawyer,'name');
   document.getElementById('heroTitle').textContent = translateStr(lawyer.title, 'lawyers.titleMap');
 
   const specsEl = document.getElementById('heroSpecs');
@@ -618,7 +619,7 @@ function initLawyer() {
     });
   }
 
-  document.getElementById('blogTitle').textContent = lawyer.name.split(' ')[0];
+  document.getElementById('blogTitle').textContent = getLawyerField(lawyer,'name').split(' ')[0];
   const blog = document.getElementById('blogGrid');
   lawyer.blog.forEach(post => {
     blog.innerHTML += `
