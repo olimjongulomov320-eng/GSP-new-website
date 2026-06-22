@@ -397,9 +397,9 @@ const LAWYERS = [
 const CASES = [
   {
     id: 1, tag: 'IT-право', icon: '💻', color: '#1565c0',
-    title: 'Защита IT-компании в споре на $5.2 млн',
+    title: 'Победа в споре на $5.2 млн',
     desc: 'Успешная защита узбекского IT-стартапа в споре с международным партнёром по нарушению лицензионного соглашения. Урегулировано через медиацию без судебного разбирательства.',
-    result: 'Экономия $5.2 млн', year: '2024', lawyer: 'Гулямов С.С.',
+    result: 'Экономия $5.2 млн', year: '2024', lawyer: 'Gulyamov S.S.',
     challenge: 'Международный партнёр предъявил претензии на $5.2 млн, утверждая о нарушении эксклюзивного лицензионного соглашения. IT-стартап оказался под угрозой ликвидации.',
     approach: 'Провели детальный анализ договорной документации, выявили процедурные нарушения со стороны истца и подготовили контрпретензию. Инициировали медиацию в нейтральной юрисдикции.',
     duration: '4 месяца',
@@ -409,7 +409,7 @@ const CASES = [
     id: 2, tag: 'Уголовное право', icon: '🛡️', color: '#37474f',
     title: 'Прекращение уголовного дела против CEO',
     desc: 'Защита генерального директора производственной компании от обвинений в уклонении от уплаты налогов. Дело прекращено на стадии следствия за отсутствием состава преступления.',
-    result: 'Дело прекращено', year: '2024', lawyer: 'Рашидов Ж.А.',
+    result: 'Дело прекращено', year: '2024', lawyer: 'Mixiliev S.',
     challenge: 'Генеральный директор оказался под уголовным преследованием с угрозой лишения свободы до 5 лет. Компания рисковала прекратить деятельность.',
     approach: 'Обеспечили немедленный доступ к клиенту, провели параллельный налоговый аудит, доказали правомерность спорных операций документально. Оспорили процессуальные нарушения следствия.',
     duration: '3 месяца',
@@ -417,7 +417,7 @@ const CASES = [
   },
   {
     id: 3, tag: 'M&A', icon: '🤝', color: '#c9a96e',
-    title: 'Сопровождение сделки слияния на $18 млн',
+    title: 'Сопровождение сделки слияния на $18 млн — закрыта',
     desc: 'Юридическое сопровождение поглощения телеком-компании с активами в трёх регионах Узбекистана: due diligence, структурирование сделки, переговоры и закрытие.',
     result: 'Сделка закрыта', year: '2024', lawyer: "Sodiq A.G.",
     challenge: 'Сделка осложнялась скрытыми обязательствами цели, разногласиями акционеров и необходимостью регуляторного согласования в сфере телекоммуникаций.',
@@ -429,7 +429,7 @@ const CASES = [
     id: 4, tag: 'Налоговое право', icon: '📊', color: '#c62828',
     title: 'Возврат незаконно взысканного НДС — $1.2 млн',
     desc: 'Успешное оспаривание решения налоговых органов и возврат незаконно взысканных сумм НДС и налога на прибыль для крупного производственного предприятия.',
-    result: 'Возвращено $1.2 млн', year: '2023', lawyer: 'Тошматова З.Б.',
+    result: 'Возвращено $1.2 млн', year: '2023', lawyer: 'Isamutdinov U.',
     challenge: 'Налоговые органы доначислили $1.2 млн НДС и налога на прибыль, ссылаясь на ненадлежащее оформление экспортных операций. Угроза банкротства предприятия.',
     approach: 'Провели анализ 3 лет первичной документации, доказали правомерность налоговых вычетов. Представляли интересы клиента во всех инстанциях — от налоговой до Высшего суда.',
     duration: '8 месяцев',
@@ -439,7 +439,7 @@ const CASES = [
     id: 5, tag: 'Интеллект. собственность', icon: '💡', color: '#6a1b9a',
     title: 'Защита бренда от международного плагиата',
     desc: 'Регистрация товарного знака и защита исключительных прав клиента против иностранного конкурента, незаконно использовавшего идентичный бренд на рынке Узбекистана.',
-    result: 'Бренд защищён', year: '2024', lawyer: 'Холматова Д.У.',
+    result: 'Бренд защищён', year: '2024', lawyer: 'Alijonova D.',
     challenge: 'Иностранная компания использовала идентичный бренд клиента на территории Узбекистана, создавая путаницу на рынке и нанося ущерб репутации.',
     approach: 'Провели параллельную регистрацию товарного знака по системе Мадрида, подали иск о пресечении незаконного использования и взыскании убытков.',
     duration: '5 месяцев',
@@ -449,7 +449,7 @@ const CASES = [
     id: 6, tag: 'Трудовое право', icon: '👥', color: '#00695c',
     title: 'Коллективный трудовой спор с 47 сотрудниками',
     desc: 'Представление интересов крупной компании в коллективном трудовом споре. Достигнуто мировое соглашение на условиях, полностью защищающих интересы работодателя.',
-    result: 'Мировое соглашение', year: '2024', lawyer: 'Юсупова М.С.',
+    result: 'Мировое соглашение', year: '2024', lawyer: 'Ergasheva S.',
     challenge: 'Организованная группа из 47 сотрудников подала коллективный иск с требованиями на сумму свыше $800 тысяч. Риск репутационного ущерба и медиаогласки.',
     approach: 'Провели аудит трудовой документации, выявили процессуальные слабости исков. Организовали конфиденциальные переговоры и достигли мирового соглашения на выгодных условиях.',
     duration: '2.5 месяца',
@@ -638,7 +638,7 @@ const LANG = {
     },
     metrics: {
       sTag: 'Ko\'rsatkichlar', sTitle: 'Raqamlarda samaradorlik', sDesc: "O'z-o'zidan gapiradigan natijalar",
-      winRate: "G'alaba foizi", portfolioVal: 'Portfolio qiymati', combinedExp: 'Umumiy tajriba yillari',
+      winRate: "G'alaba foizi", portfolioVal: 'Mijozlar manfaatida yutilgan summa', combinedExp: 'Umumiy tajriba yillari',
       intlCases: 'Xalqaro ishlar', satisfaction: 'Mijozlar mamnuniyati', industries: 'Amaliyot sohalari',
       clients: 'Xizmat ko\'rsatilgan mijozlar', yearsOnMkt: 'Bozorda yillar', languages: 'Amaliyot tillari', support: 'Mijozlarni qo\'llab-quvvatlash'
     },
@@ -647,14 +647,14 @@ const LANG = {
       items: [
         { title: 'Kompaniya tuzish va birlashtirish', desc: "Yangi biznes ochasizmi yoki boshqa kompaniya bilan qo'shilasizmi — hujjatlardan tortib imzogacha hamma narsani biz hal qilamiz" },
         { title: 'IT va raqamli biznes', desc: "Dastur, ilova, sayt yoki startap — texnologiya biznesingizni qonun doirasida to'g'ri yo'lga qo'yib beramiz" },
-        { title: 'Bank va moliya', desc: "Kredit, litsenziya, moliyaviy operatsiyalar — banklar va moliya nazorati bilan ishlashda yoningizda bo'lamiz" },
+        { title: 'Islom banki va islom moliyasi', desc: "Islom moliyasi tamoyillari asosida kredit, litsenziya va moliyaviy operatsiyalar — nazorat organlari bilan ishlashda yoningizda bo'lamiz" },
         { title: 'Soliqlar', desc: "Soliq tekshiruvi keldi yoki ko'p to'layapsizmi? Qonun doirasida soliq yukini kamaytirib, muammolarni hal qilamiz" },
         { title: 'Biznes nizolari', desc: "Hamkor, mijoz yoki davlat organi bilan muammo chiqdi — sudda va muzokarada sizning manfaatingizni himoya qilamiz" },
-        { title: 'Import va eksport', desc: "Chet elga mal chiqarasizmi yoki olib kirasizmi? Bojxona hujjatlarini to'g'ri rasmiylashtirib, to'siqlarni bartaraf etamiz" },
-        { title: 'Jinoiy ta\'qibdan himoya', desc: "Tadbirkor yoki rahbar sifatida jinoiy ish qo'zg'atildi — tergovdan sudgacha sizni himoya qilamiz" },
+        { title: 'Import va eksport', desc: "Chet elga tovar chiqarasizmi yoki olib kirasizmi? Bojxona hujjatlarini to'g'ri rasmiylashtirib, to'siqlarni bartaraf etamiz" },
+        { title: 'Jinoiy ta\'qibdan himoya', desc: "Tadbirkor yoki rahbarga nisbatan jinoiy ish qo'zg'atildi — tergovdan sudgacha sizni himoya qilamiz" },
         { title: 'Xodimlar va mehnat masalalari', desc: "Ishchi bilan mojaromi, noto'g'ri ishdan bo'shatishmi yoki mehnat shartnomasi kerakmi — barchasi bizda" },
         { title: 'Brend va kashfiyot himoyasi', desc: "Brendingiz, logotipingiz yoki ixtiroyingizni ro'yxatdan o'tkazib, boshqalar nusxa ko'chirmasligi uchun himoyalaymiz" },
-        { title: "Doimiy yuridik xizmat", desc: "Har oy yonингizda tayyor advokat — savollar, hujjatlar, shartnomalar — hammasini o'z vaqtida hal qilamiz" },
+        { title: "Doimiy yuridik xizmat", desc: "Har oy yoningizda tayyor advokat — savollar, hujjatlar, shartnomalar — hammasini o'z vaqtida hal qilamiz" },
         { title: 'Shartnomalar', desc: "Imzolashdan oldin shartnomangizni tekshirib beramiz yoki siz uchun yangi, xavfsiz shartnoma tayyorlaymiz" },
         { title: "Uy-joy va ko'chmas mulk", desc: "Uy, ofis yoki yer sotib olasizmi? Hujjatlarni tekshirib, xavfsiz bitim tuzishingizga yordam beramiz" }
       ]
@@ -663,9 +663,9 @@ const LANG = {
       sTag: 'Ishlar', sTitle: "G'alaba qozonilgan ishlar", sDesc: 'Mijozlarimiz uchun erishilgan real natijalar', result: 'Natija', year: 'Yil', lawyer: 'Advokat',
       allCasesBtn: "Barcha ishlar →",
       items: [
-        { tag: 'IT huquqi', title: "IT-kompaniyani $5.2 mln nizosida himoyalash", desc: "O'zbek IT startapini xalqaro hamkor bilan litsenziya shartnomasi buzilishi bo'yicha nizoda muvaffaqiyatli himoyalash. Sud ishlarisiz mediatsiya orqali hal qilindi.", result: '$5.2 mln tejaldi' },
-        { tag: 'Jinoiy huquq', title: "Bosh direktor jinoiy ishi to'xtatildi", desc: "Ishlab chiqarish kompaniyasi bosh direktorini soliq to'lashdan bo'yin tovlash aybi bo'yicha himoyalash. Ish tergov bosqichida jinoyat tarkibi yo'qligi sababli to'xtatildi.", result: "Ish to'xtatildi" },
-        { tag: 'M&A', title: "$18 mln birlashtirish bitimini qo'llab-quvvatlash", desc: "O'zbekistonning uch hududidagi aktivlarga ega telekommunikatsiya kompaniyasini sotib olishni yuridik qo'llab-quvvatlash: due diligence, bitimni tuzish, muzokaralar va yakunlash.", result: 'Bitim yopildi' },
+        { tag: 'IT huquqi', title: "$5.2 mlnlik nizoda g'alaba", desc: "O'zbek IT startapini xalqaro hamkor bilan litsenziya shartnomasi bo'yicha $5.2 mlnlik nizoda muvaffaqiyatli himoyalash. Sud ishlarisiz mediatsiya orqali hal qilindi.", result: '$5.2 mln tejaldi' },
+        { tag: 'Jinoiy huquq', title: "Bosh direktonga nisbatan qo'zg'atilgan jinoiy ish to'xtatildi", desc: "Ishlab chiqarish kompaniyasi bosh direktoriga nisbatan soliq to'lashdan bo'yin tovlash aybi bo'yicha himoyalash. Ish tergov bosqichida jinoyat tarkibi yo'qligi sababli to'xtatildi.", result: "Ish to'xtatildi" },
+        { tag: 'M&A', title: "$18 mlnlik birlashtirish bitimini qo'llab-quvvatlash", desc: "O'zbekistonning uch hududidagi aktivlarga ega telekommunikatsiya kompaniyasini sotib olishni yuridik qo'llab-quvvatlash: due diligence, bitimni tuzish, muzokaralar va yakunlash.", result: 'Bitim yopildi' },
         { tag: 'Soliq huquqi', title: "Noqonuniy undirilgan QQS — $1.2 mln qaytarildi", desc: "Soliq organi qarorini muvaffaqiyatli ixtilof qilish va yirik ishlab chiqarish korxonasi uchun noqonuniy undirilgan QQS va daromad solig'ini qaytarish.", result: '$1.2 mln qaytarildi' },
         { tag: 'Intellektual mulk', title: 'Brendni xalqaro plagiatdan himoyalash', desc: "Tovar belgisini ro'yxatga olish va O'zbekiston bozorida bir xil brenddan noqonuniy foydalangan xorijiy raqibga qarshi mijozning eksklyuziv huquqlarini himoyalash.", result: 'Brend himoyalandi' },
         { tag: 'Mehnat huquqi', title: '47 xodim bilan jamoaviy mehnat nizosi', desc: "Yirik kompaniyaning jamoaviy mehnat nizosida manfaatlarini ifodalash. Ish beruvchi manfaatlarini to'liq himoya qiluvchi shartlarda sulh kelishuvi tuzildi.", result: 'Sulh kelishuvi' }
