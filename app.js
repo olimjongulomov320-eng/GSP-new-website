@@ -145,6 +145,26 @@ function refreshLawyerLang() {
       }
     });
   }
+
+  // Re-render certificates titles on lang switch
+  const certElR = document.getElementById('lawyerCertificates');
+  if (certElR && lawyer.certificates && lawyer.certificates.length > 0) {
+    certElR.innerHTML = '';
+    const viewLabel = { ru: 'Просмотреть', uz: "Ko'rish", en: 'View' };
+    lawyer.certificates.forEach(c => {
+      const titleStr = (typeof c.title === 'object') ? (c.title[currentLang] || c.title.ru) : c.title;
+      const isPDF = c.file.toLowerCase().endsWith('.pdf');
+      certElR.innerHTML += `
+        <a class="cert-item" href="${c.file}" target="_blank" rel="noopener noreferrer">
+          <div class="cert-icon">${isPDF ? '📄' : '🖼️'}</div>
+          <div class="cert-info">
+            <div class="cert-title">${titleStr}</div>
+            <div class="cert-type">${isPDF ? 'PDF' : 'JPG'}</div>
+          </div>
+          <div class="cert-action">${viewLabel[currentLang] || 'Просмотреть'} ↗</div>
+        </a>`;
+    });
+  }
 }
 
 function setLang(lang) {
@@ -616,6 +636,27 @@ function initLawyer() {
       } else {
         pubEl.innerHTML += `<div class="pub-item">${inner}</div>`;
       }
+    });
+  }
+
+  // Certificates
+  const certSection = document.getElementById('sectionCertificates');
+  const certEl = document.getElementById('lawyerCertificates');
+  if (certSection && certEl && lawyer.certificates && lawyer.certificates.length > 0) {
+    certSection.style.display = '';
+    const viewLabel = { ru: 'Просмотреть', uz: "Ko'rish", en: 'View' };
+    lawyer.certificates.forEach(c => {
+      const titleStr = (typeof c.title === 'object') ? (c.title[currentLang] || c.title.ru) : c.title;
+      const isPDF = c.file.toLowerCase().endsWith('.pdf');
+      certEl.innerHTML += `
+        <a class="cert-item" href="${c.file}" target="_blank" rel="noopener noreferrer">
+          <div class="cert-icon">${isPDF ? '📄' : '🖼️'}</div>
+          <div class="cert-info">
+            <div class="cert-title">${titleStr}</div>
+            <div class="cert-type">${isPDF ? 'PDF' : 'JPG'}</div>
+          </div>
+          <div class="cert-action">${viewLabel[currentLang] || 'Просмотреть'} ↗</div>
+        </a>`;
     });
   }
 

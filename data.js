@@ -126,6 +126,9 @@ const LAWYERS = [
     publications: [
       { title: "Регулирование ВЭД в Узбекистане: практика применения новых норм", journal: "Внешнеэкономическая деятельность", year: "2024" },
       { title: "Банковские гарантии в международных торговых сделках: сравнительный анализ", journal: "Банковское право (ВАК)", year: "2023" }
+    ],
+    certificates: [
+      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Abrayev Firuz.PDF" }
     ]
   },
   {
@@ -165,6 +168,11 @@ const LAWYERS = [
       { title: "Цифровизация процедур разрешения инвестиционных споров: от электронных доказательств до виртуальных заседаний", journal: "Huquqiy tizimni raqamlashtirish — конференция ТГЮУ", year: "2024", url: "" },
       { title: "Concept, Essence and Principles of Islamic Investment Funds", journal: "Сборник научных трудов ТГЮУ (магистр)", year: "2022", url: "" },
       { title: "Закрепление в Конституции Узбекистана института прав и свобод гражданина", journal: "VI Молодёжные образовательные чтения, Уфа", year: "2022", url: "" }
+    ],
+    certificates: [
+      { title: { ru: "Удостоверение адвоката", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Khayitmurodov Ulugbek Otabekovich.jpg" },
+      { title: { ru: "Сертификат публикации Miasto Przyszłości (IF 9.9)", uz: "Miasto Przyszłości nashr sertifikati (IF 9.9)", en: "Miasto Przyszłości Publication Certificate (IF 9.9)" }, file: "certificates/certificates/Хайитмуродов_Улугбек_Отабекович_UK_SERT.pdf" },
+      { title: { ru: "Научная публикация (стр. 124–129)", uz: "Ilmiy nashr (124–129 betlar)", en: "Academic Publication (pp. 124–129)" }, file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" }
     ]
   },
   {
@@ -191,7 +199,10 @@ const LAWYERS = [
       { degree: {ru: "Бакалавр права", uz: "Huquq bakalavri", en: "Bachelor of Laws"}, institution: {ru: "Ташкентский государственный юридический университет", uz: "Toshkent davlat yuridik universiteti", en: "Tashkent State University of Law"}, year: "2005" }
     ],
     achievements: {ru: ["Председатель Бектемирского районного административного суда г. Ташкента (2017–2020)", "Судья Ташкентского городского экономического суда, Мирабадского межрайонного гражданского суда, Ташкентского межрайонного административного суда", "Судья Кумкурганского межрайонного гражданского суда, Сурхандарья", "Свободное владение узбекским, русским и английским языками"], uz: ["Toshkent sh. Bektemir tumanlararo ma'muriy sudi raisi (2017–2020)", "Toshkent shahar iqtisodiy sudi, Mirobod tumanlararo fuqarolik sudi, Toshkent tumanlararo ma'muriy sudida sudya", "Qumqo'rg'on tumanlararo fuqarolik sudi, Surxondaryo viloyatida sudya", "O'zbek, rus va ingliz tillarini erkin bilish"], en: ["Chairman of Bektemir District Administrative Court of Tashkent (2017–2020)", "Judge at Tashkent City Economic Court, Mirabad Inter-District Civil Court, Tashkent Inter-District Administrative Court", "Judge at Kumkurgan Inter-District Civil Court, Surkhandarya", "Fluent in Uzbek, Russian and English"]},
-    publications: []
+    publications: [],
+    certificates: [
+      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Saidulla Mixliyev.PDF" }
+    ]
   },
   {
     id: 6,
@@ -220,6 +231,9 @@ const LAWYERS = [
     publications: [
       { title: "Налоговые споры в условиях цифровизации: новые подходы", journal: "Финансы и налоги", year: "2024" },
       { title: "Внутренний аудит как инструмент минимизации правовых рисков", journal: "Бухгалтерский учёт и аудит", year: "2023" }
+    ],
+    certificates: [
+      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Ulug'bek Isamuddinov.PDF" }
     ]
   },
   {
@@ -607,7 +621,7 @@ const LANG = {
       consultTitle: 'Записаться на консультацию', sendBtn: 'Отправить запрос',
       expLbl: 'Опыт работы', casesLbl: 'Завершённых дел', firm: 'Фирма', office: 'Офис',
       blogTag: 'Блог', blogDesc: 'Экспертные статьи и аналитика', info: 'Информация',
-      educationTitle: 'Образование', achievementsTitle: 'Достижения и награды', publicationsTitle: 'Публикации',
+      educationTitle: 'Образование', achievementsTitle: 'Достижения и награды', publicationsTitle: 'Публикации', certificatesTitle: 'Сертификаты и удостоверения',
       otherTag: 'Команда', otherTitle: 'Другие специалисты', allTeam: 'Вся команда →', readMore: 'Читать далее →',
       heroTag: 'Специалист GSP LAW', visitWebsite: '🔗 Вебсайт', notFound: 'Страница не найдена'
     },
@@ -739,7 +753,7 @@ const LANG = {
       consultTitle: 'Konsultatsiyaga yozilish', sendBtn: "So'rov yuborish",
       expLbl: 'Ish tajribasi', casesLbl: 'Yakunlangan ishlar', firm: 'Firma', office: 'Ofis',
       blogTag: 'Blog', blogDesc: 'Ekspert maqolalar va tahlil', info: "Ma'lumot",
-      educationTitle: "Ta'lim", achievementsTitle: 'Yutuqlar va mukofotlar', publicationsTitle: 'Nashrlar',
+      educationTitle: "Ta'lim", achievementsTitle: 'Yutuqlar va mukofotlar', publicationsTitle: 'Nashrlar', certificatesTitle: 'Sertifikatlar va guvohnomalar',
       otherTag: 'Jamoa', otherTitle: 'Boshqa mutaxassislar', allTeam: 'Barcha jamoa →', readMore: "Ko'proq o'qish →",
       heroTag: 'GSP LAW mutaxassisi', visitWebsite: '🔗 Veb-sayt', notFound: 'Sahifa topilmadi'
     },
@@ -871,7 +885,7 @@ const LANG = {
       consultTitle: 'Book a Consultation', sendBtn: 'Send Request',
       expLbl: 'Experience', casesLbl: 'Cases Completed', firm: 'Firm', office: 'Office',
       blogTag: 'Blog', blogDesc: 'Expert articles and analysis', info: 'Information',
-      educationTitle: 'Education', achievementsTitle: 'Achievements & Awards', publicationsTitle: 'Publications',
+      educationTitle: 'Education', achievementsTitle: 'Achievements & Awards', publicationsTitle: 'Publications', certificatesTitle: 'Certificates & Credentials',
       otherTag: 'Team', otherTitle: 'Other Specialists', allTeam: 'Full Team →', readMore: 'Read more →',
       heroTag: 'GSP LAW Specialist', visitWebsite: '🔗 Visit Website', notFound: 'Page Not Found'
     },
