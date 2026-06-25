@@ -1,8 +1,10 @@
-# PDFs and source files
-*.pdf
+# PDFs and source files (except certificates folder)
 *.pdf.png
 *.pdf.pdf
 *.pdf.pdf.png
+*.pdf
+!certificates/**/*.pdf
+!certificates/**/*.PDF
 
 # Raw extracted images (already copied to photos/)
 image_1_1.jpeg
