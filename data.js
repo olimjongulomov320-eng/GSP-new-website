@@ -128,7 +128,7 @@ const LAWYERS = [
       { title: "Банковские гарантии в международных торговых сделках: сравнительный анализ", journal: "Банковское право (ВАК)", year: "2023" }
     ],
     certificates: [
-      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Abrayev Firuz.PDF" }
+      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Abrayev Firuz-1.png", file: "certificates/certificates/Abrayev Firuz.PDF" }
     ]
   },
   {
@@ -170,9 +170,9 @@ const LAWYERS = [
       { title: "Закрепление в Конституции Узбекистана института прав и свобод гражданина", journal: "VI Молодёжные образовательные чтения, Уфа", year: "2022", url: "" }
     ],
     certificates: [
-      { title: { ru: "Удостоверение адвоката", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Khayitmurodov Ulugbek Otabekovich.jpg" },
-      { title: { ru: "Сертификат публикации Miasto Przyszłości (IF 9.9)", uz: "Miasto Przyszłości nashr sertifikati (IF 9.9)", en: "Miasto Przyszłości Publication Certificate (IF 9.9)" }, file: "certificates/certificates/Хайитмуродов_Улугбек_Отабекович_UK_SERT.pdf" },
-      { title: { ru: "Научная публикация (стр. 124–129)", uz: "Ilmiy nashr (124–129 betlar)", en: "Academic Publication (pp. 124–129)" }, file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" }
+      { title: { ru: "Удостоверение адвоката", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Khayitmurodov Ulugbek Otabekovich.jpg", file: "certificates/certificates/Khayitmurodov Ulugbek Otabekovich.jpg" },
+      { title: { ru: "Сертификат публикации Miasto Przyszłości (IF 9.9)", uz: "Miasto Przyszłości nashr sertifikati (IF 9.9)", en: "Miasto Przyszłości Publication Certificate (IF 9.9)" }, image: "certificates/certificates/Хайитмуродов_Улугбек_Отабекович_UK_SERT-1.png", file: "certificates/certificates/Хайитмуродов_Улугбек_Отабекович_UK_SERT.pdf" },
+      { title: { ru: "Научная публикация (стр. 124–129)", uz: "Ilmiy nashr (124–129 betlar)", en: "Academic Publication (pp. 124–129)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-1.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" }
     ]
   },
   {
@@ -201,7 +201,7 @@ const LAWYERS = [
     achievements: {ru: ["Председатель Бектемирского районного административного суда г. Ташкента (2017–2020)", "Судья Ташкентского городского экономического суда, Мирабадского межрайонного гражданского суда, Ташкентского межрайонного административного суда", "Судья Кумкурганского межрайонного гражданского суда, Сурхандарья", "Свободное владение узбекским, русским и английским языками"], uz: ["Toshkent sh. Bektemir tumanlararo ma'muriy sudi raisi (2017–2020)", "Toshkent shahar iqtisodiy sudi, Mirobod tumanlararo fuqarolik sudi, Toshkent tumanlararo ma'muriy sudida sudya", "Qumqo'rg'on tumanlararo fuqarolik sudi, Surxondaryo viloyatida sudya", "O'zbek, rus va ingliz tillarini erkin bilish"], en: ["Chairman of Bektemir District Administrative Court of Tashkent (2017–2020)", "Judge at Tashkent City Economic Court, Mirabad Inter-District Civil Court, Tashkent Inter-District Administrative Court", "Judge at Kumkurgan Inter-District Civil Court, Surkhandarya", "Fluent in Uzbek, Russian and English"]},
     publications: [],
     certificates: [
-      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Saidulla Mixliyev.PDF" }
+      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Saidulla Mixliyev-1.png", file: "certificates/certificates/Saidulla Mixliyev.PDF" }
     ]
   },
   {
@@ -233,7 +233,7 @@ const LAWYERS = [
       { title: "Внутренний аудит как инструмент минимизации правовых рисков", journal: "Бухгалтерский учёт и аудит", year: "2023" }
     ],
     certificates: [
-      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, file: "certificates/certificates/Ulug'bek Isamuddinov.PDF" }
+      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Ulug'bek Isamuddinov-1.png", file: "certificates/certificates/Ulug'bek Isamuddinov.PDF" }
     ]
   },
   {

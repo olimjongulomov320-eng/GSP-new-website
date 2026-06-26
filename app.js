@@ -146,23 +146,23 @@ function refreshLawyerLang() {
     });
   }
 
-  // Re-render certificates titles on lang switch
+  // Re-render certificates on lang switch
   const certElR = document.getElementById('lawyerCertificates');
   if (certElR && lawyer.certificates && lawyer.certificates.length > 0) {
     certElR.innerHTML = '';
-    const viewLabel = { ru: 'Просмотреть', uz: "Ko'rish", en: 'View' };
+    const viewLabel = { ru: 'Открыть оригинал', uz: "Aslini ochish", en: 'Open original' };
     lawyer.certificates.forEach(c => {
       const titleStr = (typeof c.title === 'object') ? (c.title[currentLang] || c.title.ru) : c.title;
-      const isPDF = c.file.toLowerCase().endsWith('.pdf');
       certElR.innerHTML += `
-        <a class="cert-item" href="${c.file}" target="_blank" rel="noopener noreferrer">
-          <div class="cert-icon">${isPDF ? '📄' : '🖼️'}</div>
-          <div class="cert-info">
-            <div class="cert-title">${titleStr}</div>
-            <div class="cert-type">${isPDF ? 'PDF' : 'JPG'}</div>
+        <div class="cert-card">
+          <a href="${c.file}" target="_blank" rel="noopener noreferrer" class="cert-img-wrap">
+            <img src="${c.image}" alt="${titleStr}" class="cert-img" loading="lazy">
+            <div class="cert-img-overlay"><span>↗ ${viewLabel[currentLang]}</span></div>
+          </a>
+          <div class="cert-card-footer">
+            <span class="cert-card-title">${titleStr}</span>
           </div>
-          <div class="cert-action">${viewLabel[currentLang] || 'Просмотреть'} ↗</div>
-        </a>`;
+        </div>`;
     });
   }
 }
@@ -644,19 +644,19 @@ function initLawyer() {
   const certEl = document.getElementById('lawyerCertificates');
   if (certSection && certEl && lawyer.certificates && lawyer.certificates.length > 0) {
     certSection.style.display = '';
-    const viewLabel = { ru: 'Просмотреть', uz: "Ko'rish", en: 'View' };
+    const viewLabel = { ru: 'Открыть оригинал', uz: "Aslini ochish", en: 'Open original' };
     lawyer.certificates.forEach(c => {
       const titleStr = (typeof c.title === 'object') ? (c.title[currentLang] || c.title.ru) : c.title;
-      const isPDF = c.file.toLowerCase().endsWith('.pdf');
       certEl.innerHTML += `
-        <a class="cert-item" href="${c.file}" target="_blank" rel="noopener noreferrer">
-          <div class="cert-icon">${isPDF ? '📄' : '🖼️'}</div>
-          <div class="cert-info">
-            <div class="cert-title">${titleStr}</div>
-            <div class="cert-type">${isPDF ? 'PDF' : 'JPG'}</div>
+        <div class="cert-card">
+          <a href="${c.file}" target="_blank" rel="noopener noreferrer" class="cert-img-wrap">
+            <img src="${c.image}" alt="${titleStr}" class="cert-img" loading="lazy">
+            <div class="cert-img-overlay"><span>↗ ${viewLabel[currentLang]}</span></div>
+          </a>
+          <div class="cert-card-footer">
+            <span class="cert-card-title">${titleStr}</span>
           </div>
-          <div class="cert-action">${viewLabel[currentLang] || 'Просмотреть'} ↗</div>
-        </a>`;
+        </div>`;
     });
   }
 
