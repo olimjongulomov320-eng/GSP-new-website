@@ -128,7 +128,8 @@ const LAWYERS = [
       { title: "Банковские гарантии в международных торговых сделках: сравнительный анализ", journal: "Банковское право (ВАК)", year: "2023" }
     ],
     certificates: [
-      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Abrayev Firuz-1.png", file: "certificates/certificates/Abrayev Firuz.PDF" }
+      { title: { ru: "Адвокатское удостоверение (стр. 1)", uz: "Advokat guvohnomasi (1-bet)", en: "Bar Certificate (p. 1)" }, image: "certificates/certificates/Abrayev Firuz-1.png", file: "certificates/certificates/Abrayev Firuz.PDF" },
+      { title: { ru: "Адвокатское удостоверение (стр. 2)", uz: "Advokat guvohnomasi (2-bet)", en: "Bar Certificate (p. 2)" }, image: "certificates/certificates/Abrayev Firuz-2.png", file: "certificates/certificates/Abrayev Firuz.PDF" }
     ]
   },
   {
@@ -172,7 +173,12 @@ const LAWYERS = [
     certificates: [
       { title: { ru: "Удостоверение адвоката", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Khayitmurodov Ulugbek Otabekovich.jpg", file: "certificates/certificates/Khayitmurodov Ulugbek Otabekovich.jpg" },
       { title: { ru: "Сертификат публикации Miasto Przyszłości (IF 9.9)", uz: "Miasto Przyszłości nashr sertifikati (IF 9.9)", en: "Miasto Przyszłości Publication Certificate (IF 9.9)" }, image: "certificates/certificates/Хайитмуродов_Улугбек_Отабекович_UK_SERT-1.png", file: "certificates/certificates/Хайитмуродов_Улугбек_Отабекович_UK_SERT.pdf" },
-      { title: { ru: "Научная публикация (стр. 124–129)", uz: "Ilmiy nashr (124–129 betlar)", en: "Academic Publication (pp. 124–129)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-1.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" }
+      { title: { ru: "Научная публикация (стр. 1)", uz: "Ilmiy nashr (1-bet)", en: "Academic Publication (p. 1)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-1.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" },
+      { title: { ru: "Научная публикация (стр. 2)", uz: "Ilmiy nashr (2-bet)", en: "Academic Publication (p. 2)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-2.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" },
+      { title: { ru: "Научная публикация (стр. 3)", uz: "Ilmiy nashr (3-bet)", en: "Academic Publication (p. 3)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-3.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" },
+      { title: { ru: "Научная публикация (стр. 4)", uz: "Ilmiy nashr (4-bet)", en: "Academic Publication (p. 4)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-4.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" },
+      { title: { ru: "Научная публикация (стр. 5)", uz: "Ilmiy nashr (5-bet)", en: "Academic Publication (p. 5)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-5.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" },
+      { title: { ru: "Научная публикация (стр. 6)", uz: "Ilmiy nashr (6-bet)", en: "Academic Publication (p. 6)" }, image: "certificates/certificates/Хайитмуродов Улугбек  124-129-6.png", file: "certificates/certificates/Хайитмуродов Улугбек  124-129.pdf" }
     ]
   },
   {
@@ -201,7 +207,10 @@ const LAWYERS = [
     achievements: {ru: ["Председатель Бектемирского районного административного суда г. Ташкента (2017–2020)", "Судья Ташкентского городского экономического суда, Мирабадского межрайонного гражданского суда, Ташкентского межрайонного административного суда", "Судья Кумкурганского межрайонного гражданского суда, Сурхандарья", "Свободное владение узбекским, русским и английским языками"], uz: ["Toshkent sh. Bektemir tumanlararo ma'muriy sudi raisi (2017–2020)", "Toshkent shahar iqtisodiy sudi, Mirobod tumanlararo fuqarolik sudi, Toshkent tumanlararo ma'muriy sudida sudya", "Qumqo'rg'on tumanlararo fuqarolik sudi, Surxondaryo viloyatida sudya", "O'zbek, rus va ingliz tillarini erkin bilish"], en: ["Chairman of Bektemir District Administrative Court of Tashkent (2017–2020)", "Judge at Tashkent City Economic Court, Mirabad Inter-District Civil Court, Tashkent Inter-District Administrative Court", "Judge at Kumkurgan Inter-District Civil Court, Surkhandarya", "Fluent in Uzbek, Russian and English"]},
     publications: [],
     certificates: [
-      { title: { ru: "Адвокатское удостоверение", uz: "Advokat guvohnomasi", en: "Bar Certificate" }, image: "certificates/certificates/Saidulla Mixliyev-1.png", file: "certificates/certificates/Saidulla Mixliyev.PDF" }
+      { title: { ru: "Удостоверение (стр. 1)", uz: "Guvohnoma (1-bet)", en: "Certificate (p. 1)" }, image: "certificates/certificates/Saidulla Mixliyev-1.png", file: "certificates/certificates/Saidulla Mixliyev.PDF" },
+      { title: { ru: "Удостоверение (стр. 2)", uz: "Guvohnoma (2-bet)", en: "Certificate (p. 2)" }, image: "certificates/certificates/Saidulla Mixliyev-2.png", file: "certificates/certificates/Saidulla Mixliyev.PDF" },
+      { title: { ru: "Удостоверение (стр. 3)", uz: "Guvohnoma (3-bet)", en: "Certificate (p. 3)" }, image: "certificates/certificates/Saidulla Mixliyev-3.png", file: "certificates/certificates/Saidulla Mixliyev.PDF" },
+      { title: { ru: "Удостоверение (стр. 4)", uz: "Guvohnoma (4-bet)", en: "Certificate (p. 4)" }, image: "certificates/certificates/Saidulla Mixliyev-4.png", file: "certificates/certificates/Saidulla Mixliyev.PDF" }
     ]
   },
   {
