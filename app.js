@@ -198,19 +198,52 @@ document.addEventListener('click', e => {
 });
 
 /* ===== FORM ===== */
+const CONTACT_API_URL = 'https://mail.gsplaw.co.uz/contact-api/contact';
+
 function submitForm(e) {
   e.preventDefault();
+  const form = e.target;
   const success = document.getElementById('formSuccess');
-  if (success) {
-    success.textContent = t('contact.success');
-    success.style.display = 'block';
-    e.target.style.display = 'none';
-    setTimeout(() => {
-      success.style.display = 'none';
-      e.target.style.display = 'flex';
-      e.target.reset();
-    }, 5000);
-  }
+  const btn = form.querySelector('button[type="submit"]');
+  const inputs = form.querySelectorAll('input');
+  const payload = {
+    name: inputs[0] ? inputs[0].value : '',
+    phone: inputs[1] ? inputs[1].value : '',
+    email: inputs[2] ? inputs[2].value : '',
+    service: form.querySelector('.contact-svc-select') ? form.querySelector('.contact-svc-select').value : '',
+    message: form.querySelector('textarea') ? form.querySelector('textarea').value : ''
+  };
+
+  if (btn) btn.disabled = true;
+
+  fetch(CONTACT_API_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+    .then((res) => {
+      if (!res.ok) throw new Error('request_failed');
+      if (success) {
+        success.textContent = t('contact.success');
+        success.style.display = 'block';
+        form.style.display = 'none';
+        setTimeout(() => {
+          success.style.display = 'none';
+          form.style.display = 'flex';
+          form.reset();
+        }, 5000);
+      }
+    })
+    .catch(() => {
+      if (success) {
+        success.textContent = t('contact.error') || 'Не удалось отправить. Попробуйте позже.';
+        success.style.display = 'block';
+        setTimeout(() => { success.style.display = 'none'; }, 5000);
+      }
+    })
+    .finally(() => {
+      if (btn) btn.disabled = false;
+    });
 }
 
 /* ===== HELPERS ===== */

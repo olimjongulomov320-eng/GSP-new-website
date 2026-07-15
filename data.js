@@ -327,7 +327,7 @@ const LAWYERS = [
     id: 11,
     slug: "saidov-elyor",
     photo: "photos/saidov-elyor.jpeg",
-    name: { ru: "Саидов Элёрбек", uz: "Saidov Elo'rbek", en: "Elorbek Saidov" },
+    name: { ru: "Саидов Элёрбек", uz: "Saidov Elyorbek", en: "Elyorbek Saidov" },
     title: "Юрист",
     specialization: ["Корпоративное право", "Коммерческое право", "Инвестиционное право"],
     experience: "4+ лет",
@@ -617,7 +617,7 @@ const LANG = {
       sTag: 'Контакты', sTitle: 'Свяжитесь с нами', sDesc: 'Первая консультация — бесплатно. Мы ответим в течение часа.',
       addr: 'Адрес', phone: 'Телефон', email: 'Email', formTitle: 'Задать вопрос',
       ph: { name: 'Ваше имя', tel: 'Номер телефона', email: 'Email (необязательно)', svc: 'Выберите услугу', msg: 'Кратко опишите вашу ситуацию или вопрос...' },
-      submit: 'Отправить запрос →', success: '✓ Запрос отправлен! Мы свяжемся с вами в ближайшее время.',
+      submit: 'Отправить запрос →', success: '✓ Запрос отправлен! Мы свяжемся с вами в ближайшее время.', error: 'Не удалось отправить запрос. Попробуйте позже или позвоните нам.',
       svcOptions: ['Корпоративное право и M&A','IT и киберправо','Налоговая практика','Банковское и финансовое право','Трудовое право','Интеллектуальная собственность','Таможенное право','Уголовная защита бизнеса','Экономические споры','Другое']
     },
     footer: {
@@ -749,7 +749,7 @@ const LANG = {
       sTag: 'Aloqa', sTitle: "Biz bilan bog'laning", sDesc: 'Birinchi konsultatsiya — bepul. Bir soat ichida javob beramiz.',
       addr: 'Manzil', phone: 'Telefon', email: 'Email', formTitle: 'Savol berish',
       ph: { name: 'Ismingiz', tel: 'Telefon raqamingiz', email: 'Email (ixtiyoriy)', svc: 'Xizmatni tanlang', msg: 'Vaziyatingizni yoki savolingizni qisqacha tavsiflang...' },
-      submit: "So'rov yuborish →", success: "✓ So'rovingiz yuborildi! Tez orada siz bilan bog'lanamiz.",
+      submit: "So'rov yuborish →", success: "✓ So'rovingiz yuborildi! Tez orada siz bilan bog'lanamiz.", error: "So'rovni yuborib bo'lmadi. Keyinroq urinib ko'ring yoki bizga qo'ng'iroq qiling.",
       svcOptions: ['Korporativ huquq va M&A','IT va kiberhuquq','Soliq amaliyoti','Bank va moliya huquqi','Mehnat huquqi','Intellektual mulk','Bojxona huquqi','Biznesni jinoiy himoyalash','Iqtisodiy nizolar','Boshqa']
     },
     footer: {
@@ -881,7 +881,7 @@ const LANG = {
       sTag: 'Contact', sTitle: 'Get In Touch', sDesc: "First consultation is free. We'll respond within one hour.",
       addr: 'Address', phone: 'Phone', email: 'Email', formTitle: 'Ask a Question',
       ph: { name: 'Your Name', tel: 'Phone Number', email: 'Email (optional)', svc: 'Select a service', msg: 'Briefly describe your situation or question...' },
-      submit: 'Send Request →', success: '✓ Request sent! We will contact you shortly.',
+      submit: 'Send Request →', success: '✓ Request sent! We will contact you shortly.', error: 'Failed to send request. Please try again later or call us.',
       svcOptions: ['Corporate Law & M&A','IT & Cyber Law','Tax Practice','Banking & Finance Law','Labor Law','Intellectual Property','Customs Law','Criminal Business Defense','Economic Disputes','Other']
     },
     footer: {
