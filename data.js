@@ -646,7 +646,7 @@ const LANG = {
       blogTag: 'Блог', blogDesc: 'Экспертные статьи и аналитика', info: 'Информация',
       educationTitle: 'Образование', achievementsTitle: 'Достижения и награды', publicationsTitle: 'Публикации', certificatesTitle: 'Сертификаты и удостоверения',
       otherTag: 'Команда', otherTitle: 'Другие специалисты', allTeam: 'Вся команда →', readMore: 'Читать далее →',
-      heroTag: 'Специалист GSP LAW', visitWebsite: '🔗 Вебсайт', notFound: 'Страница не найдена'
+      heroTag: 'Специалист GSP LAW FIRM', visitWebsite: '🔗 Вебсайт', notFound: 'Страница не найдена'
     },
     casesPage: {
       heroTag: 'Наша практика', heroTitle: 'Выигранные дела', heroDesc: 'Реальные результаты для реальных клиентов',
@@ -770,7 +770,7 @@ const LANG = {
       blogTag: 'Blog', blogDesc: 'Ekspert maqolalar va tahlil', info: "Ma'lumot",
       educationTitle: "Ta'lim", achievementsTitle: 'Yutuqlar va mukofotlar', publicationsTitle: 'Nashrlar', certificatesTitle: 'Sertifikatlar va guvohnomalar',
       otherTag: 'Jamoa', otherTitle: 'Boshqa mutaxassislar', allTeam: 'Barcha jamoa →', readMore: "Ko'proq o'qish →",
-      heroTag: 'GSP LAW mutaxassisi', visitWebsite: '🔗 Veb-sayt', notFound: 'Sahifa topilmadi'
+      heroTag: 'GSP LAW FIRM mutaxassisi', visitWebsite: '🔗 Veb-sayt', notFound: 'Sahifa topilmadi'
     },
     casesPage: {
       heroTag: 'Bizning amaliyot', heroTitle: "G'alaba qozonilgan ishlar", heroDesc: 'Haqiqiy mijozlar uchun haqiqiy natijalar',
@@ -894,7 +894,7 @@ const LANG = {
       blogTag: 'Blog', blogDesc: 'Expert articles and analysis', info: 'Information',
       educationTitle: 'Education', achievementsTitle: 'Achievements & Awards', publicationsTitle: 'Publications', certificatesTitle: 'Certificates & Credentials',
       otherTag: 'Team', otherTitle: 'Other Specialists', allTeam: 'Full Team →', readMore: 'Read more →',
-      heroTag: 'GSP LAW Specialist', visitWebsite: '🔗 Visit Website', notFound: 'Page Not Found'
+      heroTag: 'GSP LAW FIRM Specialist', visitWebsite: '🔗 Visit Website', notFound: 'Page Not Found'
     },
     casesPage: {
       heroTag: 'Our Practice', heroTitle: 'Cases Won', heroDesc: 'Real results for real clients',
