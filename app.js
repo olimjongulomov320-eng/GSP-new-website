@@ -416,22 +416,20 @@ function renderDynamic() {
   if (cg) {
     cg.innerHTML = '';
     const c = t('cases');
-    const caseItems = t('cases.items');
-    CASES.forEach((cs, i) => {
-      const item = Array.isArray(caseItems) && caseItems[i] ? caseItems[i] : cs;
+    CASES.forEach((cs) => {
       cg.innerHTML += `
         <div class="case-card">
           <div class="case-top" style="background:${cs.color};"></div>
           <div class="case-body">
             <div class="case-header">
               <span class="case-icon">${cs.icon}</span>
-              <span class="case-tag" style="color:${cs.color};">${item.tag}</span>
+              <span class="case-tag" style="color:${cs.color};">${getLocalStr(cs.tag)}</span>
             </div>
-            <h3>${item.title}</h3>
-            <p>${item.desc}</p>
+            <h3>${getLocalStr(cs.title)}</h3>
+            <p>${getLocalStr(cs.desc)}</p>
             <div class="case-footer">
               <div class="case-result" style="border-color:${cs.color};color:${cs.color};">
-                ✓ ${item.result}
+                ✓ ${getLocalStr(cs.result)}
               </div>
               <div class="case-meta">
                 <span>${c.year}: ${cs.year}</span>
@@ -461,11 +459,11 @@ function renderDynamic() {
           <div class="news-card-top" style="background:${n.tagColor};"></div>
           <div class="news-card-body">
             <div class="news-header">
-              <span class="news-tag" style="background:${n.tagColor}15;color:${n.tagColor};border-color:${n.tagColor}40;">${n.tag}</span>
-              <span class="news-date">${n.date}</span>
+              <span class="news-tag" style="background:${n.tagColor}15;color:${n.tagColor};border-color:${n.tagColor}40;">${getLocalStr(n.tag)}</span>
+              <span class="news-date">${getLocalStr(n.date)}</span>
             </div>
-            <h3>${n.title}</h3>
-            <p>${n.excerpt}</p>
+            <h3>${getLocalStr(n.title)}</h3>
+            <p>${getLocalStr(n.excerpt)}</p>
             <div class="news-footer">
               <span class="news-source">📰 ${n.source}</span>
               <span class="news-read">${readLabel}</span>
@@ -736,11 +734,7 @@ function initCasesPage() {
   }
 
   // Build unique filter tags
-  const caseItems = t('cases.items');
-  const allTags = CASES.map((cs, i) => {
-    const item = Array.isArray(caseItems) && caseItems[i] ? caseItems[i] : cs;
-    return item.tag;
-  });
+  const allTags = CASES.map((cs) => getLocalStr(cs.tag));
   const uniqueTags = [...new Set(allTags)];
 
   const filtersEl = document.getElementById('casesFilters');
@@ -767,27 +761,27 @@ function initCasesPage() {
 
   // Render detail cards
   const grid = document.getElementById('casesDetailGrid');
-  CASES.forEach((cs, i) => {
-    const item = Array.isArray(caseItems) && caseItems[i] ? caseItems[i] : cs;
+  CASES.forEach((cs) => {
+    const tag = getLocalStr(cs.tag);
     const card = document.createElement('div');
     card.className = 'case-detail-card';
-    card.dataset.tag = item.tag;
+    card.dataset.tag = tag;
     card.innerHTML = `
       <div class="case-detail-top" style="background:${cs.color};"></div>
       <div class="case-detail-body">
         <div class="case-detail-header">
           <span class="case-detail-icon">${cs.icon}</span>
-          <span class="case-detail-tag" style="background:${cs.color}15;color:${cs.color};border-color:${cs.color}40;">${item.tag}</span>
+          <span class="case-detail-tag" style="background:${cs.color}15;color:${cs.color};border-color:${cs.color}40;">${tag}</span>
         </div>
-        <h3>${item.title}</h3>
+        <h3>${getLocalStr(cs.title)}</h3>
         <div class="case-detail-meta">
           <div class="case-detail-meta-item">
             <span class="meta-label">${cp.durationLabel || 'Длительность'}</span>
-            <span class="meta-val">${cs.duration}</span>
+            <span class="meta-val">${getLocalStr(cs.duration)}</span>
           </div>
           <div class="case-detail-meta-item">
             <span class="meta-label">${cp.jurLabel || 'Юрисдикция'}</span>
-            <span class="meta-val">${cs.jurisdiction}</span>
+            <span class="meta-val">${getLocalStr(cs.jurisdiction)}</span>
           </div>
           <div class="case-detail-meta-item">
             <span class="meta-label">${cp.lawyerLabel || 'Адвокат'}</span>
@@ -801,15 +795,15 @@ function initCasesPage() {
         <div class="case-detail-sections">
           <div class="case-detail-section-block">
             <h4>${cp.challenge || 'Задача'}</h4>
-            <p>${cs.challenge}</p>
+            <p>${getLocalStr(cs.challenge)}</p>
           </div>
           <div class="case-detail-section-block">
             <h4>${cp.approach || 'Наш подход'}</h4>
-            <p>${cs.approach}</p>
+            <p>${getLocalStr(cs.approach)}</p>
           </div>
         </div>
         <div class="case-detail-result" style="background:${cs.color}12;color:${cs.color};">
-          ✓ ${item.result}
+          ✓ ${getLocalStr(cs.result)}
         </div>
       </div>`;
     grid.appendChild(card);

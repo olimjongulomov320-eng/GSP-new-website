@@ -4,9 +4,9 @@ const FIRM = {
   phone1: "+998 95 109 52 25",
   phone2: "+998 88 771 44 33",
   phone3: "+998 97 425 87 70",
-  email: "info@gsplaw.uz",
+  email: "info@gsplaw.co.uz",
   address: { ru: "г. Ташкент, Яккасарайский район, ул. Яккасарой, дом 5", uz: "Toshkent sh., Yakkasaroy tumani, Yakkasaroy ko'chasi, 5-uy", en: "5 Yakkasaroy St., Yakkasaroy District, Tashkent" },
-  telegram: "https://t.me/gsp_law_firm",
+  telegram: "https://t.me/gsplawfirm",
   instagram: "https://www.instagram.com/gsplawuzb/",
   facebook: "https://www.facebook.com/legality.uz",
   youtube: "https://www.youtube.com/channel/UCp1ui0KzRWN4bPKLeBjCEmg",
@@ -193,7 +193,7 @@ const LAWYERS = [
     initials: "МС",
     accentColor: "#17435a",
     bio: { ru: "Адвокат с более чем 15-летним опытом руководства и судебной работы. Специализируется на гражданских, экономических и административных делах. Бывший председатель суда и судья в ряде судов Ташкента и Сурхандарьинской области — смотрит на каждое дело «взглядом судьи».", uz: "15 yildan ortiq rahbarlik va sudyalik tajribasiga ega advokat. Fuqarolik, iqtisodiy va ma'muriy ishlarga ixtisoslashgan. Sobiq sud raisi va Toshkent hamda Surxondaryo sudlarida sudya — har bir ishga \"sudya nigohi\" bilan qaraydi.", en: "Advocate with over 15 years of leadership and judicial experience. Specializes in civil, economic and administrative cases. Former court chairman and judge in several Tashkent and Surkhandarya courts — views every case through the 'judge's eye'." },
-    description: { ru: "Саидулла Михилиев — бывший председатель Бектемирского районного административного суда и судья экономических, гражданских и административных судов Ташкента и Сурхандарьи (2017–2020 и ранее). Имеет академическое образование в ТГЮУ (бакалавриат) и Университете мировой экономики и дипломатии (магистратура). Свободно владеет узбекским, русским и английским языками. С марта 2024 года — адвокат GSP LAW.", uz: "Saydulla Mixliyev — Bektemir tumanlararo ma'muriy sudining sobiq raisi va Toshkent hamda Surxondaryo iqtisodiy, fuqarolik va ma'muriy sudlarida sudya (2017–2020 va undan avval). TDYU (bakalavr) va Jahon iqtisodiyoti va diplomatiya universiteti (magistratura) da akademik ta'lim olgan. O'zbek, rus va ingliz tillarini erkin biladi. 2024-yil mart oyidan GSP LAW advokati.", en: "Saidulla Mikhilyev is a former chairman of Bektemir District Administrative Court and judge in economic, civil and administrative courts of Tashkent and Surkhandarya (2017–2020 and earlier). Has academic education at TSLU (bachelor's) and University of World Economy and Diplomacy (master's). Fluent in Uzbek, Russian and English. Since March 2024 — advocate at GSP LAW." },
+    description: { ru: "Саидулла Михилиев — бывший председатель Бектемирского районного административного суда и судья экономических, гражданских и административных судов Ташкента и Сурхандарьи (2017–2020 и ранее). Имеет академическое образование в ТГЮУ (бакалавриат) и Университете мировой экономики и дипломатии (магистратура). Свободно владеет узбекским, русским и английским языками. С марта 2024 года — адвокат GSP LAW.", uz: "Mixiliev Saidulla — Bektemir tumanlararo ma'muriy sudining sobiq raisi va Toshkent hamda Surxondaryo iqtisodiy, fuqarolik va ma'muriy sudlarida sudya (2017–2020 va undan avval). TDYU (bakalavr) va Jahon iqtisodiyoti va diplomatiya universiteti (magistratura) da akademik ta'lim olgan. O'zbek, rus va ingliz tillarini erkin biladi. 2024-yil mart oyidan GSP LAW advokati.", en: "Saidulla Mikhilyev is a former chairman of Bektemir District Administrative Court and judge in economic, civil and administrative courts of Tashkent and Surkhandarya (2017–2020 and earlier). Has academic education at TSLU (bachelor's) and University of World Economy and Diplomacy (master's). Fluent in Uzbek, Russian and English. Since March 2024 — advocate at GSP LAW." },
     howIHelp: { ru: "Используя многолетний опыт судебной работы на всех уровнях, строю сильную позицию клиента в гражданских, экономических и административных делах. Вижу дело так, как его видит судья — это ключевое преимущество при выработке стратегии.", uz: "Barcha darajalardagi sud ishidagi ko'p yillik tajribadan foydalanib, fuqarolik, iqtisodiy va ma'muriy ishlarda mijozning kuchli pozitsiyasini quraman. Ishni sudya ko'zi bilan ko'raman — bu strategiya ishlab chiqishda asosiy ustunlik.", en: "Using years of judicial experience at all levels, I build a strong position for clients in civil, economic and administrative cases. I see the case as a judge does — this is the key advantage when developing strategy." },
     services: {ru: ["Гражданские споры", "Экономические дела", "Административное право", "Судебное представительство", "Апелляция и кассация", "Правовая экспертиза"], uz: ["Fuqarolik nizolari", "Iqtisodiy ishlar", "Ma'muriy huquq", "Sudda ifodalash", "Apellyatsiya va kassatsiya", "Huquqiy ekspertiza"], en: ["Civil disputes", "Economic cases", "Administrative law", "Court representation", "Appeal and cassation", "Legal expertise"]},
     blog: [
@@ -391,7 +391,7 @@ const LAWYERS = [
     accentColor: "#c9a96e",
     bio: { ru: "Адвокат GSP LAW, специализирующийся на корпоративном и международном праве. Консультирует бизнес-субъектов и защищает их интересы в государственных органах. Специализируется на международном коммерческом арбитраже и инвестиционных спорах.", uz: "GSP LAW advokati, korporativ va xalqaro huquq bo'yicha ixtisoslashgan. Biznes subyektlariga maslahat beradi va ularning manfaatlarini davlat organlarida himoya qiladi. Xalqaro tijorat arbitraji va investitsion nizolar bo'yicha ixtisoslashgan.", en: "Advocate at GSP LAW specializing in corporate and international law. Advises business entities and protects their interests in government authorities. Specializes in international commercial arbitration and investment disputes." },
     description: { ru: "Хайрулло О'ринов специализируется на правовой экспертизе коммерческих договоров, разработке контрактных структур и инвестиционном праве. Имеет опыт в работе с иностранными инвесторами при структурировании сделок и совместных предприятиях, применяя международную коммерческую практику (Incoterms, UNIDROIT, CISG). Нацелен на международный коммерческий арбитраж (ICC, SIAC, HKIAC) и инвестиционные споры ICSID.", uz: "Xayrullo O'rinov tijorat shartnomalari huquqiy ekspertizasi, shartnoma tuzilmalarini ishlab chiqish va investitsion huquq bo'yicha ixtisoslashgan. Xorijiy investorlar bilan bitimlar tuzish va qo'shma korxonalarda tajribaga ega, xalqaro tijorat amaliyotini (Incoterms, UNIDROIT, CISG) qo'llaydi.", en: "Xayrullo O'rinov specializes in legal review of commercial contracts, developing contract structures and investment law. Has experience working with foreign investors in deal structuring and joint ventures, applying international commercial practice (Incoterms, UNIDROIT, CISG). Focused on international commercial arbitration (ICC, SIAC, HKIAC) and ICSID investment disputes." },
-    howIHelp: { ru: "Помогаю компаниям минимизировать регуляторные риски, структурировать договоры с иностранными партнёрами и защищать интересы в международных арбитражных разбирательствах.", uz: "Kompaniyalarga regulyator risklarni minimallashtirshda, xorijiy hamkorlar bilan shartnomalar tuzilmalashtirishda va xalqaro arbitraj jarayonlarida manfaatlarni himoya qilishda yordam beraman.", en: "I help companies minimize regulatory risks, structure contracts with foreign partners and protect interests in international arbitration proceedings." },
+    howIHelp: { ru: "Помогаю компаниям минимизировать регуляторные риски, структурировать договоры с иностранными партнёрами и защищать интересы в международных арбитражных разбирательствах.", uz: "Kompaniyalarga regulyator risklarni minimallashtirishda, xorijiy hamkorlar bilan shartnomalarni tuzilmalashtirishda va xalqaro arbitraj jarayonlarida manfaatlarni himoya qilishda yordam beraman.", en: "I help companies minimize regulatory risks, structure contracts with foreign partners and protect interests in international arbitration proceedings." },
     services: {ru: ["Корпоративное право", "Международный арбитраж", "Инвестиционные споры", "Коммерческие договоры", "Совместные предприятия", "Due Diligence"], uz: ["Korporativ huquq", "Xalqaro arbitraj", "Investitsion nizolar", "Tijorat shartnomalari", "Qo'shma korxonalar", "Due Diligence"], en: ["Corporate law", "International arbitration", "Investment disputes", "Commercial contracts", "Joint ventures", "Due Diligence"]},
     blog: [], education: [
       { degree: {ru: "Бакалавр права (LLB)", uz: "Huquq bakalavri (LLB)", en: "Bachelor of Laws (LLB)"}, institution: {ru: "Ташкентский государственный юридический университет", uz: "Toshkent davlat yuridik universiteti", en: "Tashkent State University of Law"}, year: "" }
@@ -419,64 +419,70 @@ const LAWYERS = [
 /* ===== CASES ===== */
 const CASES = [
   {
-    id: 1, tag: 'IT-право', icon: '💻', color: '#1565c0',
-    title: 'Победа в споре на $5.2 млн',
-    desc: 'Успешная защита узбекского IT-стартапа в споре с международным партнёром по нарушению лицензионного соглашения. Урегулировано через медиацию без судебного разбирательства.',
-    result: 'Экономия $5.2 млн', year: '2024', lawyer: 'Gulyamov S.S.',
-    challenge: 'Международный партнёр предъявил претензии на $5.2 млн, утверждая о нарушении эксклюзивного лицензионного соглашения. IT-стартап оказался под угрозой ликвидации.',
-    approach: 'Провели детальный анализ договорной документации, выявили процедурные нарушения со стороны истца и подготовили контрпретензию. Инициировали медиацию в нейтральной юрисдикции.',
-    duration: '4 месяца',
-    jurisdiction: 'Узбекистан / Международный арбитраж'
+    id: 1, icon: '💻', color: '#1565c0', year: '2024', lawyer: 'Gulyamov S.S.',
+    tag: { ru: 'IT-право', uz: 'IT huquqi', en: 'IT Law' },
+    title: { ru: 'Победа в споре на $5.2 млн', uz: "$5.2 mlnlik nizoda g'alaba", en: 'Victory in a $5.2M Dispute' },
+    desc: { ru: 'Успешная защита узбекского IT-стартапа в споре с международным партнёром по нарушению лицензионного соглашения. Урегулировано через медиацию без судебного разбирательства.', uz: "O'zbek IT-startapini xalqaro hamkor bilan litsenziya shartnomasi buzilishi bo'yicha nizoda muvaffaqiyatli himoya qilish. Sud jarayonisiz, mediatsiya orqali hal qilindi.", en: "Successful defense of an Uzbek IT startup in a dispute with an international partner over breach of a licensing agreement. Resolved through mediation without litigation." },
+    result: { ru: 'Экономия $5.2 млн', uz: '$5.2 mln tejaldi', en: '$5.2M Saved' },
+    challenge: { ru: 'Международный партнёр предъявил претензии на $5.2 млн, утверждая о нарушении эксклюзивного лицензионного соглашения. IT-стартап оказался под угрозой ликвидации.', uz: "Xalqaro hamkor eksklyuziv litsenziya shartnomasi buzilganini asos qilib, $5.2 mln miqdorida da'vo qo'ydi. IT-startap tugatilish xavfi ostida qoldi.", en: "An international partner filed a $5.2M claim, alleging breach of an exclusive licensing agreement. The IT startup faced the risk of liquidation." },
+    approach: { ru: 'Провели детальный анализ договорной документации, выявили процедурные нарушения со стороны истца и подготовили контрпретензию. Инициировали медиацию в нейтральной юрисдикции.', uz: "Shartnoma hujjatlarini batafsil tahlil qildik, da'vogar tomonidan protsessual buzilishlarni aniqladik va qarshi da'vo tayyorladik. Neytral yurisdiksiyada mediatsiyani boshladik.", en: "We conducted a detailed analysis of the contractual documentation, identified procedural violations by the claimant, and prepared a counterclaim. We initiated mediation in a neutral jurisdiction." },
+    duration: { ru: '4 месяца', uz: '4 oy', en: '4 months' },
+    jurisdiction: { ru: 'Узбекистан / Международный арбитраж', uz: "O'zbekiston / Xalqaro arbitraj", en: 'Uzbekistan / International Arbitration' }
   },
   {
-    id: 2, tag: 'Уголовное право', icon: '🛡️', color: '#37474f',
-    title: 'Прекращение уголовного дела против CEO',
-    desc: 'Защита генерального директора производственной компании от обвинений в уклонении от уплаты налогов. Дело прекращено на стадии следствия за отсутствием состава преступления.',
-    result: 'Дело прекращено', year: '2024', lawyer: 'Mixiliev S.',
-    challenge: 'Генеральный директор оказался под уголовным преследованием с угрозой лишения свободы до 5 лет. Компания рисковала прекратить деятельность.',
-    approach: 'Обеспечили немедленный доступ к клиенту, провели параллельный налоговый аудит, доказали правомерность спорных операций документально. Оспорили процессуальные нарушения следствия.',
-    duration: '3 месяца',
-    jurisdiction: 'Ташкент, Узбекистан'
+    id: 2, icon: '🛡️', color: '#37474f', year: '2024', lawyer: 'Mixiliev S.',
+    tag: { ru: 'Уголовное право', uz: 'Jinoiy huquq', en: 'Criminal Law' },
+    title: { ru: 'Прекращение уголовного дела против CEO', uz: "Bosh direktorga nisbatan qo'zg'atilgan jinoiy ish to'xtatildi", en: "Criminal Case Against CEO Dismissed" },
+    desc: { ru: 'Защита генерального директора производственной компании от обвинений в уклонении от уплаты налогов. Дело прекращено на стадии следствия за отсутствием состава преступления.', uz: "Ishlab chiqarish kompaniyasi bosh direktorini soliqdan bo'yin tovlash aybida himoya qilish. Ish tergov bosqichida jinoyat tarkibi yo'qligi sababli to'xtatildi.", en: "Defense of a manufacturing company's CEO against tax evasion charges. The case was dismissed at the investigation stage due to the absence of a criminal offense." },
+    result: { ru: 'Дело прекращено', uz: "Ish to'xtatildi", en: 'Case Dismissed' },
+    challenge: { ru: 'Генеральный директор оказался под уголовным преследованием с угрозой лишения свободы до 5 лет. Компания рисковала прекратить деятельность.', uz: "Bosh direktor 5 yilgacha ozodlikdan mahrum etish xavfi bilan jinoiy javobgarlikka tortildi. Kompaniya faoliyatini to'xtatish xavfi ostida qoldi.", en: "The CEO faced criminal prosecution with a risk of up to 5 years in prison. The company risked having to cease operations." },
+    approach: { ru: 'Обеспечили немедленный доступ к клиенту, провели параллельный налоговый аудит, доказали правомерность спорных операций документально. Оспорили процессуальные нарушения следствия.', uz: "Mijozga zudlik bilan huquqiy yordam ko'rsatildi, parallel soliq auditi o'tkazildi, bahsli operatsiyalarning qonuniyligi hujjatlar bilan isbotlandi. Tergovdagi protsessual buzilishlar shikoyat qilindi.", en: "We secured immediate access to the client, conducted a parallel tax audit, and documented the legality of the disputed transactions. We challenged procedural violations in the investigation." },
+    duration: { ru: '3 месяца', uz: '3 oy', en: '3 months' },
+    jurisdiction: { ru: 'Ташкент, Узбекистан', uz: "Toshkent, O'zbekiston", en: 'Tashkent, Uzbekistan' }
   },
   {
-    id: 3, tag: 'M&A', icon: '🤝', color: '#c9a96e',
-    title: 'Сопровождение сделки слияния на $18 млн — закрыта',
-    desc: 'Юридическое сопровождение поглощения телеком-компании с активами в трёх регионах Узбекистана: due diligence, структурирование сделки, переговоры и закрытие.',
-    result: 'Сделка закрыта', year: '2024', lawyer: "Sodiq A.G.",
-    challenge: 'Сделка осложнялась скрытыми обязательствами цели, разногласиями акционеров и необходимостью регуляторного согласования в сфере телекоммуникаций.',
-    approach: 'Провели всестороннюю проверку (due diligence) за 6 недель, структурировали сделку с условиями escrow для снижения рисков. Добились согласования регулятора в рекордные сроки.',
-    duration: '6 месяцев',
-    jurisdiction: 'Узбекистан'
+    id: 3, icon: '🤝', color: '#c9a96e', year: '2024', lawyer: "Sodiq A.G.",
+    tag: { ru: 'M&A', uz: 'M&A', en: 'M&A' },
+    title: { ru: 'Сопровождение сделки слияния на $18 млн — закрыта', uz: "$18 mlnlik birlashtirish bitimini qo'llab-quvvatlash — yakunlandi", en: "Advisory on an $18M Merger Deal — Closed" },
+    desc: { ru: 'Юридическое сопровождение поглощения телеком-компании с активами в трёх регионах Узбекистана: due diligence, структурирование сделки, переговоры и закрытие.', uz: "O'zbekistonning uch hududidagi aktivlarga ega telekommunikatsiya kompaniyasini sotib olishni yuridik qo'llab-quvvatlash: due diligence, bitimni tuzish, muzokaralar va yakunlash.", en: "Legal support for the acquisition of a telecom company with assets in three regions of Uzbekistan: due diligence, deal structuring, negotiations, and closing." },
+    result: { ru: 'Сделка закрыта', uz: 'Bitim yopildi', en: 'Deal Closed' },
+    challenge: { ru: 'Сделка осложнялась скрытыми обязательствами цели, разногласиями акционеров и необходимостью регуляторного согласования в сфере телекоммуникаций.', uz: "Bitim maqsadli kompaniyaning yashirin majburiyatlari, aksiyadorlar o'rtasidagi kelishmovchiliklar va telekommunikatsiya sohasidagi regulyator roziligi zarurati bilan murakkablashdi.", en: "The deal was complicated by hidden liabilities of the target company, shareholder disagreements, and the need for regulatory approval in the telecommunications sector." },
+    approach: { ru: 'Провели всестороннюю проверку (due diligence) за 6 недель, структурировали сделку с условиями escrow для снижения рисков. Добились согласования регулятора в рекордные сроки.', uz: "6 hafta ichida har tomonlama tekshiruv (due diligence) o'tkazdik, risklarni kamaytirish uchun eskrou shartlari bilan bitimni tuzdik. Regulyator roziligiga rekord muddatda erishdik.", en: "We conducted comprehensive due diligence within 6 weeks and structured the deal with escrow conditions to reduce risk. We secured regulatory approval in record time." },
+    duration: { ru: '6 месяцев', uz: '6 oy', en: '6 months' },
+    jurisdiction: { ru: 'Узбекистан', uz: "O'zbekiston", en: 'Uzbekistan' }
   },
   {
-    id: 4, tag: 'Налоговое право', icon: '📊', color: '#c62828',
-    title: 'Возврат незаконно взысканного НДС — $1.2 млн',
-    desc: 'Успешное оспаривание решения налоговых органов и возврат незаконно взысканных сумм НДС и налога на прибыль для крупного производственного предприятия.',
-    result: 'Возвращено $1.2 млн', year: '2023', lawyer: 'Isamutdinov U.',
-    challenge: 'Налоговые органы доначислили $1.2 млн НДС и налога на прибыль, ссылаясь на ненадлежащее оформление экспортных операций. Угроза банкротства предприятия.',
-    approach: 'Провели анализ 3 лет первичной документации, доказали правомерность налоговых вычетов. Представляли интересы клиента во всех инстанциях — от налоговой до Высшего суда.',
-    duration: '8 месяцев',
-    jurisdiction: 'Узбекистан, судебные инстанции всех уровней'
+    id: 4, icon: '📊', color: '#c62828', year: '2023', lawyer: 'Isamutdinov U.',
+    tag: { ru: 'Налоговое право', uz: 'Soliq huquqi', en: 'Tax Law' },
+    title: { ru: 'Возврат незаконно взысканного НДС — $1.2 млн', uz: "Noqonuniy undirilgan QQS qaytarildi — $1.2 mln", en: "Recovery of Unlawfully Collected VAT — $1.2M" },
+    desc: { ru: 'Успешное оспаривание решения налоговых органов и возврат незаконно взысканных сумм НДС и налога на прибыль для крупного производственного предприятия.', uz: "Yirik ishlab chiqarish korxonasi uchun soliq organlari qarorini muvaffaqiyatli shikoyat qilish va noqonuniy undirilgan QQS hamda foyda solig'i summalarini qaytarish.", en: "Successful challenge of a tax authority decision and recovery of unlawfully collected VAT and income tax for a large manufacturing enterprise." },
+    result: { ru: 'Возвращено $1.2 млн', uz: '$1.2 mln qaytarildi', en: '$1.2M Recovered' },
+    challenge: { ru: 'Налоговые органы доначислили $1.2 млн НДС и налога на прибыль, ссылаясь на ненадлежащее оформление экспортных операций. Угроза банкротства предприятия.', uz: "Soliq organlari eksport operatsiyalarining noto'g'ri rasmiylashtirilganiga asoslanib, $1.2 mln QQS va foyda solig'i qo'shimcha hisobladi. Korxona bankrotlik xavfi ostida qoldi.", en: "Tax authorities assessed an additional $1.2M in VAT and income tax, citing improper documentation of export operations. The enterprise faced the threat of bankruptcy." },
+    approach: { ru: 'Провели анализ 3 лет первичной документации, доказали правомерность налоговых вычетов. Представляли интересы клиента во всех инстанциях — от налоговой до Высшего суда.', uz: "3 yillik birlamchi hujjatlarni tahlil qildik, soliq chegirmalarining qonuniyligini isbotladik. Mijoz manfaatlarini barcha instansiyalarda — soliq idorasidan tortib Oliy sudgacha — himoya qildik.", en: "We analyzed 3 years of primary documentation and proved the legitimacy of the tax deductions. We represented the client's interests at all levels — from the tax authority to the Supreme Court." },
+    duration: { ru: '8 месяцев', uz: '8 oy', en: '8 months' },
+    jurisdiction: { ru: 'Узбекистан, судебные инстанции всех уровней', uz: "O'zbekiston, barcha darajadagi sud instansiyalari", en: 'Uzbekistan, courts at all levels' }
   },
   {
-    id: 5, tag: 'Интеллект. собственность', icon: '💡', color: '#6a1b9a',
-    title: 'Защита бренда от международного плагиата',
-    desc: 'Регистрация товарного знака и защита исключительных прав клиента против иностранного конкурента, незаконно использовавшего идентичный бренд на рынке Узбекистана.',
-    result: 'Бренд защищён', year: '2024', lawyer: 'Alijonova D.',
-    challenge: 'Иностранная компания использовала идентичный бренд клиента на территории Узбекистана, создавая путаницу на рынке и нанося ущерб репутации.',
-    approach: 'Провели параллельную регистрацию товарного знака по системе Мадрида, подали иск о пресечении незаконного использования и взыскании убытков.',
-    duration: '5 месяцев',
-    jurisdiction: 'Узбекистан / Международная система Мадрида'
+    id: 5, icon: '💡', color: '#6a1b9a', year: '2024', lawyer: 'Alijonova D.',
+    tag: { ru: 'Интеллект. собственность', uz: 'Intellektual mulk', en: 'Intellectual Property' },
+    title: { ru: 'Защита бренда от международного плагиата', uz: 'Brendni xalqaro plagiatdan himoya qilish', en: 'Brand Protection Against International Plagiarism' },
+    desc: { ru: 'Регистрация товарного знака и защита исключительных прав клиента против иностранного конкурента, незаконно использовавшего идентичный бренд на рынке Узбекистана.', uz: "Tovar belgisini ro'yxatdan o'tkazish va O'zbekiston bozorida bir xil brenddan noqonuniy foydalangan xorijiy raqobatchiga qarshi mijozning eksklyuziv huquqlarini himoya qilish.", en: "Trademark registration and protection of the client's exclusive rights against a foreign competitor who unlawfully used an identical brand in the Uzbek market." },
+    result: { ru: 'Бренд защищён', uz: 'Brend himoya qilindi', en: 'Brand Protected' },
+    challenge: { ru: 'Иностранная компания использовала идентичный бренд клиента на территории Узбекистана, создавая путаницу на рынке и нанося ущерб репутации.', uz: "Xorijiy kompaniya O'zbekiston hududida mijozning brendiga bir xil brenddan foydalanib, bozorda chalkashlik keltirib chiqardi va obro'ga putur yetkazdi.", en: "A foreign company used an identical brand to the client's on the territory of Uzbekistan, creating market confusion and causing reputational damage." },
+    approach: { ru: 'Провели параллельную регистрацию товарного знака по системе Мадрида, подали иск о пресечении незаконного использования и взыскании убытков.', uz: "Madrid tizimi bo'yicha tovar belgisini parallel ro'yxatdan o'tkazdik, noqonuniy foydalanishni to'xtatish va zararlarni undirish bo'yicha da'vo qo'zg'atdik.", en: "We conducted parallel trademark registration under the Madrid System and filed a lawsuit to stop the unlawful use and recover damages." },
+    duration: { ru: '5 месяцев', uz: '5 oy', en: '5 months' },
+    jurisdiction: { ru: 'Узбекистан / Международная система Мадрида', uz: "O'zbekiston / Xalqaro Madrid tizimi", en: 'Uzbekistan / International Madrid System' }
   },
   {
-    id: 6, tag: 'Трудовое право', icon: '👥', color: '#00695c',
-    title: 'Коллективный трудовой спор с 47 сотрудниками',
-    desc: 'Представление интересов крупной компании в коллективном трудовом споре. Достигнуто мировое соглашение на условиях, полностью защищающих интересы работодателя.',
-    result: 'Мировое соглашение', year: '2024', lawyer: 'Ergasheva S.',
-    challenge: 'Организованная группа из 47 сотрудников подала коллективный иск с требованиями на сумму свыше $800 тысяч. Риск репутационного ущерба и медиаогласки.',
-    approach: 'Провели аудит трудовой документации, выявили процессуальные слабости исков. Организовали конфиденциальные переговоры и достигли мирового соглашения на выгодных условиях.',
-    duration: '2.5 месяца',
-    jurisdiction: 'Ташкент, Узбекистан'
+    id: 6, icon: '👥', color: '#00695c', year: '2024', lawyer: 'Ergasheva S.',
+    tag: { ru: 'Трудовое право', uz: 'Mehnat huquqi', en: 'Labor Law' },
+    title: { ru: 'Коллективный трудовой спор с 47 сотрудниками', uz: '47 xodim bilan jamoaviy mehnat nizosi', en: 'Collective Labor Dispute with 47 Employees' },
+    desc: { ru: 'Представление интересов крупной компании в коллективном трудовом споре. Достигнуто мировое соглашение на условиях, полностью защищающих интересы работодателя.', uz: "Yirik kompaniya manfaatlarini jamoaviy mehnat nizosida himoya qilish. Ish beruvchi manfaatlarini to'liq himoya qiluvchi shartlarda sulh kelishuviga erishildi.", en: "Representation of a major company in a collective labor dispute. A settlement agreement was reached on terms fully protecting the employer's interests." },
+    result: { ru: 'Мировое соглашение', uz: 'Sulh kelishuvi', en: 'Settlement Reached' },
+    challenge: { ru: 'Организованная группа из 47 сотрудников подала коллективный иск с требованиями на сумму свыше $800 тысяч. Риск репутационного ущерба и медиаогласки.', uz: "47 xodimdan iborat uyushgan guruh $800 mingdan ortiq miqdordagi talablar bilan jamoaviy da'vo qo'zg'atdi. Obro'ga putur yetkazish va ommaviy axborot vositalarida yoritilish xavfi mavjud edi.", en: "An organized group of 47 employees filed a collective lawsuit with claims exceeding $800,000. There was a risk of reputational damage and media exposure." },
+    approach: { ru: 'Провели аудит трудовой документации, выявили процессуальные слабости исков. Организовали конфиденциальные переговоры и достигли мирового соглашения на выгодных условиях.', uz: "Mehnat hujjatlarini audit qildik, da'volardagi protsessual kamchiliklarni aniqladik. Maxfiy muzokaralarni tashkil qildik va foydali shartlarda sulh kelishuviga erishdik.", en: "We audited the labor documentation and identified procedural weaknesses in the claims. We organized confidential negotiations and reached a settlement on favorable terms." },
+    duration: { ru: '2.5 месяца', uz: '2,5 oy', en: '2.5 months' },
+    jurisdiction: { ru: 'Ташкент, Узбекистан', uz: "Toshkent, O'zbekiston", en: 'Tashkent, Uzbekistan' }
   }
 ];
 
@@ -496,58 +502,74 @@ const METRICS = [
 /* ===== NEWS ===== */
 const NEWS = [
   {
-    id: 1, tag: 'AI-право', tagColor: '#4527a0', date: 'Апрель 2026',
-    title: 'Закон об ИИ ЕС 2026: полное применение с августа. Что нужно знать бизнесу',
-    excerpt: 'С 2 августа 2026 года EU AI Act вступает в полную силу. Каждая страна-член ЕС обязана создать национальный регуляторный «песочницы» для ИИ. Эксперты предупреждают: аналогичное регулирование в СНГ неизбежно.',
+    id: 1, tagColor: '#4527a0',
+    tag: { ru: 'AI-право', uz: 'AI-huquq', en: 'AI Law' },
+    date: { ru: 'Апрель 2026', uz: '2026-yil aprel', en: 'April 2026' },
+    title: { ru: 'Закон об ИИ ЕС 2026: полное применение с августа. Что нужно знать бизнесу', uz: "EI 2026-yilgi sun'iy intellekt qonuni: avgustdan to'liq amal qiladi. Biznes uchun nima muhim", en: 'EU AI Act 2026: Full Application from August. What Businesses Need to Know' },
+    excerpt: { ru: 'С 2 августа 2026 года EU AI Act вступает в полную силу. Каждая страна-член ЕС обязана создать национальный регуляторный «песочницы» для ИИ. Эксперты предупреждают: аналогичное регулирование в СНГ неизбежно.', uz: "2026-yil 2-avgustdan EI sun'iy intellekt to'g'risidagi qonuni to'liq kuchga kiradi. Har bir EI a'zo davlati sun'iy intellekt uchun milliy tartibga soluvchi \"qumloq\" yaratishi shart. Ekspertlar: MDH davlatlarida ham shunga o'xshash tartibga solish muqarrar, deb ogohlantirmoqda.", en: 'Starting August 2, 2026, the EU AI Act comes into full force. Every EU member state must establish a national regulatory "sandbox" for AI. Experts warn that similar regulation in the CIS is inevitable.' },
     source: 'European Commission',
     url: 'https://artificialintelligenceact.eu/'
   },
   {
-    id: 2, tag: 'Конфиденциальность', tagColor: '#1565c0', date: 'Январь 2026',
-    title: 'Privacy & Cybersecurity 2025–2026: вызовы и тренды для бизнеса',
-    excerpt: 'White & Case опубликовал обзор ключевых изменений в законодательстве о защите данных. Число штатов США с действующими законами о конфиденциальности выросло с 9 до 20. Глобальный тренд — ужесточение киберответственности.',
+    id: 2, tagColor: '#1565c0',
+    tag: { ru: 'Конфиденциальность', uz: 'Maxfiylik', en: 'Privacy' },
+    date: { ru: 'Январь 2026', uz: '2026-yil yanvar', en: 'January 2026' },
+    title: { ru: 'Privacy & Cybersecurity 2025–2026: вызовы и тренды для бизнеса', uz: 'Maxfiylik va kiberxavfsizlik 2025–2026: biznes uchun sinovlar va tendensiyalar', en: 'Privacy & Cybersecurity 2025–2026: Challenges and Trends for Business' },
+    excerpt: { ru: 'White & Case опубликовал обзор ключевых изменений в законодательстве о защите данных. Число штатов США с действующими законами о конфиденциальности выросло с 9 до 20. Глобальный тренд — ужесточение киберответственности.', uz: "White & Case ma'lumotlarni himoya qilish qonunchiligidagi asosiy o'zgarishlar sharhini e'lon qildi. Maxfiylik to'g'risidagi qonunlari amal qiluvchi AQSh shtatlari soni 9 tadan 20 taga oshdi. Global tendensiya — kiber javobgarlikning kuchayishi.", en: 'White & Case published an overview of key changes in data protection legislation. The number of US states with active privacy laws grew from 9 to 20. The global trend is toward stricter cyber liability.' },
     source: 'White & Case LLP',
     url: 'https://www.whitecase.com/insight-alert/privacy-and-cybersecurity-2025-2026-insights-challenges-and-trends-ahead'
   },
   {
-    id: 3, tag: 'Крипто / Финтех', tagColor: '#e65100', date: 'Январь 2026',
-    title: 'Цифровые активы 2025–2026: знаковый год и новые горизонты',
-    excerpt: 'Cleary Gottlieb подвёл итоги переломного 2025 года для регулирования крипторынка: принятие GENIUS Act в США, полное внедрение MiCA в ЕС, реформы KYC/AML. Рынок вступает в фазу зрелого регулирования.',
+    id: 3, tagColor: '#e65100',
+    tag: { ru: 'Крипто / Финтех', uz: 'Kripto / Fintex', en: 'Crypto / Fintech' },
+    date: { ru: 'Январь 2026', uz: '2026-yil yanvar', en: 'January 2026' },
+    title: { ru: 'Цифровые активы 2025–2026: знаковый год и новые горизонты', uz: "Raqamli aktivlar 2025–2026: muhim yil va yangi ufqlar", en: 'Digital Assets 2025–2026: A Landmark Year and New Horizons' },
+    excerpt: { ru: 'Cleary Gottlieb подвёл итоги переломного 2025 года для регулирования крипторынка: принятие GENIUS Act в США, полное внедрение MiCA в ЕС, реформы KYC/AML. Рынок вступает в фазу зрелого регулирования.', uz: "Cleary Gottlieb kriptobozorni tartibga solishda burilish nuqtasi bo'lgan 2025-yil natijalarini yakunladi: AQShda GENIUS Act qabul qilinishi, EIda MiCA to'liq joriy etilishi, KYC/AML islohotlari. Bozor barqaror tartibga solish bosqichiga kirmoqda.", en: 'Cleary Gottlieb summarized the pivotal year of 2025 for crypto market regulation: the adoption of the GENIUS Act in the US, full implementation of MiCA in the EU, and KYC/AML reforms. The market is entering a phase of mature regulation.' },
     source: 'Cleary Gottlieb',
     url: 'https://www.clearygottlieb.com/news-and-insights/publication-listing/2026-digital-assets-regulatory-update-a-landmark-2025-but-more-developments-on-the-horizon'
   },
   {
-    id: 4, tag: 'Арбитраж', tagColor: '#00695c', date: 'Январь 2026',
-    title: 'Тренды международного арбитража 2026: ИИ, торговые споры и новые правила',
-    excerpt: 'Cleary Gottlieb выявил ключевые тенденции: рост споров M&A и ценных бумаг, интеграция ИИ в арбитражные процессы, новые арбитражные законы Англии (2025) и Китая (2026), усиление ОАЭ как площадки для разрешения споров.',
+    id: 4, tagColor: '#00695c',
+    tag: { ru: 'Арбитраж', uz: 'Arbitraj', en: 'Arbitration' },
+    date: { ru: 'Январь 2026', uz: '2026-yil yanvar', en: 'January 2026' },
+    title: { ru: 'Тренды международного арбитража 2026: ИИ, торговые споры и новые правила', uz: "2026-yilgi xalqaro arbitraj tendensiyalari: sun'iy intellekt, savdo nizolari va yangi qoidalar", en: 'International Arbitration Trends 2026: AI, Trade Disputes, and New Rules' },
+    excerpt: { ru: 'Cleary Gottlieb выявил ключевые тенденции: рост споров M&A и ценных бумаг, интеграция ИИ в арбитражные процессы, новые арбитражные законы Англии (2025) и Китая (2026), усиление ОАЭ как площадки для разрешения споров.', uz: "Cleary Gottlieb asosiy tendensiyalarni aniqladi: M&A va qimmatli qog'ozlar bo'yicha nizolarning o'sishi, sun'iy intellektning arbitraj jarayonlariga integratsiyasi, Angliya (2025) va Xitoy (2026)ning yangi arbitraj qonunlari, BAA ning nizolarni hal qilish maydonchasi sifatida mustahkamlanishi.", en: "Cleary Gottlieb identified key trends: rising M&A and securities disputes, AI integration into arbitration processes, new arbitration laws in England (2025) and China (2026), and the UAE's strengthening role as a dispute resolution hub." },
     source: 'Cleary Gottlieb',
     url: 'https://www.clearygottlieb.com/news-and-insights/publication-listing/international-arbitration-trends-and-topics-for-2026'
   },
   {
-    id: 5, tag: 'M&A', tagColor: '#2e7d32', date: 'Декабрь 2025',
-    title: 'M&A 2025: рекордный год и прогноз на 2026. ИИ-сделки доминируют',
-    excerpt: 'По итогам 2025 года рынок слияний и поглощений установил рекорды. SoftBank вложил $40 млрд в OpenAI. Проект Stargate — $500 млрд в AI-инфраструктуру. В 2026 году ожидается дальнейший рост транзакций в секторе ИИ.',
+    id: 5, tagColor: '#2e7d32',
+    tag: { ru: 'M&A', uz: 'M&A', en: 'M&A' },
+    date: { ru: 'Декабрь 2025', uz: '2025-yil dekabr', en: 'December 2025' },
+    title: { ru: 'M&A 2025: рекордный год и прогноз на 2026. ИИ-сделки доминируют', uz: "M&A 2025: rekord yil va 2026-yilga prognoz. Sun'iy intellekt bitimlari ustunlik qiladi", en: 'M&A 2025: A Record Year and 2026 Outlook. AI Deals Dominate' },
+    excerpt: { ru: 'По итогам 2025 года рынок слияний и поглощений установил рекорды. SoftBank вложил $40 млрд в OpenAI. Проект Stargate — $500 млрд в AI-инфраструктуру. В 2026 году ожидается дальнейший рост транзакций в секторе ИИ.', uz: "2025-yil yakunlariga ko'ra birlashish va qo'shib olish bozori rekordlar o'rnatdi. SoftBank OpenAI ga $40 mlrd sarmoya kiritdi. Stargate loyihasi — sun'iy intellekt infratuzilmasiga $500 mlrd. 2026-yilda sun'iy intellekt sektorida bitimlarning yanada o'sishi kutilmoqda.", en: "The 2025 M&A market set records. SoftBank invested $40B in OpenAI. The Stargate project committed $500B to AI infrastructure. Further growth in AI-sector transactions is expected in 2026." },
     source: 'Cleary Gottlieb',
     url: 'https://www.clearygottlieb.com/news-and-insights/publication-listing/ma-2025-in-review-and-a-look-ahead-to-2026'
   },
   {
-    id: 6, tag: 'Данные / Технологии', tagColor: '#c62828', date: 'Январь 2026',
-    title: 'Baker McKenzie: что ждёт сферу данных, технологий и кибербезопасности в 2026',
-    excerpt: 'Ведущая международная фирма опубликовала прогноз: ужесточение технических и организационных требований по кибербезопасности, обязательные оценки рисков, управление цепочками поставок и новые органы по киберрегулированию.',
+    id: 6, tagColor: '#c62828',
+    tag: { ru: 'Данные / Технологии', uz: "Ma'lumotlar / Texnologiyalar", en: 'Data / Technology' },
+    date: { ru: 'Январь 2026', uz: '2026-yil yanvar', en: 'January 2026' },
+    title: { ru: 'Baker McKenzie: что ждёт сферу данных, технологий и кибербезопасности в 2026', uz: "Baker McKenzie: 2026-yilda ma'lumotlar, texnologiyalar va kiberxavfsizlik sohasini nima kutmoqda", en: "Baker McKenzie: What's on the Horizon for Data, Technology, and Cybersecurity in 2026" },
+    excerpt: { ru: 'Ведущая международная фирма опубликовала прогноз: ужесточение технических и организационных требований по кибербезопасности, обязательные оценки рисков, управление цепочками поставок и новые органы по киберрегулированию.', uz: "Yetakchi xalqaro firma prognozni e'lon qildi: kiberxavfsizlik bo'yicha texnik va tashkiliy talablarning kuchayishi, majburiy risk baholari, ta'minot zanjirlarini boshqarish va yangi kiber-tartibga solish organlari.", en: 'A leading international firm published its forecast: stricter technical and organizational cybersecurity requirements, mandatory risk assessments, supply chain management, and new cyber-regulatory bodies.' },
     source: 'Baker McKenzie',
     url: 'https://www.bakermckenzie.com/en/insight/publications/2026/01/whats-on-the-horizon-for-data-technology'
   },
   {
-    id: 7, tag: 'AI-законы США', tagColor: '#37474f', date: 'Апрель 2026',
-    title: 'Битва за регулирование ИИ: федеральный уровень против законов штатов',
-    excerpt: 'В 2025 году в США было внесено более 1 000 законопроектов об ИИ. Белый дом создал «AI Litigation Task Force» для оспаривания законов штатов. Colorado AI Act вступит в силу 30 июня 2026 года.',
+    id: 7, tagColor: '#37474f',
+    tag: { ru: 'AI-законы США', uz: "AQSh sun'iy intellekt qonunlari", en: 'US AI Laws' },
+    date: { ru: 'Апрель 2026', uz: '2026-yil aprel', en: 'April 2026' },
+    title: { ru: 'Битва за регулирование ИИ: федеральный уровень против законов штатов', uz: "Sun'iy intellektni tartibga solish uchun kurash: federal daraja shtat qonunlariga qarshi", en: 'The Battle Over AI Regulation: Federal Level vs. State Laws' },
+    excerpt: { ru: 'В 2025 году в США было внесено более 1 000 законопроектов об ИИ. Белый дом создал «AI Litigation Task Force» для оспаривания законов штатов. Colorado AI Act вступит в силу 30 июня 2026 года.', uz: "2025-yilda AQShda sun'iy intellekt bo'yicha 1000 dan ortiq qonun loyihasi kiritildi. Oq uy shtat qonunlariga qarshi chiqish uchun \"AI Litigation Task Force\" tuzdi. Colorado AI Act 2026-yil 30-iyundan kuchga kiradi.", en: "In 2025, more than 1,000 AI-related bills were introduced in the US. The White House created an 'AI Litigation Task Force' to challenge state laws. The Colorado AI Act takes effect on June 30, 2026." },
     source: 'Cooley LLP',
     url: 'https://www.cooley.com/news/insight/2026/2026-04-24-state-ai-laws-where-are-they-now'
   },
   {
-    id: 8, tag: 'Крипто — глобально', tagColor: '#558b2f', date: 'Март 2026',
-    title: 'Крипторегулирование 2026: демократизация цифровых активов',
-    excerpt: 'K&L Gates: 2026 год станет поворотным для институционального принятия цифровых активов. Банковские регуляторы расширяют перечень разрешённых операций с криптовалютой. GENIUS Act начинает реализацию.',
+    id: 8, tagColor: '#558b2f',
+    tag: { ru: 'Крипто — глобально', uz: 'Kripto — global', en: 'Crypto — Global' },
+    date: { ru: 'Март 2026', uz: '2026-yil mart', en: 'March 2026' },
+    title: { ru: 'Крипторегулирование 2026: демократизация цифровых активов', uz: 'Kriptoregulyatsiya 2026: raqamli aktivlarni demokratlashtirish', en: 'Crypto Regulation 2026: The Democratization of Digital Assets' },
+    excerpt: { ru: 'K&L Gates: 2026 год станет поворотным для институционального принятия цифровых активов. Банковские регуляторы расширяют перечень разрешённых операций с криптовалютой. GENIUS Act начинает реализацию.', uz: "K&L Gates: 2026-yil raqamli aktivlarni institutsional qabul qilish uchun burilish nuqtasi bo'ladi. Bank regulyatorlari kriptovalyuta bilan ruxsat etilgan operatsiyalar ro'yxatini kengaytirmoqda. GENIUS Act amalga oshirila boshlaydi.", en: "K&L Gates: 2026 will be a turning point for institutional adoption of digital assets. Banking regulators are expanding the list of permitted cryptocurrency operations. The GENIUS Act begins implementation." },
     source: 'K&L Gates',
     url: 'https://www.klgates.com/Crypto-in-2026-The-Democratization-of-Digital-Assets-1-29-2026'
   }
@@ -597,15 +619,7 @@ const LANG = {
     },
     cases: {
       sTag: 'Кейсы', sTitle: 'Выигранные дела', sDesc: 'Реальные результаты, которых мы добились для наших клиентов', result: 'Результат', year: 'Год', lawyer: 'Адвокат',
-      allCasesBtn: 'Все кейсы →',
-      items: [
-        { tag: 'IT-право', title: 'Защита IT-компании в споре на $5.2 млн', desc: 'Успешная защита узбекского IT-стартапа в споре с международным партнёром по нарушению лицензионного соглашения. Урегулировано через медиацию без судебного разбирательства.', result: 'Экономия $5.2 млн' },
-        { tag: 'Уголовное право', title: 'Прекращение уголовного дела против CEO', desc: 'Защита генерального директора производственной компании от обвинений в уклонении от уплаты налогов. Дело прекращено на стадии следствия за отсутствием состава преступления.', result: 'Дело прекращено' },
-        { tag: 'M&A', title: 'Сопровождение сделки слияния на $18 млн', desc: 'Юридическое сопровождение поглощения телеком-компании с активами в трёх регионах Узбекистана: due diligence, структурирование сделки, переговоры и закрытие.', result: 'Сделка закрыта' },
-        { tag: 'Налоговое право', title: 'Возврат незаконно взысканного НДС — $1.2 млн', desc: 'Успешное оспаривание решения налоговых органов и возврат незаконно взысканных сумм НДС и налога на прибыль для крупного производственного предприятия.', result: 'Возвращено $1.2 млн' },
-        { tag: 'Интеллект. собственность', title: 'Защита бренда от международного плагиата', desc: 'Регистрация товарного знака и защита исключительных прав клиента против иностранного конкурента, незаконно использовавшего идентичный бренд на рынке Узбекистана.', result: 'Бренд защищён' },
-        { tag: 'Трудовое право', title: 'Коллективный трудовой спор с 47 сотрудниками', desc: 'Представление интересов крупной компании в коллективном трудовом споре. Достигнуто мировое соглашение на условиях, полностью защищающих интересы работодателя.', result: 'Мировое соглашение' }
-      ]
+      allCasesBtn: 'Все кейсы →'
     },
     lawyers: {
       sTag: 'Команда', sTitle: 'Наши адвокаты и юристы', sDesc: 'Каждый специалист имеет глубокую экспертизу в своей области права', exp: 'опыт', casesLbl: 'дел', more: 'Подробнее →',
@@ -621,7 +635,7 @@ const LANG = {
       svcOptions: ['Корпоративное право и M&A','IT и киберправо','Налоговая практика','Банковское и финансовое право','Трудовое право','Интеллектуальная собственность','Таможенное право','Уголовная защита бизнеса','Экономические споры','Другое']
     },
     footer: {
-      rights: '© 2025 GSP LAW — Gulyamov, Sadikov and Partners. Все права защищены.',
+      rights: '© 2026 GSP LAW — Gulyamov, Sadikov and Partners. Все права защищены.',
       sTitle: 'Услуги', cTitle: 'Контакты',
       servicesList: ['Корпоративное право','IT и киберправо','Налоговая практика','Банковское право','Трудовое право','Интеллект. собственность']
     },
@@ -684,15 +698,7 @@ const LANG = {
     },
     cases: {
       sTag: 'Ishlar', sTitle: "G'alaba qozonilgan ishlar", sDesc: 'Mijozlarimiz uchun erishilgan real natijalar', result: 'Natija', year: 'Yil', lawyer: 'Advokat',
-      allCasesBtn: "Barcha ishlar →",
-      items: [
-        { tag: 'IT huquqi', title: "$5.2 mlnlik nizoda g'alaba", desc: "O'zbek IT startapini xalqaro hamkor bilan litsenziya shartnomasi bo'yicha $5.2 mlnlik nizoda muvaffaqiyatli himoyalash. Sud ishlarisiz mediatsiya orqali hal qilindi.", result: '$5.2 mln tejaldi' },
-        { tag: 'Jinoiy huquq', title: "Bosh direktonga nisbatan qo'zg'atilgan jinoiy ish to'xtatildi", desc: "Ishlab chiqarish kompaniyasi bosh direktoriga nisbatan soliq to'lashdan bo'yin tovlash aybi bo'yicha himoyalash. Ish tergov bosqichida jinoyat tarkibi yo'qligi sababli to'xtatildi.", result: "Ish to'xtatildi" },
-        { tag: 'M&A', title: "$18 mlnlik birlashtirish bitimini qo'llab-quvvatlash", desc: "O'zbekistonning uch hududidagi aktivlarga ega telekommunikatsiya kompaniyasini sotib olishni yuridik qo'llab-quvvatlash: due diligence, bitimni tuzish, muzokaralar va yakunlash.", result: 'Bitim yopildi' },
-        { tag: 'Soliq huquqi', title: "Noqonuniy undirilgan QQS — $1.2 mln qaytarildi", desc: "Soliq organi qarorini muvaffaqiyatli ixtilof qilish va yirik ishlab chiqarish korxonasi uchun noqonuniy undirilgan QQS va daromad solig'ini qaytarish.", result: '$1.2 mln qaytarildi' },
-        { tag: 'Intellektual mulk', title: 'Brendni xalqaro plagiatdan himoyalash', desc: "Tovar belgisini ro'yxatga olish va O'zbekiston bozorida bir xil brenddan noqonuniy foydalangan xorijiy raqibga qarshi mijozning eksklyuziv huquqlarini himoyalash.", result: 'Brend himoyalandi' },
-        { tag: 'Mehnat huquqi', title: '47 xodim bilan jamoaviy mehnat nizosi', desc: "Yirik kompaniyaning jamoaviy mehnat nizosida manfaatlarini ifodalash. Ish beruvchi manfaatlarini to'liq himoya qiluvchi shartlarda sulh kelishuvi tuzildi.", result: 'Sulh kelishuvi' }
-      ]
+      allCasesBtn: "Barcha ishlar →"
     },
     lawyers: {
       sTag: 'Jamoa', sTitle: 'Bizning advokatlar va yuristlar', sDesc: "Har bir mutaxassis o'z huquq sohasida chuqur tajribaga ega", exp: 'tajriba', casesLbl: 'ish', more: 'Batafsil →',
@@ -753,7 +759,7 @@ const LANG = {
       svcOptions: ['Korporativ huquq va M&A','IT va kiberhuquq','Soliq amaliyoti','Bank va moliya huquqi','Mehnat huquqi','Intellektual mulk','Bojxona huquqi','Biznesni jinoiy himoyalash','Iqtisodiy nizolar','Boshqa']
     },
     footer: {
-      rights: '© 2025 GSP LAW — Gulyamov, Sadikov and Partners. Barcha huquqlar himoyalangan.',
+      rights: '© 2026 GSP LAW — Gulyamov, Sadikov and Partners. Barcha huquqlar himoyalangan.',
       sTitle: 'Xizmatlar', cTitle: 'Aloqa',
       servicesList: ['Korporativ huquq','IT va kiberhuquq','Soliq amaliyoti','Bank huquqi','Mehnat huquqi','Intellektual mulk']
     },
@@ -816,15 +822,7 @@ const LANG = {
     },
     cases: {
       sTag: 'Cases', sTitle: 'Cases Won', sDesc: 'Real results we have achieved for our clients', result: 'Result', year: 'Year', lawyer: 'Attorney',
-      allCasesBtn: 'All Cases →',
-      items: [
-        { tag: 'IT Law', title: 'Defending an IT Company in a $5.2M Dispute', desc: 'Successful defense of an Uzbek IT startup in a dispute with an international partner over a license agreement violation. Resolved through mediation without litigation.', result: 'Saved $5.2M' },
-        { tag: 'Criminal Law', title: 'CEO Criminal Case Dismissed', desc: 'Defense of a manufacturing company CEO against tax evasion charges. Case closed at investigation stage due to absence of corpus delicti.', result: 'Case dismissed' },
-        { tag: 'M&A', title: 'Supporting an $18M Merger Transaction', desc: 'Legal support for the acquisition of a telecom company with assets in three regions of Uzbekistan: due diligence, deal structuring, negotiations and closing.', result: 'Deal closed' },
-        { tag: 'Tax Law', title: 'Recovery of Illegally Collected VAT — $1.2M', desc: 'Successful challenge of a tax authority decision and recovery of illegally collected VAT and income tax for a major manufacturing enterprise.', result: 'Recovered $1.2M' },
-        { tag: 'Intellectual Property', title: 'Brand Protection Against International Plagiarism', desc: "Trademark registration and protection of the client's exclusive rights against a foreign competitor illegally using an identical brand in the Uzbekistan market.", result: 'Brand protected' },
-        { tag: 'Labor Law', title: 'Collective Labor Dispute with 47 Employees', desc: "Representing a major company in a collective labor dispute. Settlement agreement reached on terms fully protecting the employer's interests.", result: 'Settlement reached' }
-      ]
+      allCasesBtn: 'All Cases →'
     },
     lawyers: {
       sTag: 'Team', sTitle: 'Our Attorneys & Lawyers', sDesc: 'Each specialist has deep expertise in their area of law and real-world experience', exp: 'experience', casesLbl: 'cases', more: 'View Profile →',
@@ -885,7 +883,7 @@ const LANG = {
       svcOptions: ['Corporate Law & M&A','IT & Cyber Law','Tax Practice','Banking & Finance Law','Labor Law','Intellectual Property','Customs Law','Criminal Business Defense','Economic Disputes','Other']
     },
     footer: {
-      rights: '© 2025 GSP LAW — Gulyamov, Sadikov and Partners. All rights reserved.',
+      rights: '© 2026 GSP LAW — Gulyamov, Sadikov and Partners. All rights reserved.',
       sTitle: 'Services', cTitle: 'Contact',
       servicesList: ['Corporate Law','IT & Cyber Law','Tax Practice','Banking Law','Labor Law','Intellectual Property']
     },
