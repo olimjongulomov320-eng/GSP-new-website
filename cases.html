@@ -106,10 +106,17 @@
 <script src="data.js?v=9"></script>
 <script src="app.js?v=9"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  function boot() {
+    if (document.getElementById('casesDetailGrid').children.length) return;
     applyI18n();
     initCasesPage();
-  });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+  window.addEventListener('load', boot);
 </script>
 </body>
 </html>
