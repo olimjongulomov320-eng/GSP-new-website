@@ -185,7 +185,7 @@ const LAWYERS = [
     id: 5,
     slug: "mikhilyev-saidulla",
     photo: "photos/mikhilyev-saidulla.jpeg",
-    name: { ru: "Михилиев Саидулла", uz: "Mixiliev Saidulla", en: "Saidulla Mikhiliev" },
+    name: { ru: "Михилиев Саидулла", uz: "Mixliyev Saidulla", en: "Saidulla Mikhilyev" },
     title: "Адвокат",
     specialization: ["Гражданское право", "Административное право", "Экономические споры"],
     experience: "15+ лет",
@@ -193,7 +193,7 @@ const LAWYERS = [
     initials: "МС",
     accentColor: "#17435a",
     bio: { ru: "Адвокат с более чем 15-летним опытом руководства и судебной работы. Специализируется на гражданских, экономических и административных делах. Бывший председатель суда и судья в ряде судов Ташкента и Сурхандарьинской области — смотрит на каждое дело «взглядом судьи».", uz: "15 yildan ortiq rahbarlik va sudyalik tajribasiga ega advokat. Fuqarolik, iqtisodiy va ma'muriy ishlarga ixtisoslashgan. Sobiq sud raisi va Toshkent hamda Surxondaryo sudlarida sudya — har bir ishga \"sudya nigohi\" bilan qaraydi.", en: "Advocate with over 15 years of leadership and judicial experience. Specializes in civil, economic and administrative cases. Former court chairman and judge in several Tashkent and Surkhandarya courts — views every case through the 'judge's eye'." },
-    description: { ru: "Саидулла Михилиев — бывший председатель Бектемирского районного административного суда и судья экономических, гражданских и административных судов Ташкента и Сурхандарьи (2017–2020 и ранее). Имеет академическое образование в ТГЮУ (бакалавриат) и Университете мировой экономики и дипломатии (магистратура). Свободно владеет узбекским, русским и английским языками. С марта 2024 года — адвокат GSP LAW.", uz: "Mixiliev Saidulla — Bektemir tumanlararo ma'muriy sudining sobiq raisi va Toshkent hamda Surxondaryo iqtisodiy, fuqarolik va ma'muriy sudlarida sudya (2017–2020 va undan avval). TDYU (bakalavr) va Jahon iqtisodiyoti va diplomatiya universiteti (magistratura) da akademik ta'lim olgan. O'zbek, rus va ingliz tillarini erkin biladi. 2024-yil mart oyidan GSP LAW advokati.", en: "Saidulla Mikhilyev is a former chairman of Bektemir District Administrative Court and judge in economic, civil and administrative courts of Tashkent and Surkhandarya (2017–2020 and earlier). Has academic education at TSLU (bachelor's) and University of World Economy and Diplomacy (master's). Fluent in Uzbek, Russian and English. Since March 2024 — advocate at GSP LAW." },
+    description: { ru: "Саидулла Михилиев — бывший председатель Бектемирского районного административного суда и судья экономических, гражданских и административных судов Ташкента и Сурхандарьи (2017–2020 и ранее). Имеет академическое образование в ТГЮУ (бакалавриат) и Университете мировой экономики и дипломатии (магистратура). Свободно владеет узбекским, русским и английским языками. С марта 2024 года — адвокат GSP LAW.", uz: "Mixliyev Saidulla — Bektemir tumanlararo ma'muriy sudining sobiq raisi va Toshkent hamda Surxondaryo iqtisodiy, fuqarolik va ma'muriy sudlarida sudya (2017–2020 va undan avval). TDYU (bakalavr) va Jahon iqtisodiyoti va diplomatiya universiteti (magistratura) da akademik ta'lim olgan. O'zbek, rus va ingliz tillarini erkin biladi. 2024-yil mart oyidan GSP LAW advokati.", en: "Saidulla Mikhilyev is a former chairman of Bektemir District Administrative Court and judge in economic, civil and administrative courts of Tashkent and Surkhandarya (2017–2020 and earlier). Has academic education at TSLU (bachelor's) and University of World Economy and Diplomacy (master's). Fluent in Uzbek, Russian and English. Since March 2024 — advocate at GSP LAW." },
     howIHelp: { ru: "Используя многолетний опыт судебной работы на всех уровнях, строю сильную позицию клиента в гражданских, экономических и административных делах. Вижу дело так, как его видит судья — это ключевое преимущество при выработке стратегии.", uz: "Barcha darajalardagi sud ishidagi ko'p yillik tajribadan foydalanib, fuqarolik, iqtisodiy va ma'muriy ishlarda mijozning kuchli pozitsiyasini quraman. Ishni sudya ko'zi bilan ko'raman — bu strategiya ishlab chiqishda asosiy ustunlik.", en: "Using years of judicial experience at all levels, I build a strong position for clients in civil, economic and administrative cases. I see the case as a judge does — this is the key advantage when developing strategy." },
     services: {ru: ["Гражданские споры", "Экономические дела", "Административное право", "Судебное представительство", "Апелляция и кассация", "Правовая экспертиза"], uz: ["Fuqarolik nizolari", "Iqtisodiy ishlar", "Ma'muriy huquq", "Sudda ifodalash", "Apellyatsiya va kassatsiya", "Huquqiy ekspertiza"], en: ["Civil disputes", "Economic cases", "Administrative law", "Court representation", "Appeal and cassation", "Legal expertise"]},
     blog: [
@@ -430,7 +430,7 @@ const CASES = [
     jurisdiction: { ru: 'Узбекистан / Международный арбитраж', uz: "O'zbekiston / Xalqaro arbitraj", en: 'Uzbekistan / International Arbitration' }
   },
   {
-    id: 2, icon: '🛡️', color: '#37474f', year: '2024', lawyer: 'Mixiliev S.',
+    id: 2, icon: '🛡️', color: '#37474f', year: '2024', lawyer: 'Mixliyev S.',
     tag: { ru: 'Уголовное право', uz: 'Jinoiy huquq', en: 'Criminal Law' },
     title: { ru: 'Прекращение уголовного дела против CEO', uz: "Bosh direktorga nisbatan qo'zg'atilgan jinoiy ish to'xtatildi", en: "Criminal Case Against CEO Dismissed" },
     desc: { ru: 'Защита генерального директора производственной компании от обвинений в уклонении от уплаты налогов. Дело прекращено на стадии следствия за отсутствием состава преступления.', uz: "Ishlab chiqarish kompaniyasi bosh direktorini soliqdan bo'yin tovlash aybida himoya qilish. Ish tergov bosqichida jinoyat tarkibi yo'qligi sababli to'xtatildi.", en: "Defense of a manufacturing company's CEO against tax evasion charges. The case was dismissed at the investigation stage due to the absence of a criminal offense." },
@@ -441,7 +441,7 @@ const CASES = [
     jurisdiction: { ru: 'Ташкент, Узбекистан', uz: "Toshkent, O'zbekiston", en: 'Tashkent, Uzbekistan' }
   },
   {
-    id: 3, icon: '🤝', color: '#c9a96e', year: '2024', lawyer: "Sodiq A.G.",
+    id: 3, icon: '🤝', color: '#c9a96e', year: '2024', lawyer: "Sodiq A.",
     tag: { ru: 'M&A', uz: 'M&A', en: 'M&A' },
     title: { ru: 'Сопровождение сделки слияния на $18 млн — закрыта', uz: "$18 mlnlik birlashtirish bitimini qo'llab-quvvatlash — yakunlandi", en: "Advisory on an $18M Merger Deal — Closed" },
     desc: { ru: 'Юридическое сопровождение поглощения телеком-компании с активами в трёх регионах Узбекистана: due diligence, структурирование сделки, переговоры и закрытие.', uz: "O'zbekistonning uch hududidagi aktivlarga ega telekommunikatsiya kompaniyasini sotib olishni yuridik qo'llab-quvvatlash: due diligence, bitimni tuzish, muzokaralar va yakunlash.", en: "Legal support for the acquisition of a telecom company with assets in three regions of Uzbekistan: due diligence, deal structuring, negotiations, and closing." },
