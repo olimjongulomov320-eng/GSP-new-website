@@ -5,7 +5,7 @@ const FIRM = {
   phone2: "+998 88 771 44 33",
   phone3: "+998 97 425 87 70",
   email: "info@gsplaw.co.uz",
-  address: { ru: "г. Ташкент, Яккасарайский район, ул. Яккасарой, дом 5", uz: "Toshkent sh., Yakkasaroy tumani, Yakkasaroy ko'chasi, 5-uy", en: "5 Yakkasaroy St., Yakkasaroy District, Tashkent" },
+  address: { ru: "г. Ташкент, Мирабадский район, ул. Мирабад, дом 46а", uz: "Toshkent sh., Mirobod tumani, Mirobod ko'chasi, 46a-uy", en: "46a Mirobod St., Mirobod District, Tashkent" },
   telegram: "https://t.me/gsplawfirm",
   instagram: "https://www.instagram.com/gsplawuzb/",
   facebook: "https://www.facebook.com/legality.uz",
