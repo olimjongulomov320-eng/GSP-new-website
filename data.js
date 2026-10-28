@@ -502,6 +502,15 @@ const METRICS = [
 /* ===== NEWS ===== */
 const NEWS = [
   {
+    id: 9, tagColor: '#1a237e',
+    tag: { ru: 'СМИ о нас', uz: 'Biz haqimizda', en: 'In the Press' },
+    date: { ru: 'Октябрь 2026', uz: '2026-yil oktyabr', en: 'October 2026' },
+    title: { ru: 'Газета «Advokat Press», №10 (69): полный выпуск', uz: '«Advokat Press» gazetasi, №10 (69): to\'liq son', en: '"Advokat Press" Newspaper, No. 10 (69): Full Issue' },
+    excerpt: { ru: 'Октябрьский выпуск газеты Палаты адвокатов Узбекистана (32 страницы), в котором опубликовано интервью с Шахзодой Абдуллаевой, адвокатом GSP Law Firm, о проекте Legal Tour — международных стажировках для адвокатов.', uz: "O'zbekiston Advokatlar palatasi gazetasining oktyabr soni (32 bet): GSP Law Firm advokati Shahzoda Abdullaeva bilan Legal Tour — advokatlar uchun xalqaro stajirovkalar loyihasi haqidagi intervyu e'lon qilingan.", en: 'The October issue of the Uzbekistan Bar Chamber newspaper (32 pages), featuring an interview with Shakhzoda Abdullaeva, lawyer at GSP Law Firm, about Legal Tour — an international internship project for lawyers.' },
+    source: 'Advokat Press, №10 (69), 2026',
+    url: 'press/advokat-press-2026-10.pdf'
+  },
+  {
     id: 1, tagColor: '#4527a0',
     tag: { ru: 'AI-право', uz: 'AI-huquq', en: 'AI Law' },
     date: { ru: 'Апрель 2026', uz: '2026-yil aprel', en: 'April 2026' },
