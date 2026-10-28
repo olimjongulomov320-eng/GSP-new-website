@@ -5,6 +5,7 @@
 *.pdf
 !certificates/**/*.pdf
 !certificates/**/*.PDF
+!press/*.pdf
 
 # Raw extracted images (already copied to photos/)
 image_1_1.jpeg

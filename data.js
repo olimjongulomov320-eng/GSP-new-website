@@ -502,6 +502,15 @@ const METRICS = [
 /* ===== NEWS ===== */
 const NEWS = [
   {
+    id: 9, tagColor: '#1a237e',
+    tag: { ru: 'СМИ о нас', uz: 'Biz haqimizda', en: 'In the Press' },
+    date: { ru: 'Октябрь 2026', uz: '2026-yil oktyabr', en: 'October 2026' },
+    title: { ru: 'Legal Tour — как новый импульс развития адвокатуры', uz: 'Legal Tour — advokaturani rivojlantirishning yangi turtkisi', en: 'Legal Tour — A New Impulse for the Development of the Bar' },
+    excerpt: { ru: 'Интервью с Шахзодой Абдуллаевой, адвокатом GSP Law Firm, в газете «Advokat Press» (№10, 2026): авторский проект международных стажировок и обмена опытом для адвокатов — первый этап в Турции, далее Великобритания, Сингапур, Азербайджан, Швейцария и Германия.', uz: "GSP Law Firm advokati Shahzoda Abdullaeva bilan «Advokat Press» gazetasidagi (2026, №10) intervyu: advokatlar uchun xalqaro stajirovkalar va tajriba almashinuvining muallif loyihasi — birinchi bosqich Turkiyada, keyin Buyuk Britaniya, Singapur, Ozarbayjon, Shveytsariya va Germaniya.", en: 'Interview with Shakhzoda Abdullaeva, lawyer at GSP Law Firm, in the "Advokat Press" newspaper (No. 10, 2026): an original project of international internships and experience exchange for lawyers — starting in Turkey, then the UK, Singapore, Azerbaijan, Switzerland and Germany.' },
+    source: 'Advokat Press, №10 (69), 2026',
+    url: 'press/advokat-press-2026-10-legal-tour.pdf'
+  },
+  {
     id: 1, tagColor: '#4527a0',
     tag: { ru: 'AI-право', uz: 'AI-huquq', en: 'AI Law' },
     date: { ru: 'Апрель 2026', uz: '2026-yil aprel', en: 'April 2026' },
